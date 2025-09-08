@@ -84,16 +84,8 @@ const validateRegistration = [
   body('email').isEmail().withMessage('Invalid email'),
   body('password').isLength({ min: 8 }).withMessage('Password must be at least 8 characters'),
   body('pan').matches(/[A-Z]{5}[0-9]{4}[A-Z]{1}/).withMessage('Invalid PAN'),
-  (req, res, next) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ success: false, errors: errors.array() });
-    }
-    next();
-  }
+  handleValidationErrors
 ];
-
-const { handleValidationErrors } = require('../middleware/validation');
 
 // Apply strict rate limiting to critical auth endpoints
 router.post('/register', authRateLimiter, validateRegistration, handleValidationErrors, authController.register);
