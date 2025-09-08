@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-07-14T04:26:48.381Z",
+  "totalCategories": 4,
+  "passedCategories": 0,
+  "failedCategories": 4,
+  "totalTests": 0,
+  "totalPassed": 0,
+  "categoryResults": {
+    "controllers": {
+      "category": "controllers",
+      "passed": 0,
+      "failed": 5,
+      "totalTests": 0,
+      "totalPassed": 0
+    },
+    "services": {
+      "category": "services",
+      "passed": 0,
+      "failed": 4,
+      "totalTests": 0,
+      "totalPassed": 0
+    },
+    "models": {
+      "category": "models",
+      "passed": 0,
+      "failed": 2,
+      "totalTests": 0,
+      "totalPassed": 0
+    },
+    "middleware": {
+      "category": "middleware",
+      "passed": 0,
+      "failed": 2,
+      "totalTests": 0,
+      "totalPassed": 0
+    }
+  },
+  "overallPassRate": "0.00"
+}

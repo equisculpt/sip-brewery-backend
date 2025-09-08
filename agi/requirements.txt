@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+ray[default]
+transformers
+sentence-transformers
+weaviate-client
+scrapy
+beautifulsoup4
+requests

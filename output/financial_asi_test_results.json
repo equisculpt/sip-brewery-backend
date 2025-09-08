@@ -1,0 +1,188 @@
+{
+  "timestamp": "2025-08-04T10:29:56.392298",
+  "test_summary": {
+    "companies_analyzed": 5,
+    "sectors_covered": 5,
+    "buy_recommendations": 1,
+    "high_risk_companies": 0
+  },
+  "company_predictions": {
+    "TITAN": {
+      "company": "TITAN",
+      "sector": "retail",
+      "predictions": {
+        "revenue_growth": 0.21795994339785518,
+        "eps_growth": 0.02826001280687961,
+        "confidence": 0.75,
+        "price_target_change": 0.06619999892507472,
+        "recommendation": "BUY",
+        "risk_factors": [
+          "Consumer sentiment risk",
+          "Competition risk",
+          "Real estate cost risk"
+        ],
+        "catalysts": [
+          "Festive season demand",
+          "Store expansion",
+          "Digital transformation"
+        ]
+      },
+      "confidence": 0.75,
+      "timestamp": "2025-08-04T10:29:55.246905",
+      "prediction_horizon": "30_days"
+    },
+    "MARUTI": {
+      "company": "MARUTI",
+      "sector": "auto",
+      "predictions": {
+        "revenue_growth": 0.15661167560544847,
+        "eps_growth": -0.011395904031294804,
+        "confidence": 0.75,
+        "price_target_change": 0.02220561189605385,
+        "recommendation": "HOLD",
+        "risk_factors": [
+          "Commodity price risk",
+          "Regulatory risk",
+          "Technology disruption"
+        ],
+        "catalysts": [
+          "New model launches",
+          "Export growth",
+          "EV transition"
+        ]
+      },
+      "confidence": 0.75,
+      "timestamp": "2025-08-04T10:29:55.511327",
+      "prediction_horizon": "30_days"
+    },
+    "RELIANCE": {
+      "company": "RELIANCE",
+      "sector": "oil_gas",
+      "predictions": {
+        "revenue_growth": 0.01906535312195729,
+        "eps_growth": 0.09291686145883953,
+        "confidence": 0.75,
+        "price_target_change": 0.07814655979146308,
+        "recommendation": "HOLD",
+        "risk_factors": [
+          "Oil price volatility",
+          "Regulatory changes",
+          "Environmental concerns"
+        ],
+        "catalysts": [
+          "Refining margin expansion",
+          "Petrochemical growth",
+          "Gas monetization"
+        ]
+      },
+      "confidence": 0.75,
+      "timestamp": "2025-08-04T10:29:55.782790",
+      "prediction_horizon": "30_days"
+    },
+    "TATASTEEL": {
+      "company": "TATASTEEL",
+      "sector": "mining",
+      "predictions": {
+        "revenue_growth": 0.008030616798426059,
+        "eps_growth": 0.061771218331052376,
+        "confidence": 0.75,
+        "price_target_change": 0.05102309802452712,
+        "recommendation": "HOLD",
+        "risk_factors": [
+          "Commodity price volatility",
+          "Environmental regulations",
+          "Labor issues"
+        ],
+        "catalysts": [
+          "Infrastructure demand",
+          "Export opportunities",
+          "Operational efficiency"
+        ]
+      },
+      "confidence": 0.75,
+      "timestamp": "2025-08-04T10:29:56.059231",
+      "prediction_horizon": "30_days"
+    },
+    "HUL": {
+      "company": "HUL",
+      "sector": "fmcg",
+      "predictions": {
+        "revenue_growth": 0.05604653874593933,
+        "eps_growth": 0.029347071101661685,
+        "confidence": 0.75,
+        "price_target_change": 0.034686964630517216,
+        "recommendation": "HOLD",
+        "risk_factors": [
+          "Raw material inflation",
+          "Rural demand slowdown",
+          "Competition"
+        ],
+        "catalysts": [
+          "Rural recovery",
+          "Premium product mix",
+          "Market share gains"
+        ]
+      },
+      "confidence": 0.75,
+      "timestamp": "2025-08-04T10:29:56.378520",
+      "prediction_horizon": "30_days"
+    }
+  },
+  "sector_performance": {
+    "retail": {
+      "companies": [
+        {
+          "company": "TITAN",
+          "eps_growth": 0.02826001280687961,
+          "recommendation": "BUY"
+        }
+      ],
+      "avg_growth": 0.02826001280687961
+    },
+    "auto": {
+      "companies": [
+        {
+          "company": "MARUTI",
+          "eps_growth": -0.011395904031294804,
+          "recommendation": "HOLD"
+        }
+      ],
+      "avg_growth": -0.011395904031294804
+    },
+    "oil_gas": {
+      "companies": [
+        {
+          "company": "RELIANCE",
+          "eps_growth": 0.09291686145883953,
+          "recommendation": "HOLD"
+        }
+      ],
+      "avg_growth": 0.09291686145883953
+    },
+    "mining": {
+      "companies": [
+        {
+          "company": "TATASTEEL",
+          "eps_growth": 0.061771218331052376,
+          "recommendation": "HOLD"
+        }
+      ],
+      "avg_growth": 0.061771218331052376
+    },
+    "fmcg": {
+      "companies": [
+        {
+          "company": "HUL",
+          "eps_growth": 0.029347071101661685,
+          "recommendation": "HOLD"
+        }
+      ],
+      "avg_growth": 0.029347071101661685
+    }
+  },
+  "satellite_data_summary": {
+    "ndvi_regions": 7,
+    "nightlight_centers": 8,
+    "logistics_hubs": 6
+  }
+}

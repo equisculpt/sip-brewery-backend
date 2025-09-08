@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-07-15T04:45:48.075Z",
+  "duration": 0.299,
+  "results": [
+    {
+      "file": "__tests__/controllers/phase2-controller-tests.js",
+      "success": false,
+      "code": 1,
+      "output": "",
+      "errorOutput": "C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\node_modules\\.bin\\jest:2\r\nbasedir=$(dirname \"$(echo \"$0\" | sed -e 's,\\\\,/,g')\")\r\n          ^^^^^^^\r\n\r\nSyntaxError: missing ) after argument list\r\n    at wrapSafe (node:internal/modules/cjs/loader:1624:18)\r\n    at Module._compile (node:internal/modules/cjs/loader:1666:20)\r\n    at Object..js (node:internal/modules/cjs/loader:1824:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1427:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1250:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\r\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)\r\n    at node:internal/main/run_main_module:33:47\r\n\r\nNode.js v24.3.0\r\n"
+    },
+    {
+      "file": "__tests__/services/phase3-service-tests.js",
+      "success": false,
+      "code": 1,
+      "output": "",
+      "errorOutput": "C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\node_modules\\.bin\\jest:2\r\nbasedir=$(dirname \"$(echo \"$0\" | sed -e 's,\\\\,/,g')\")\r\n          ^^^^^^^\r\n\r\nSyntaxError: missing ) after argument list\r\n    at wrapSafe (node:internal/modules/cjs/loader:1624:18)\r\n    at Module._compile (node:internal/modules/cjs/loader:1666:20)\r\n    at Object..js (node:internal/modules/cjs/loader:1824:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1427:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1250:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\r\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)\r\n    at node:internal/main/run_main_module:33:47\r\n\r\nNode.js v24.3.0\r\n"
+    },
+    {
+      "file": "__tests__/models/phase3-model-tests.js",
+      "success": false,
+      "code": 1,
+      "output": "",
+      "errorOutput": "C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\node_modules\\.bin\\jest:2\r\nbasedir=$(dirname \"$(echo \"$0\" | sed -e 's,\\\\,/,g')\")\r\n          ^^^^^^^\r\n\r\nSyntaxError: missing ) after argument list\r\n    at wrapSafe (node:internal/modules/cjs/loader:1624:18)\r\n    at Module._compile (node:internal/modules/cjs/loader:1666:20)\r\n    at Object..js (node:internal/modules/cjs/loader:1824:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1427:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1250:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\r\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)\r\n    at node:internal/main/run_main_module:33:47\r\n\r\nNode.js v24.3.0\r\n"
+    },
+    {
+      "file": "__tests__/middleware/phase3-middleware-tests.js",
+      "success": false,
+      "code": 1,
+      "output": "",
+      "errorOutput": "C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\node_modules\\.bin\\jest:2\r\nbasedir=$(dirname \"$(echo \"$0\" | sed -e 's,\\\\,/,g')\")\r\n          ^^^^^^^\r\n\r\nSyntaxError: missing ) after argument list\r\n    at wrapSafe (node:internal/modules/cjs/loader:1624:18)\r\n    at Module._compile (node:internal/modules/cjs/loader:1666:20)\r\n    at Object..js (node:internal/modules/cjs/loader:1824:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1427:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1250:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\r\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)\r\n    at node:internal/main/run_main_module:33:47\r\n\r\nNode.js v24.3.0\r\n"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "successful": 0,
+    "failed": 4,
+    "successRate": "0.00"
+  }
+}

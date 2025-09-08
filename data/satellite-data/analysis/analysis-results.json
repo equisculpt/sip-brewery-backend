@@ -1,0 +1,183 @@
+{
+  "2025-08-04T04:32:51.250Z": {
+    "timestamp": "2025-08-04T04:32:51.250Z",
+    "portAnalysis": {
+      "overallCongestion": 52.646641495058496,
+      "activePortsCount": 4,
+      "portDetails": {
+        "Mumbai Port": {
+          "congestionLevel": "high",
+          "throughputTrend": "increasing",
+          "efficiency": 53.68259940106603,
+          "alerts": [
+            {
+              "type": "high_congestion",
+              "severity": "high",
+              "message": "High congestion detected at Mumbai Port"
+            }
+          ]
+        },
+        "Chennai Port": {
+          "congestionLevel": "low",
+          "throughputTrend": "decreasing",
+          "efficiency": 58.85449835339043,
+          "alerts": []
+        },
+        "Kolkata Port": {
+          "congestionLevel": "high",
+          "throughputTrend": "increasing",
+          "efficiency": 53.07786677083905,
+          "alerts": [
+            {
+              "type": "high_congestion",
+              "severity": "high",
+              "message": "High congestion detected at Kolkata Port"
+            }
+          ]
+        },
+        "Visakhapatnam Port": {
+          "congestionLevel": "low",
+          "throughputTrend": "decreasing",
+          "efficiency": 59.488217600570096,
+          "alerts": []
+        }
+      },
+      "status": "analyzed"
+    },
+    "industrialAnalysis": {
+      "overallUtilization": 37.90023554895345,
+      "activeFacilitiesCount": 4,
+      "clusterDetails": {
+        "Mumbai Industrial Area": {
+          "utilizationLevel": "medium",
+          "activityTrend": "stable",
+          "expansionActivity": "minimal",
+          "operationalStatus": "active",
+          "alerts": []
+        },
+        "Chennai Industrial Corridor": {
+          "utilizationLevel": "low",
+          "activityTrend": "decreasing",
+          "expansionActivity": "minimal",
+          "operationalStatus": "inactive",
+          "alerts": [
+            {
+              "type": "low_utilization",
+              "severity": "medium",
+              "message": "Low facility utilization in Chennai Industrial Corridor"
+            }
+          ]
+        },
+        "Bangalore IT Hub": {
+          "utilizationLevel": "low",
+          "activityTrend": "decreasing",
+          "expansionActivity": "minimal",
+          "operationalStatus": "inactive",
+          "alerts": [
+            {
+              "type": "low_utilization",
+              "severity": "medium",
+              "message": "Low facility utilization in Bangalore IT Hub"
+            }
+          ]
+        },
+        "Pune Industrial Belt": {
+          "utilizationLevel": "low",
+          "activityTrend": "decreasing",
+          "expansionActivity": "minimal",
+          "operationalStatus": "active",
+          "alerts": []
+        }
+      },
+      "status": "analyzed"
+    },
+    "agriculturalAnalysis": {
+      "overallCropHealth": 52.634028099639714,
+      "activeRegionsCount": 3,
+      "regionDetails": {
+        "Punjab Agricultural Belt": {
+          "cropHealthStatus": "excellent",
+          "vegetationTrend": "increasing",
+          "irrigationStatus": "active",
+          "harvestReadiness": "developing",
+          "alerts": []
+        },
+        "Haryana Wheat Belt": {
+          "cropHealthStatus": "good",
+          "vegetationTrend": "stable",
+          "irrigationStatus": "limited",
+          "harvestReadiness": "developing",
+          "alerts": []
+        },
+        "Maharashtra Sugar Belt": {
+          "cropHealthStatus": "poor",
+          "vegetationTrend": "decreasing",
+          "irrigationStatus": "limited",
+          "harvestReadiness": "early_stage",
+          "alerts": [
+            {
+              "type": "poor_crop_health",
+              "severity": "high",
+              "message": "Poor crop health detected in Maharashtra Sugar Belt"
+            }
+          ]
+        }
+      },
+      "status": "analyzed"
+    },
+    "riskAssessment": {
+      "floodRisk": "low",
+      "fireRisk": "low",
+      "airQualityRisk": "low",
+      "overallRisk": "low",
+      "affectedRegions": []
+    },
+    "supplyChainImpacts": {
+      "logisticsImpact": "minimal",
+      "manufacturingImpact": "significant",
+      "commodityImpact": "significant",
+      "overallImpact": "significant",
+      "recommendations": [
+        "Low industrial utilization may indicate production issues",
+        "Poor crop health may affect commodity supplies"
+      ]
+    },
+    "alerts": [
+      {
+        "type": "high_congestion",
+        "severity": "high",
+        "message": "High congestion detected at Mumbai Port",
+        "source": "port",
+        "location": "Mumbai Port"
+      },
+      {
+        "type": "high_congestion",
+        "severity": "high",
+        "message": "High congestion detected at Kolkata Port",
+        "source": "port",
+        "location": "Kolkata Port"
+      },
+      {
+        "type": "low_utilization",
+        "severity": "medium",
+        "message": "Low facility utilization in Chennai Industrial Corridor",
+        "source": "industrial",
+        "location": "Chennai Industrial Corridor"
+      },
+      {
+        "type": "low_utilization",
+        "severity": "medium",
+        "message": "Low facility utilization in Bangalore IT Hub",
+        "source": "industrial",
+        "location": "Bangalore IT Hub"
+      },
+      {
+        "type": "poor_crop_health",
+        "severity": "high",
+        "message": "Poor crop health detected in Maharashtra Sugar Belt",
+        "source": "agricultural",
+        "location": "Maharashtra Sugar Belt"
+      }
+    ]
+  }
+}

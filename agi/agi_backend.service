@@ -1,0 +1,13 @@
+[Unit]
+Description=Autonomous AGI Backend (RL, retraining, dashboard, monitoring)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/sip-brewery-backend/agi
+ExecStart=/usr/bin/python3 agi_backend_launcher.py
+Restart=always
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

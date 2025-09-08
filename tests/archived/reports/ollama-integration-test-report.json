@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 0,
+    "failed": 15,
+    "successRate": "0.00",
+    "duration": "15.30"
+  },
+  "results": [
+    {
+      "test": "System Health Check",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:40.306Z",
+      "details": ""
+    },
+    {
+      "test": "Ollama Connection Test",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:41.326Z",
+      "details": ""
+    },
+    {
+      "test": "Training Data Generation",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:42.346Z",
+      "details": ""
+    },
+    {
+      "test": "RAG Document Addition",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:43.366Z",
+      "details": ""
+    },
+    {
+      "test": "RAG Document Search",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:44.376Z",
+      "details": ""
+    },
+    {
+      "test": "Basic Question Answering",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:45.400Z",
+      "details": ""
+    },
+    {
+      "test": "Portfolio Analytics",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:46.410Z",
+      "details": ""
+    },
+    {
+      "test": "Compliance Audit",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:47.425Z",
+      "details": ""
+    },
+    {
+      "test": "Financial Advice",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:48.449Z",
+      "details": ""
+    },
+    {
+      "test": "SIP Recommendation",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:49.467Z",
+      "details": ""
+    },
+    {
+      "test": "Fund Comparison",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:50.476Z",
+      "details": ""
+    },
+    {
+      "test": "Tax Optimization",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:51.486Z",
+      "details": ""
+    },
+    {
+      "test": "Chat Functionality",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:52.497Z",
+      "details": ""
+    },
+    {
+      "test": "RAG Statistics",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:53.517Z",
+      "details": ""
+    },
+    {
+      "test": "Model Status",
+      "success": false,
+      "timestamp": "2025-07-12T07:04:54.538Z",
+      "details": ""
+    }
+  ],
+  "timestamp": "2025-07-12T07:04:55.557Z"
+}

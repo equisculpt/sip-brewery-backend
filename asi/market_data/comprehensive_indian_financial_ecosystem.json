@@ -1,0 +1,720 @@
+{
+  "metadata": {
+    "total_institutions": 31,
+    "total_categories": 13,
+    "crawling_method": "COMPREHENSIVE_ECOSYSTEM_CRAWLER",
+    "categories": {
+      "Exchanges": 5,
+      "Regulatory": 3,
+      "Mutual Funds": 2,
+      "Banking": 3,
+      "Rating & Research": 3,
+      "Market Infrastructure": 2,
+      "Insurance": 2,
+      "Asset Management": 2,
+      "Fintech": 3,
+      "Data Providers": 1,
+      "Media": 1,
+      "Development Finance": 2,
+      "Pension & Retirement": 2
+    },
+    "last_updated": "2025-07-28T23:06:09.526934",
+    "coverage": "COMPLETE_INDIAN_FINANCIAL_ECOSYSTEM"
+  },
+  "categories": {
+    "Exchanges": [
+      {
+        "name": "National Stock Exchange",
+        "symbol": "NSE",
+        "institution_type": "STOCK_EXCHANGE",
+        "regulator": "SEBI",
+        "website": "https://www.nseindia.com",
+        "category": "Exchanges",
+        "services": [
+          "Option Chain",
+          "Listings",
+          "Circulars",
+          "Daily Report",
+          "Holidays"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:34.314149"
+      },
+      {
+        "name": "Bombay Stock Exchange",
+        "symbol": "BSE",
+        "institution_type": "STOCK_EXCHANGE",
+        "regulator": "SEBI",
+        "website": "https://www.bseindia.com",
+        "category": "Exchanges",
+        "services": [
+          "Skip to main content",
+          "High Contrast",
+          "Reset",
+          "Extension of the ISO Settlement Scheme, 2024"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:36.035126"
+      },
+      {
+        "name": "Metropolitan Stock Exchange",
+        "symbol": "MSEI",
+        "institution_type": "STOCK_EXCHANGE",
+        "regulator": "SEBI",
+        "website": "https://www.msei.in",
+        "category": "Exchanges",
+        "services": [
+          "Home",
+          "About us",
+          "Circular",
+          "My Exchange",
+          "Career"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:44.123797"
+      },
+      {
+        "name": "Multi Commodity Exchange",
+        "symbol": "MCX",
+        "institution_type": "COMMODITY_EXCHANGE",
+        "regulator": "FMC",
+        "website": "https://www.mcxindia.com",
+        "category": "Exchanges",
+        "services": [
+          "About Us",
+          "Contact Us",
+          "Circulars",
+          "Careers",
+          "Investor Relations"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:46.638934"
+      },
+      {
+        "name": "National Commodity Exchange",
+        "symbol": "NCDEX",
+        "institution_type": "COMMODITY_EXCHANGE",
+        "regulator": "FMC",
+        "website": "https://www.ncdex.com",
+        "category": "Exchanges",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:48.326293"
+      }
+    ],
+    "Regulatory": [
+      {
+        "name": "Securities Exchange Board of India",
+        "symbol": "SEBI",
+        "institution_type": "REGULATOR",
+        "regulator": "GOVERNMENT",
+        "website": "https://www.sebi.gov.in",
+        "category": "Regulatory",
+        "services": [
+          "Click here to make payment of SEBI Fees",
+          "Click here to make payment to SEBI IPEF",
+          "Authenticate Document Issued by SEBI",
+          "View All",
+          "Securities Market Hackathon launched @ GFF 2025"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:50.086197"
+      },
+      {
+        "name": "Reserve Bank of India",
+        "symbol": "RBI",
+        "institution_type": "CENTRAL_BANK",
+        "regulator": "GOVERNMENT",
+        "website": "https://www.rbi.org.in",
+        "category": "Regulatory",
+        "services": [
+          "Skip to main content",
+          "हिंदी",
+          "Click here toVisit the RBI’s new website"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:54.929142"
+      },
+      {
+        "name": "Insurance Regulatory Authority",
+        "symbol": "IRDAI",
+        "institution_type": "REGULATOR",
+        "regulator": "GOVERNMENT",
+        "website": "https://www.irdai.gov.in",
+        "category": "Regulatory",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:04:58.046399"
+      }
+    ],
+    "Mutual Funds": [
+      {
+        "name": "Association of Mutual Funds India",
+        "symbol": "AMFI",
+        "institution_type": "MUTUAL_FUND_ASSOCIATION",
+        "regulator": "SEBI",
+        "website": "https://www.amfiindia.com",
+        "category": "Mutual Funds",
+        "services": [
+          "Press Release",
+          "Know about AMFI",
+          "Useful Links",
+          "Contact Us",
+          "Careers"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:00.087287"
+      },
+      {
+        "name": "BSE StAR MF Platform",
+        "symbol": "BSE_STAR_MF",
+        "institution_type": "MUTUAL_FUND_PLATFORM",
+        "regulator": "SEBI",
+        "website": "https://www.bsestarmf.in",
+        "category": "Mutual Funds",
+        "services": [
+          "Forget Password? Click Here!",
+          "Unlock Account",
+          "Corporate Registration",
+          "SIP Cancellation by Investor",
+          "About StAR MF"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:06.101162"
+      }
+    ],
+    "Banking": [
+      {
+        "name": "State Bank of India",
+        "symbol": "SBI",
+        "institution_type": "PUBLIC_BANK",
+        "regulator": "RBI",
+        "website": "https://www.onlinesbi.com",
+        "category": "Banking",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:07.723580"
+      },
+      {
+        "name": "HDFC Bank",
+        "symbol": "HDFC_BANK",
+        "institution_type": "PRIVATE_BANK",
+        "regulator": "RBI",
+        "website": "https://www.hdfcbank.com",
+        "category": "Banking",
+        "services": [
+          "Money Transfer",
+          "To Other Account",
+          "To Own Account",
+          "UPI (Instant Mobile Money Transfer)",
+          "IMPS (Immediate Payment 24 * 7)"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:09.417697"
+      },
+      {
+        "name": "ICICI Bank",
+        "symbol": "ICICI_BANK",
+        "institution_type": "PRIVATE_BANK",
+        "regulator": "RBI",
+        "website": "https://www.icicibank.com",
+        "category": "Banking",
+        "services": [
+          "NewNew Version",
+          "Explore Now",
+          "Personal",
+          "Business",
+          "Corporate"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:12.296655"
+      }
+    ],
+    "Rating & Research": [
+      {
+        "name": "CRISIL",
+        "symbol": "CRISIL",
+        "institution_type": "RATING_AGENCY",
+        "regulator": "SEBI",
+        "website": "https://www.crisil.com",
+        "category": "Rating & Research",
+        "services": [
+          "Who we are",
+          "Coalition Greenwich",
+          "Ratings",
+          "Integral IQ",
+          "ESG Ratings & Analytics"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:14.389362"
+      },
+      {
+        "name": "ICRA",
+        "symbol": "ICRA",
+        "institution_type": "RATING_AGENCY",
+        "regulator": "SEBI",
+        "website": "https://www.icra.in",
+        "category": "Rating & Research",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:17.146557"
+      },
+      {
+        "name": "CARE Ratings",
+        "symbol": "CARE",
+        "institution_type": "RATING_AGENCY",
+        "regulator": "SEBI",
+        "website": "https://www.careratings.com",
+        "category": "Rating & Research",
+        "services": [
+          "CareEdge Group",
+          "CareEdge Ratings",
+          "CareEdge Global",
+          "CareEdge ESG",
+          "CareEdge Advisory"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:19.635968"
+      }
+    ],
+    "Market Infrastructure": [
+      {
+        "name": "National Securities Depository",
+        "symbol": "NSDL",
+        "institution_type": "DEPOSITORY",
+        "regulator": "SEBI",
+        "website": "https://www.nsdl.co.in",
+        "category": "Market Infrastructure",
+        "services": [
+          "Contact Us",
+          "About Us",
+          "Introduction",
+          "Board of Directors",
+          "Committees of Board"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:22.174217"
+      },
+      {
+        "name": "Central Depository Services",
+        "symbol": "CDSL",
+        "institution_type": "DEPOSITORY",
+        "regulator": "SEBI",
+        "website": "https://www.cdslindia.com",
+        "category": "Market Infrastructure",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:24.207260"
+      }
+    ],
+    "Insurance": [
+      {
+        "name": "Life Insurance Corporation",
+        "symbol": "LIC",
+        "institution_type": "LIFE_INSURANCE",
+        "regulator": "IRDAI",
+        "website": "https://www.licindia.in",
+        "category": "Insurance",
+        "services": [
+          "Skip to Content",
+          "Skip to Search",
+          "Skip to main content",
+          "8976862090"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:26.266846"
+      },
+      {
+        "name": "HDFC Life Insurance",
+        "symbol": "HDFC_LIFE",
+        "institution_type": "LIFE_INSURANCE",
+        "regulator": "IRDAI",
+        "website": "https://www.hdfclife.com",
+        "category": "Insurance",
+        "services": [
+          "Become an Advisor",
+          "+91- 8916613503",
+          "buyonline@hdfclife.in",
+          "+91 8291-890-569",
+          "+91-8916694100"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:28.891287"
+      }
+    ],
+    "Asset Management": [
+      {
+        "name": "SBI Mutual Fund",
+        "symbol": "SBI_MF",
+        "institution_type": "ASSET_MANAGEMENT",
+        "regulator": "SEBI",
+        "website": "https://www.sbimf.com",
+        "category": "Asset Management",
+        "services": [
+          "Join Us",
+          "For distributor",
+          "Learn to Invest",
+          "Investment Awareness Programme",
+          "Beginner’s Guide"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:30.849299"
+      },
+      {
+        "name": "HDFC Asset Management",
+        "symbol": "HDFC_AMC",
+        "institution_type": "ASSET_MANAGEMENT",
+        "regulator": "SEBI",
+        "website": "https://www.hdfcfund.com",
+        "category": "Asset Management",
+        "services": [
+          "Funds",
+          "Equity",
+          "Debt",
+          "Index",
+          "Fund of Funds"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:34.117801"
+      }
+    ],
+    "Fintech": [
+      {
+        "name": "Zerodha",
+        "symbol": "ZERODHA",
+        "institution_type": "DISCOUNT_BROKER",
+        "regulator": "SEBI",
+        "website": "https://zerodha.com",
+        "category": "Fintech",
+        "services": [
+          "Signup",
+          "About",
+          "Products",
+          "Pricing",
+          "Support"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:36.562165"
+      },
+      {
+        "name": "Upstox",
+        "symbol": "UPSTOX",
+        "institution_type": "DISCOUNT_BROKER",
+        "regulator": "SEBI",
+        "website": "https://upstox.com",
+        "category": "Fintech",
+        "services": [
+          "Invest",
+          "Stocks",
+          "Mutual Funds",
+          "IPOs",
+          "Insurance"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:38.909508"
+      },
+      {
+        "name": "Groww",
+        "symbol": "GROWW",
+        "institution_type": "INVESTMENT_PLATFORM",
+        "regulator": "SEBI",
+        "website": "https://groww.in",
+        "category": "Fintech",
+        "services": [
+          "IPOTrack upcoming and ongoing IPOs",
+          "MTFsBuy now, pay later",
+          "Stock EventsDividends, bonus, buybacks and more",
+          "Demat AccountBegin your stock market journey"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:41.159800"
+      }
+    ],
+    "Data Providers": [
+      {
+        "name": "MoneyControl",
+        "symbol": "MONEY_CONTROL",
+        "institution_type": "FINANCIAL_DATA",
+        "regulator": "NONE",
+        "website": "https://www.moneycontrol.com",
+        "category": "Data Providers",
+        "services": [
+          "Close Ad",
+          "English",
+          "Hindi",
+          "Gujarati",
+          "Specials"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:43.442334"
+      }
+    ],
+    "Media": [
+      {
+        "name": "Economic Times",
+        "symbol": "ECONOMIC_TIMES",
+        "institution_type": "FINANCIAL_NEWS",
+        "regulator": "NONE",
+        "website": "https://economictimes.indiatimes.com",
+        "category": "Media",
+        "services": [
+          "Benchmarks",
+          "Nifty",
+          "Benchmarks",
+          "Sensex",
+          "BSE Gainer-Large Cap"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:46.433443"
+      }
+    ],
+    "Development Finance": [
+      {
+        "name": "NABARD",
+        "symbol": "NABARD",
+        "institution_type": "DEVELOPMENT_BANK",
+        "regulator": "RBI",
+        "website": "https://www.nabard.org",
+        "category": "Development Finance",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:05:58.459316"
+      },
+      {
+        "name": "SIDBI",
+        "symbol": "SIDBI",
+        "institution_type": "DEVELOPMENT_BANK",
+        "regulator": "RBI",
+        "website": "https://www.sidbi.in",
+        "category": "Development Finance",
+        "services": [
+          "Skip to Main Content",
+          "Home",
+          "About Us",
+          "Loans",
+          "MSME Loans"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:06:03.872666"
+      }
+    ],
+    "Pension & Retirement": [
+      {
+        "name": "Employees Provident Fund",
+        "symbol": "EPFO",
+        "institution_type": "PENSION_FUND",
+        "regulator": "PFRDA",
+        "website": "https://www.epfindia.gov.in",
+        "category": "Pension & Retirement",
+        "services": [
+          "Help Desk/TollFree Number (14470)",
+          "Screen Reader Access",
+          "Skip to main content",
+          "हिंदी",
+          "Employees' Provident Fund Organisation, India"
+        ],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:06:05.928682"
+      },
+      {
+        "name": "National Pension System",
+        "symbol": "NPS",
+        "institution_type": "PENSION_SYSTEM",
+        "regulator": "PFRDA",
+        "website": "https://www.npscra.nsdl.co.in",
+        "category": "Pension & Retirement",
+        "services": [],
+        "data_confidence": 0.9,
+        "last_updated": "2025-07-28T23:06:07.583114"
+      }
+    ]
+  },
+  "institution_directory": {
+    "NSE": {
+      "name": "National Stock Exchange",
+      "type": "STOCK_EXCHANGE",
+      "regulator": "SEBI",
+      "url": "https://www.nseindia.com"
+    },
+    "BSE": {
+      "name": "Bombay Stock Exchange",
+      "type": "STOCK_EXCHANGE",
+      "regulator": "SEBI",
+      "url": "https://www.bseindia.com"
+    },
+    "MSEI": {
+      "name": "Metropolitan Stock Exchange",
+      "type": "STOCK_EXCHANGE",
+      "regulator": "SEBI",
+      "url": "https://www.msei.in"
+    },
+    "MCX": {
+      "name": "Multi Commodity Exchange",
+      "type": "COMMODITY_EXCHANGE",
+      "regulator": "FMC",
+      "url": "https://www.mcxindia.com"
+    },
+    "NCDEX": {
+      "name": "National Commodity Exchange",
+      "type": "COMMODITY_EXCHANGE",
+      "regulator": "FMC",
+      "url": "https://www.ncdex.com"
+    },
+    "SEBI": {
+      "name": "Securities Exchange Board of India",
+      "type": "REGULATOR",
+      "regulator": "GOVERNMENT",
+      "url": "https://www.sebi.gov.in"
+    },
+    "RBI": {
+      "name": "Reserve Bank of India",
+      "type": "CENTRAL_BANK",
+      "regulator": "GOVERNMENT",
+      "url": "https://www.rbi.org.in"
+    },
+    "IRDAI": {
+      "name": "Insurance Regulatory Authority",
+      "type": "REGULATOR",
+      "regulator": "GOVERNMENT",
+      "url": "https://www.irdai.gov.in"
+    },
+    "AMFI": {
+      "name": "Association of Mutual Funds India",
+      "type": "MUTUAL_FUND_ASSOCIATION",
+      "regulator": "SEBI",
+      "url": "https://www.amfiindia.com"
+    },
+    "BSE_STAR_MF": {
+      "name": "BSE StAR MF Platform",
+      "type": "MUTUAL_FUND_PLATFORM",
+      "regulator": "SEBI",
+      "url": "https://www.bsestarmf.in"
+    },
+    "SBI": {
+      "name": "State Bank of India",
+      "type": "PUBLIC_BANK",
+      "regulator": "RBI",
+      "url": "https://www.onlinesbi.com"
+    },
+    "HDFC_BANK": {
+      "name": "HDFC Bank",
+      "type": "PRIVATE_BANK",
+      "regulator": "RBI",
+      "url": "https://www.hdfcbank.com"
+    },
+    "ICICI_BANK": {
+      "name": "ICICI Bank",
+      "type": "PRIVATE_BANK",
+      "regulator": "RBI",
+      "url": "https://www.icicibank.com"
+    },
+    "CRISIL": {
+      "name": "CRISIL",
+      "type": "RATING_AGENCY",
+      "regulator": "SEBI",
+      "url": "https://www.crisil.com"
+    },
+    "ICRA": {
+      "name": "ICRA",
+      "type": "RATING_AGENCY",
+      "regulator": "SEBI",
+      "url": "https://www.icra.in"
+    },
+    "CARE": {
+      "name": "CARE Ratings",
+      "type": "RATING_AGENCY",
+      "regulator": "SEBI",
+      "url": "https://www.careratings.com"
+    },
+    "NSDL": {
+      "name": "National Securities Depository",
+      "type": "DEPOSITORY",
+      "regulator": "SEBI",
+      "url": "https://www.nsdl.co.in"
+    },
+    "CDSL": {
+      "name": "Central Depository Services",
+      "type": "DEPOSITORY",
+      "regulator": "SEBI",
+      "url": "https://www.cdslindia.com"
+    },
+    "LIC": {
+      "name": "Life Insurance Corporation",
+      "type": "LIFE_INSURANCE",
+      "regulator": "IRDAI",
+      "url": "https://www.licindia.in"
+    },
+    "HDFC_LIFE": {
+      "name": "HDFC Life Insurance",
+      "type": "LIFE_INSURANCE",
+      "regulator": "IRDAI",
+      "url": "https://www.hdfclife.com"
+    },
+    "SBI_MF": {
+      "name": "SBI Mutual Fund",
+      "type": "ASSET_MANAGEMENT",
+      "regulator": "SEBI",
+      "url": "https://www.sbimf.com"
+    },
+    "HDFC_AMC": {
+      "name": "HDFC Asset Management",
+      "type": "ASSET_MANAGEMENT",
+      "regulator": "SEBI",
+      "url": "https://www.hdfcfund.com"
+    },
+    "ZERODHA": {
+      "name": "Zerodha",
+      "type": "DISCOUNT_BROKER",
+      "regulator": "SEBI",
+      "url": "https://zerodha.com"
+    },
+    "UPSTOX": {
+      "name": "Upstox",
+      "type": "DISCOUNT_BROKER",
+      "regulator": "SEBI",
+      "url": "https://upstox.com"
+    },
+    "GROWW": {
+      "name": "Groww",
+      "type": "INVESTMENT_PLATFORM",
+      "regulator": "SEBI",
+      "url": "https://groww.in"
+    },
+    "MONEY_CONTROL": {
+      "name": "MoneyControl",
+      "type": "FINANCIAL_DATA",
+      "regulator": "NONE",
+      "url": "https://www.moneycontrol.com"
+    },
+    "ECONOMIC_TIMES": {
+      "name": "Economic Times",
+      "type": "FINANCIAL_NEWS",
+      "regulator": "NONE",
+      "url": "https://economictimes.indiatimes.com"
+    },
+    "NABARD": {
+      "name": "NABARD",
+      "type": "DEVELOPMENT_BANK",
+      "regulator": "RBI",
+      "url": "https://www.nabard.org"
+    },
+    "SIDBI": {
+      "name": "SIDBI",
+      "type": "DEVELOPMENT_BANK",
+      "regulator": "RBI",
+      "url": "https://www.sidbi.in"
+    },
+    "EPFO": {
+      "name": "Employees Provident Fund",
+      "type": "PENSION_FUND",
+      "regulator": "PFRDA",
+      "url": "https://www.epfindia.gov.in"
+    },
+    "NPS": {
+      "name": "National Pension System",
+      "type": "PENSION_SYSTEM",
+      "regulator": "PFRDA",
+      "url": "https://www.npscra.nsdl.co.in"
+    }
+  }
+}

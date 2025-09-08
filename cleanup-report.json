@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-07-21T11:09:12.443Z",
+  "stats": {
+    "iterationFiles": 439,
+    "testFiles": 33,
+    "reportFiles": 22,
+    "moved": 494,
+    "deleted": 0,
+    "errors": 0
+  },
+  "directories_created": [
+    "tests/archived/iterations",
+    "tests/archived/reports",
+    "tests/archived/outputs",
+    "tests/unit",
+    "tests/integration",
+    "tests/e2e",
+    "tests/performance"
+  ],
+  "files_created": [
+    "jest.config.js",
+    "tests/setup.js",
+    "tests/unit/example.test.js"
+  ]
+}

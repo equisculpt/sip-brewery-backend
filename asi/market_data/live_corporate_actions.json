@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "total_actions": 2,
+    "crawling_timestamp": "2025-07-28T23:34:45.875187",
+    "data_sources": [
+      "NSE_API",
+      "BSE_WEB",
+      "SEBI_WEB"
+    ],
+    "action_types_covered": [
+      "AGM",
+      "RESULT",
+      "DIVIDEND",
+      "BONUS",
+      "SPLIT",
+      "BOARD_MEETING",
+      "BUYBACK",
+      "RIGHTS",
+      "MERGER",
+      "DELISTING",
+      "IPO",
+      "LISTING"
+    ],
+    "high_impact_count": 0,
+    "urgent_count": 0,
+    "dividend_count": 0,
+    "result_count": 0,
+    "agm_count": 0,
+    "exchange_distribution": {
+      "BSE": 2
+    },
+    "urgency_distribution": {
+      "NORMAL": 2
+    },
+    "action_type_distribution": {
+      "OTHER": 2
+    }
+  },
+  "corporate_actions": [
+    {
+      "company_name": "{{CorpannDataByNewsId[0].SCRIP_CD}}",
+      "symbol": "Security Code",
+      "exchange": "BSE",
+      "action_type": "OTHER",
+      "announcement_date": "{{CorpannDataByNewsId[0].SLONGNAME}}",
+      "record_date": null,
+      "ex_date": null,
+      "event_date": null,
+      "description": "Company",
+      "amount": null,
+      "percentage": null,
+      "document_url": null,
+      "filing_category": "CORPORATE_ANNOUNCEMENT",
+      "urgency": "NORMAL",
+      "market_impact": "LOW",
+      "data_source": "BSE_WEB",
+      "last_updated": "2025-07-28T23:34:23.162560",
+      "raw_data": {}
+    },
+    {
+      "company_name": "Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}",
+      "symbol": "Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}{{CorpannData.Table[0].NEWS_DT  | date:'dd MMM yyyy'}}{{cann.CATEGORYNAME}}Audio/Video{{cann.Fld_Attachsize/1048576 | number:2}} MB{{cann.Fld_Attachsize/1024 | number:2}} KB{{cann.Fld_Attachsize/1048576 | number:2}} MB{{cann.Fld_Attachsize/1024 | number:2}} KB{{cann.Fld_Attachsize/1048576 | number:2}} MB{{cann.Fld_Attachsize/1024 | number:2}} KBXBRLXBRLRead More..Read less..Exchange Received Time{{cann.News_submission_dt | date:'dd-MM-yyyy HH:mm:ss' }}Exchange Disseminated Time{{cann.DissemDT | date:'dd-MM-yyyy HH:mm:ss' }}Time Taken{{cann.TimeDiff | date:'dd-MM-yyyy HH:mm:ss'}}Exchange Disseminated Time{{cann.DissemDT | date:'dd-MM-yyyy HH:mm:ss' }}Exchange Disseminated Time{{cann.NEWS_DT | date:'dd-MM-yyyy HH:mm:ss' }}",
+      "exchange": "BSE",
+      "action_type": "OTHER",
+      "announcement_date": "{{CorpannData.Table[0].NEWS_DT  | date:'dd MMM yyyy'}}",
+      "record_date": null,
+      "ex_date": null,
+      "event_date": null,
+      "description": "Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}",
+      "amount": null,
+      "percentage": null,
+      "document_url": null,
+      "filing_category": "CORPORATE_ANNOUNCEMENT",
+      "urgency": "NORMAL",
+      "market_impact": "LOW",
+      "data_source": "BSE_WEB",
+      "last_updated": "2025-07-28T23:34:23.160560",
+      "raw_data": {}
+    }
+  ],
+  "market_impact_analysis": {
+    "high_impact_actions": [],
+    "urgent_actions": [],
+    "dividend_announcements": [],
+    "result_announcements": [],
+    "agm_meetings": [],
+    "action_summary": {
+      "OTHER": 2
+    },
+    "exchange_summary": {
+      "BSE": 2
+    },
+    "urgency_summary": {
+      "NORMAL": 2
+    }
+  }
+}

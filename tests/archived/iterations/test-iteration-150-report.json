@@ -1,0 +1,955 @@
+{
+  "iteration": 150,
+  "timestamp": "2025-07-14T01:08:24.497Z",
+  "totalModules": 105,
+  "passedModules": 0,
+  "failedModules": 105,
+  "passRate": "0.00",
+  "moduleDetails": {
+    "authController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\authController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "adminController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\adminController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "agiController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\agiController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "aiPortfolioController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\aiPortfolioController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "smartSipController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\smartSipController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "whatsAppController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\whatsAppController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "analyticsController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\analyticsController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "dashboardController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\dashboardController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "leaderboardController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\leaderboardController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "rewardsController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\rewardsController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "ollamaController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\ollamaController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "benchmarkController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\benchmarkController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "learningController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\learningController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "socialInvestingController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\socialInvestingController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "tierOutreachController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\tierOutreachController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "regionalLanguageController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\regionalLanguageController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "complianceController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\complianceController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "roboAdvisorController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\roboAdvisorController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "marketAnalyticsController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\marketAnalyticsController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "voiceBotController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\voiceBotController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "pdfStatementController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\pdfStatementController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "digioController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\digioController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "bseStarMFController.test.js": {
+      "category": "controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\controllers\\bseStarMFController.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "agiService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\agiService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "aiPortfolioOptimizer.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\aiPortfolioOptimizer.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "smartSipService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\smartSipService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "portfolioAnalyticsService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\portfolioAnalyticsService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "whatsAppService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\whatsAppService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "rewardsService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\rewardsService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "ollamaService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\ollamaService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "chartDataService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\chartDataService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "investmentCalculatorService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\investmentCalculatorService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "riskProfilingService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\riskProfilingService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "navHistoryService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\navHistoryService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "taxCalculationService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\taxCalculationService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "fundComparisonService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\fundComparisonService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "digioService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\digioService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "bseStarMFService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\bseStarMFService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "agiEngine.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\agiEngine.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "socialInvestingService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\socialInvestingService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "tierOutreachService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\tierOutreachService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "regionalLanguageService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\regionalLanguageService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "complianceEngine.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\complianceEngine.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "roboAdvisor.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\roboAdvisor.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "marketAnalyticsEngine.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\marketAnalyticsEngine.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "voiceBot.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\voiceBot.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "dashboardEngine.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\dashboardEngine.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "predictiveEngine.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\predictiveEngine.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "portfolioOptimizer.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\portfolioOptimizer.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "auditService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\auditService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "advancedAIService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\advancedAIService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "aiService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\aiService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "quantumComputingService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\quantumComputingService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "nseService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\nseService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "complianceService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\complianceService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "ragService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\ragService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "trainingDataService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\trainingDataService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "scalabilityReliabilityService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\scalabilityReliabilityService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "advancedSecurityService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\advancedSecurityService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "microservicesArchitectureService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\microservicesArchitectureService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "esgSustainableInvestingService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\esgSustainableInvestingService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "gamificationService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\gamificationService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "socialTradingService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\socialTradingService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "taxOptimizationService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\taxOptimizationService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "realTimeDataService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\realTimeDataService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "pdfStatementService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\pdfStatementService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "leaderboardService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\leaderboardService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "leaderboardCronService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\leaderboardCronService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "cronService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\cronService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "marketScoreService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\marketScoreService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "dashboardService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\dashboardService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "realNiftyDataService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\realNiftyDataService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "benchmarkService.test.js": {
+      "category": "services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\services\\benchmarkService.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "User.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\User.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "UserPortfolio.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\UserPortfolio.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Transaction.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Transaction.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "SipOrder.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\SipOrder.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "SmartSip.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\SmartSip.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Reward.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Reward.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "RewardSummary.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\RewardSummary.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Leaderboard.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Leaderboard.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Achievement.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Achievement.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Challenge.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Challenge.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Notification.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Notification.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "AuditLog.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\AuditLog.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Commission.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Commission.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Holding.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Holding.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "MarketData.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\MarketData.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "BenchmarkIndex.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\BenchmarkIndex.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "EconomicIndicator.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\EconomicIndicator.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "PortfolioCopy.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\PortfolioCopy.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Referral.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Referral.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "UserBehavior.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\UserBehavior.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "WhatsAppMessage.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\WhatsAppMessage.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "WhatsAppSession.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\WhatsAppSession.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Admin.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Admin.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "Agent.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\Agent.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "AGIInsight.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\AGIInsight.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "AIInsight.test.js": {
+      "category": "models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\models\\AIInsight.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "auth.test.js": {
+      "category": "middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\middleware\\auth.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "adminAuth.test.js": {
+      "category": "middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\middleware\\adminAuth.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "authenticateUser.test.js": {
+      "category": "middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\middleware\\authenticateUser.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "errorHandler.test.js": {
+      "category": "middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\middleware\\errorHandler.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "rateLimiter.test.js": {
+      "category": "middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\middleware\\rateLimiter.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    },
+    "validation.test.js": {
+      "category": "middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\__tests__\\middleware\\validation.test.js --verbose --detectOpenHandles --forceExit --maxWorkers=1"
+    }
+  }
+}

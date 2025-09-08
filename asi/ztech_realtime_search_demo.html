@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTECH Real-time Search - Google-level Experience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .search-container {
+            padding: 40px;
+            background: #f8f9fa;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 20px 60px 20px 20px;
+            font-size: 18px;
+            border: 3px solid #e9ecef;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .search-input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 20px;
+        }
+
+        .suggestions-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            overflow: hidden;
+            display: none;
+        }
+
+        .suggestion-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f1f3f4;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .suggestion-item:hover {
+            background: #f8f9fa;
+            transform: translateX(5px);
+        }
+
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+
+        .suggestion-text {
+            font-weight: 500;
+            color: #495057;
+        }
+
+        .suggestion-description {
+            font-size: 14px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .suggestion-price {
+            font-weight: bold;
+            color: #28a745;
+            font-size: 16px;
+        }
+
+        .confidence-bar {
+            width: 50px;
+            height: 4px;
+            background: #e9ecef;
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb);
+            transition: width 0.3s ease;
+        }
+
+        .instant-data {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: none;
+        }
+
+        .instant-data h3 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .data-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+
+        .data-label {
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .data-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .response-time {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .typing-indicator {
+            display: none;
+            color: #6c757d;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .demo-queries {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .demo-queries h4 {
+            color: #495057;
+            margin-bottom: 15px;
+        }
+
+        .demo-button {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .demo-button:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .stats {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .searching {
+            animation: pulse 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 ZTECH Real-time Search</h1>
+            <p>Google-level instant search and data capture</p>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Start typing 'ztech'..." id="searchInput">
+                <span class="search-icon">🔍</span>
+                <div class="response-time" id="responseTime" style="display: none;"></div>
+            </div>
+
+            <div class="typing-indicator" id="typingIndicator">
+                Searching as you type...
+            </div>
+
+            <div class="suggestions-container" id="suggestionsContainer">
+                <!-- Suggestions will be populated here -->
+            </div>
+
+            <div class="instant-data" id="instantData">
+                <!-- Instant data will be populated here -->
+            </div>
+
+            <div class="demo-queries">
+                <h4>Try these demo queries:</h4>
+                <button class="demo-button" onclick="simulateTyping('z')">z</button>
+                <button class="demo-button" onclick="simulateTyping('ztech')">ztech</button>
+                <button class="demo-button" onclick="simulateTyping('ztech india')">ztech india</button>
+                <button class="demo-button" onclick="simulateTyping('zentech')">zentech</button>
+                <button class="demo-button" onclick="simulateTyping('compare ztech')">compare ztech</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalSearches">0</div>
+                    <div class="stat-label">Searches</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="avgResponseTime">0ms</div>
+                    <div class="stat-label">Avg Response</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="totalSuggestions">0</div>
+                    <div class="stat-label">Suggestions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="dataCaptures">0</div>
+                    <div class="stat-label">Data Captures</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let searchTimeout;
+        let searchStats = {
+            totalSearches: 0,
+            totalResponseTime: 0,
+            totalSuggestions: 0,
+            dataCaptures: 0
+        };
+
+        const searchInput = document.getElementById('searchInput');
+        const suggestionsContainer = document.getElementById('suggestionsContainer');
+        const instantData = document.getElementById('instantData');
+        const responseTime = document.getElementById('responseTime');
+        const typingIndicator = document.getElementById('typingIndicator');
+
+        // API base URL (adjust if needed)
+        const API_BASE = 'http://localhost:8000';
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value.trim();
+            
+            // Clear previous timeout
+            clearTimeout(searchTimeout);
+            
+            if (query.length === 0) {
+                hideSuggestions();
+                hideInstantData();
+                hideResponseTime();
+                hideTypingIndicator();
+                return;
+            }
+
+            // Show typing indicator
+            showTypingIndicator();
+            
+            // Add searching animation
+            searchInput.classList.add('searching');
+
+            // Debounce search (Google-like behavior)
+            searchTimeout = setTimeout(() => {
+                performRealtimeSearch(query);
+            }, 150); // 150ms delay for optimal UX
+        });
+
+        async function performRealtimeSearch(query) {
+            const startTime = performance.now();
+            
+            try {
+                // Simulate API call (replace with actual API when available)
+                const mockResult = await simulateRealtimeAPI(query);
+                
+                const endTime = performance.now();
+                const responseTimeMs = Math.round(endTime - startTime);
+                
+                // Update stats
+                searchStats.totalSearches++;
+                searchStats.totalResponseTime += responseTimeMs;
+                searchStats.totalSuggestions += mockResult.suggestions.length;
+                if (mockResult.live_data && Object.keys(mockResult.live_data).length > 0) {
+                    searchStats.dataCaptures++;
+                }
+                
+                // Display results
+                displaySuggestions(mockResult.suggestions);
+                displayInstantData(mockResult.live_data);
+                showResponseTime(responseTimeMs);
+                updateStats();
+                
+                hideTypingIndicator();
+                searchInput.classList.remove('searching');
+                
+            } catch (error) {
+                console.error('Search error:', error);
+                hideTypingIndicator();
+                searchInput.classList.remove('searching');
+            }
+        }
+
+        async function simulateRealtimeAPI(query) {
+            // Simulate API delay
+            await new Promise(resolve => setTimeout(resolve, Math.random() * 100 + 50));
+            
+            const suggestions = generateMockSuggestions(query);
+            const liveData = generateMockLiveData(query);
+            
+            return {
+                query: query,
+                suggestions: suggestions,
+                live_data: liveData,
+                response_time_ms: Math.random() * 100 + 50
+            };
+        }
+
+        function generateMockSuggestions(query) {
+            const allSuggestions = [
+                { text: 'ztech', description: 'Both Companies - Live data', confidence: 0.9, price: '₹425.50' },
+                { text: 'ztech india', description: 'Z-Tech (India) Limited - NSE Main', confidence: 0.85, price: '₹579.10' },
+                { text: 'ztech india price', description: 'Z-Tech (India) Limited - Live price', confidence: 0.8, price: '₹579.10 (+12.95)' },
+                { text: 'zentech systems', description: 'Zentech Systems Limited - NSE Emerge', confidence: 0.75, price: '₹272.85' },
+                { text: 'zentech price', description: 'Zentech Systems Limited - Live price', confidence: 0.7, price: '₹272.85 (+8.40)' },
+                { text: 'compare ztech', description: 'Compare ZTECH companies', confidence: 0.65, price: 'Analysis' },
+                { text: 'ztech technical analysis', description: 'Technical indicators', confidence: 0.6, price: 'RSI: 68.5' },
+                { text: 'emerge ztech', description: 'NSE Emerge platform', confidence: 0.55, price: '₹272.85' }
+            ];
+            
+            return allSuggestions
+                .filter(s => s.text.toLowerCase().includes(query.toLowerCase()) || query.toLowerCase().includes(s.text.toLowerCase().substring(0, query.length)))
+                .slice(0, 6);
+        }
+
+        function generateMockLiveData(query) {
+            if (query.toLowerCase().includes('india')) {
+                return {
+                    current_price: 579.10,
+                    change: 12.95,
+                    change_percent: 2.29,
+                    volume: 12900,
+                    company_name: 'Z-Tech (India) Limited',
+                    exchange: 'NSE Main Board'
+                };
+            } else if (query.toLowerCase().includes('zentech')) {
+                return {
+                    current_price: 272.85,
+                    change: 8.40,
+                    change_percent: 3.18,
+                    volume: 125000,
+                    company_name: 'Zentech Systems Limited',
+                    exchange: 'NSE Emerge'
+                };
+            } else if (query.toLowerCase().includes('compare')) {
+                return {
+                    ztech_india_price: 579.10,
+                    zentech_systems_price: 272.85,
+                    price_ratio: 2.12,
+                    recommendation: 'Z-Tech India: Stable, Zentech: Growth potential'
+                };
+            }
+            return {};
+        }
+
+        function displaySuggestions(suggestions) {
+            if (suggestions.length === 0) {
+                hideSuggestions();
+                return;
+            }
+
+            const html = suggestions.map(suggestion => `
+                <div class="suggestion-item" onclick="selectSuggestion('${suggestion.text}')">
+                    <div>
+                        <div class="suggestion-text">${suggestion.text}</div>
+                        <div class="suggestion-description">${suggestion.description}</div>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: ${suggestion.confidence * 100}%"></div>
+                        </div>
+                    </div>
+                    <div class="suggestion-price">${suggestion.price || ''}</div>
+                </div>
+            `).join('');
+
+            suggestionsContainer.innerHTML = html;
+            suggestionsContainer.style.display = 'block';
+        }
+
+        function displayInstantData(liveData) {
+            if (!liveData || Object.keys(liveData).length === 0) {
+                hideInstantData();
+                return;
+            }
+
+            const dataCards = Object.entries(liveData).map(([key, value]) => `
+                <div class="data-card">
+                    <div class="data-label">${key.replace(/_/g, ' ').toUpperCase()}</div>
+                    <div class="data-value">${typeof value === 'number' ? value.toLocaleString() : value}</div>
+                </div>
+            `).join('');
+
+            instantData.innerHTML = `
+                <h3>📊 Instant Live Data</h3>
+                <div class="data-grid">
+                    ${dataCards}
+                </div>
+            `;
+            instantData.style.display = 'block';
+        }
+
+        function selectSuggestion(text) {
+            searchInput.value = text;
+            hideSuggestions();
+            performRealtimeSearch(text);
+        }
+
+        function simulateTyping(text) {
+            searchInput.value = '';
+            hideSuggestions();
+            hideInstantData();
+            
+            let i = 0;
+            const typeInterval = setInterval(() => {
+                searchInput.value = text.substring(0, i + 1);
+                searchInput.dispatchEvent(new Event('input'));
+                i++;
+                
+                if (i >= text.length) {
+                    clearInterval(typeInterval);
+                }
+            }, 100);
+        }
+
+        function showResponseTime(ms) {
+            responseTime.textContent = `${ms}ms`;
+            responseTime.style.display = 'block';
+        }
+
+        function hideResponseTime() {
+            responseTime.style.display = 'none';
+        }
+
+        function showTypingIndicator() {
+            typingIndicator.style.display = 'block';
+        }
+
+        function hideTypingIndicator() {
+            typingIndicator.style.display = 'none';
+        }
+
+        function hideSuggestions() {
+            suggestionsContainer.style.display = 'none';
+        }
+
+        function hideInstantData() {
+            instantData.style.display = 'none';
+        }
+
+        function updateStats() {
+            document.getElementById('totalSearches').textContent = searchStats.totalSearches;
+            document.getElementById('avgResponseTime').textContent = 
+                searchStats.totalSearches > 0 ? 
+                Math.round(searchStats.totalResponseTime / searchStats.totalSearches) + 'ms' : '0ms';
+            document.getElementById('totalSuggestions').textContent = searchStats.totalSuggestions;
+            document.getElementById('dataCaptures').textContent = searchStats.dataCaptures;
+        }
+
+        // Initialize with a demo
+        setTimeout(() => {
+            simulateTyping('ztech');
+        }, 1000);
+    </script>
+</body>
+</html>

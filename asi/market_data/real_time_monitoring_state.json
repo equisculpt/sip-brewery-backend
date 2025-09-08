@@ -1,0 +1,66 @@
+{
+  "monitoring_active": false,
+  "last_update": "2025-07-28T23:32:38.363160",
+  "total_alerts": 0,
+  "recent_alerts": [],
+  "last_check_items": {
+    "BSE_Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}{{CorpannData.Table[0].NEWS_DT  | date:'dd MMM yyyy'}}{{cann.CATEGORYNAME}}Audio/Video{{cann.Fld_Attachsize/1048576 | number:2}} MB{{cann.Fld_Attachsize/1024 | number:2}} KB{{cann.Fld_Attachsize/1048576 | number:2}} MB{{cann.Fld_Attachsize/1024 | number:2}} KB{{cann.Fld_Attachsize/1048576 | number:2}} MB{{cann.Fld_Attachsize/1024 | number:2}} KBXBRLXBRLRead More..Read less..Exchange Received Time{{cann.News_submission_dt | date:'dd-MM-yyyy HH:mm:ss' }}Exchange Disseminated Time{{cann.DissemDT | date:'dd-MM-yyyy HH:mm:ss' }}Time Taken{{cann.TimeDiff | date:'dd-MM-yyyy HH:mm:ss'}}Exchange Disseminated Time{{cann.DissemDT | date:'dd-MM-yyyy HH:mm:ss' }}Exchange Disseminated Time{{cann.NEWS_DT | date:'dd-MM-yyyy HH:mm:ss' }}_Security Code :{{CorpannData.Table[0].SCRIP_CD}}Company :{{CorpannData.Table[0].SLONGNAME }}_{{CorpannData.Table[0].NEWS_DT  | date:'dd MMM yyyy'}}": "2025-07-28T23:12:34.543352",
+    "BSE_Security Code_Company_{{CorpannDataByNewsId[0].SLONGNAME}}": "2025-07-28T23:12:34.543352"
+  },
+  "config": {
+    "check_interval_minutes": 5,
+    "alert_threshold_hours": 24,
+    "max_alerts_per_run": 50,
+    "priority_keywords": {
+      "CRITICAL": [
+        "bonus",
+        "split",
+        "merger",
+        "acquisition",
+        "delisting"
+      ],
+      "HIGH": [
+        "dividend",
+        "result",
+        "buyback",
+        "rights"
+      ],
+      "MEDIUM": [
+        "agm",
+        "board meeting",
+        "announcement"
+      ],
+      "LOW": [
+        "circular",
+        "notice",
+        "clarification"
+      ]
+    }
+  },
+  "sources_status": {
+    "NSE_LIVE": {
+      "name": "NSE Live Feed",
+      "url": "https://www.nseindia.com/api/corporates-corporateActions?index=equities",
+      "type": "API",
+      "enabled": true
+    },
+    "BSE_LIVE": {
+      "name": "BSE Live Announcements",
+      "url": "https://www.bseindia.com/corporates/ann.html",
+      "type": "WEB",
+      "enabled": true
+    },
+    "NSE_RESULTS": {
+      "name": "NSE Financial Results",
+      "url": "https://www.nseindia.com/api/corporates-financial-results?index=equities",
+      "type": "API",
+      "enabled": true
+    },
+    "BSE_EVENTS": {
+      "name": "BSE Forthcoming Events",
+      "url": "https://www.bseindia.com/corporates/Forthcoming_Events.html",
+      "type": "WEB",
+      "enabled": true
+    }
+  }
+}

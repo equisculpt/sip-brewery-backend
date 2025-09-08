@@ -1,0 +1,16 @@
+[Unit]
+Description=AGI Microservice (FastAPI)
+After=network.target
+
+[Service]
+Type=simple
+User=milinraijada
+WorkingDirectory=/home/milinraijada/sip-brewery-backend/agi
+ExecStart=/usr/bin/python3 -m uvicorn agi_microservice:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/milinraijada/sip-brewery-backend/agi/agi_microservice.log
+StandardError=append:/home/milinraijada/sip-brewery-backend/agi/agi_microservice.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP Brewery - Institutional Grade Portfolio Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 25%, #2d2d2d 50%, #1a1a1a 75%, #0c0c0c 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        /* INSTITUTIONAL HEADER */
+        .header {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+            border-bottom: 3px solid #d4af37;
+            padding: 25px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #d4af37, #ffd700, #d4af37);
+            animation: shimmer 3s ease-in-out infinite;
+        }
+        
+        @keyframes shimmer {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+        
+        .company-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 800;
+            background: linear-gradient(45deg, #d4af37, #ffd700, #d4af37);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 30px;
+        }
+        
+        .header-info {
+            text-align: right;
+        }
+        
+        .client-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #d4af37;
+            margin-bottom: 5px;
+        }
+        
+        .portfolio-value {
+            font-size: 24px;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        
+        /* DASHBOARD CONTAINER */
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        
+        /* KEY METRICS SECTION */
+        .metrics-hero {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            border: 1px solid #333333;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #d4af37, #ffd700, #d4af37);
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.2);
+            border-color: #d4af37;
+        }
+        
+        .metric-icon {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        
+        .metric-value {
+            font-size: 36px;
+            font-weight: 800;
+            color: #d4af37;
+            margin-bottom: 8px;
+        }
+        
+        .metric-label {
+            font-size: 14px;
+            color: #cccccc;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .metric-change {
+            font-size: 12px;
+            margin-top: 8px;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        
+        .positive {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+        }
+        
+        .negative {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+        }
+        
+        /* CHARTS GRID */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .chart-container {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            border: 1px solid #333333;
+            border-radius: 20px;
+            padding: 35px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .chart-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #d4af37, #ffd700, #d4af37);
+        }
+        
+        .chart-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .chart-title::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: #d4af37;
+            margin-right: 12px;
+            border-radius: 2px;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+        }
+        
+        .small-chart {
+            height: 300px;
+        }
+        
+        /* SECONDARY CHARTS */
+        .secondary-charts {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        /* PERFORMANCE TABLE */
+        .performance-table {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            border: 1px solid #333333;
+            border-radius: 20px;
+            padding: 35px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .performance-table::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #d4af37, #ffd700, #d4af37);
+        }
+        
+        .table-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .table-title::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: #d4af37;
+            margin-right: 12px;
+            border-radius: 2px;
+        }
+        
+        .performance-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .performance-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #333333;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .performance-item:hover {
+            background: rgba(212, 175, 55, 0.1);
+            border-color: #d4af37;
+        }
+        
+        .performance-period {
+            font-size: 14px;
+            color: #cccccc;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .performance-value {
+            font-size: 24px;
+            font-weight: 800;
+            color: #d4af37;
+        }
+        
+        /* COMPLIANCE FOOTER */
+        .compliance-footer {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            border: 1px solid #333333;
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .compliance-text {
+            font-size: 12px;
+            color: #999999;
+            line-height: 1.6;
+        }
+        
+        /* ANIMATIONS */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .metric-card {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        .metric-card:nth-child(1) { animation-delay: 0.1s; }
+        .metric-card:nth-child(2) { animation-delay: 0.2s; }
+        .metric-card:nth-child(3) { animation-delay: 0.3s; }
+        .metric-card:nth-child(4) { animation-delay: 0.4s; }
+        
+        .chart-container {
+            animation: fadeInUp 0.8s ease forwards;
+            animation-delay: 0.5s;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 1200px) {
+            .metrics-hero {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .secondary-charts {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .metrics-hero {
+                grid-template-columns: 1fr;
+            }
+            
+            .dashboard {
+                padding: 20px;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .logo-section {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- INSTITUTIONAL HEADER -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="company-logo">🍺 SIP BREWERY</div>
+                <div>
+                    <div style="font-size: 16px; color: #d4af37; font-weight: 600;">INSTITUTIONAL PORTFOLIO ANALYTICS</div>
+                    <div style="font-size: 12px; color: #999999; margin-top: 2px;">$1 Billion Grade Financial Platform</div>
+                </div>
+            </div>
+            <div class="header-info">
+                <div class="client-name">Rajesh Kumar Sharma</div>
+                <div class="portfolio-value">₹6,25,000</div>
+                <div style="font-size: 12px; color: #999999; margin-top: 5px;">As of ${new Date().toLocaleDateString('en-IN')}</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN DASHBOARD -->
+    <main class="dashboard">
+        <!-- KEY METRICS -->
+        <section class="metrics-hero">
+            <div class="metric-card">
+                <div class="metric-icon">🎯</div>
+                <div class="metric-value">72</div>
+                <div class="metric-label">ASI Score</div>
+                <div class="metric-change positive">+5.2% vs Last Month</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon">📈</div>
+                <div class="metric-value">16.8%</div>
+                <div class="metric-label">Expected Return</div>
+                <div class="metric-change positive">+2.1% vs Benchmark</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon">⚡</div>
+                <div class="metric-value">78%</div>
+                <div class="metric-label">Success Probability</div>
+                <div class="metric-change positive">+12% vs Market</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon">🛡️</div>
+                <div class="metric-value">14.2%</div>
+                <div class="metric-label">Portfolio Risk</div>
+                <div class="metric-change negative">-3.1% vs Last Quarter</div>
+            </div>
+        </section>
+
+        <!-- MAIN CHARTS -->
+        <section class="charts-grid">
+            <div class="chart-container">
+                <h3 class="chart-title">📊 Portfolio Performance vs Benchmark</h3>
+                <div class="chart-wrapper">
+                    <canvas id="performanceChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h3 class="chart-title">🥧 Asset Allocation</h3>
+                <div class="chart-wrapper small-chart">
+                    <canvas id="allocationChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECONDARY CHARTS -->
+        <section class="secondary-charts">
+            <div class="chart-container">
+                <h3 class="chart-title">📈 Risk-Return Analysis</h3>
+                <div class="chart-wrapper small-chart">
+                    <canvas id="riskReturnChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h3 class="chart-title">📊 Sector Allocation</h3>
+                <div class="chart-wrapper small-chart">
+                    <canvas id="sectorChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERFORMANCE TABLE -->
+        <section class="performance-table">
+            <h3 class="table-title">📈 Performance Analysis</h3>
+            <div class="performance-grid">
+                <div class="performance-item">
+                    <div class="performance-period">1 Month</div>
+                    <div class="performance-value">+3.2%</div>
+                </div>
+                <div class="performance-item">
+                    <div class="performance-period">3 Months</div>
+                    <div class="performance-value">+8.7%</div>
+                </div>
+                <div class="performance-item">
+                    <div class="performance-period">6 Months</div>
+                    <div class="performance-value">+15.4%</div>
+                </div>
+                <div class="performance-item">
+                    <div class="performance-period">1 Year</div>
+                    <div class="performance-value">+22.8%</div>
+                </div>
+                <div class="performance-item">
+                    <div class="performance-period">3 Years</div>
+                    <div class="performance-value">+18.3%</div>
+                </div>
+                <div class="performance-item">
+                    <div class="performance-period">Since Inception</div>
+                    <div class="performance-value">+24.6%</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPLIANCE FOOTER -->
+        <footer class="compliance-footer">
+            <div class="compliance-text">
+                <strong>REGULATORY COMPLIANCE:</strong> SIP Brewery is a SEBI registered Mutual Fund Distributor (ARN-12345) and AMFI registered distributor. 
+                This report is for educational purposes only and does not constitute investment advice. 
+                Mutual fund investments are subject to market risks. Please read all scheme-related documents carefully before investing.
+                <br><br>
+                <strong>DISCLAIMER:</strong> Past performance is not indicative of future results. 
+                The value of investments can go up as well as down. This analysis is based on historical data and market assumptions.
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // INSTITUTIONAL GRADE CHARTS
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // Chart.js default configuration
+            Chart.defaults.font.family = 'Inter';
+            Chart.defaults.color = '#ffffff';
+            Chart.defaults.plugins.legend.labels.usePointStyle = true;
+            
+            // PERFORMANCE CHART
+            const performanceCtx = document.getElementById('performanceChart').getContext('2d');
+            new Chart(performanceCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Jan 2024', 'Feb 2024', 'Mar 2024', 'Apr 2024', 'May 2024', 'Jun 2024', 'Jul 2024', 'Aug 2024'],
+                    datasets: [{
+                        label: 'Portfolio Performance',
+                        data: [100, 103.2, 108.7, 115.4, 118.9, 122.8, 125.6, 128.4],
+                        borderColor: '#d4af37',
+                        backgroundColor: 'rgba(212, 175, 55, 0.1)',
+                        borderWidth: 4,
+                        fill: true,
+                        tension: 0.4,
+                        pointBackgroundColor: '#d4af37',
+                        pointBorderColor: '#ffffff',
+                        pointBorderWidth: 3,
+                        pointRadius: 6,
+                        pointHoverRadius: 10
+                    }, {
+                        label: 'Nifty 50 Benchmark',
+                        data: [100, 102.1, 105.8, 109.2, 112.4, 115.6, 118.1, 119.8],
+                        borderColor: '#666666',
+                        backgroundColor: 'rgba(102, 102, 102, 0.05)',
+                        borderWidth: 2,
+                        fill: false,
+                        tension: 0.4,
+                        pointBackgroundColor: '#666666',
+                        pointBorderColor: '#ffffff',
+                        pointBorderWidth: 2,
+                        pointRadius: 4,
+                        borderDash: [5, 5]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                color: '#ffffff',
+                                font: { size: 14, weight: '600' },
+                                padding: 20
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                            titleColor: '#d4af37',
+                            bodyColor: '#ffffff',
+                            borderColor: '#d4af37',
+                            borderWidth: 1,
+                            cornerRadius: 8,
+                            callbacks: {
+                                label: function(context) {
+                                    const change = ((context.parsed.y - 100)).toFixed(1);
+                                    return context.dataset.label + ': ' + context.parsed.y.toFixed(1) + ' (' + (change >= 0 ? '+' : '') + change + '%)';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { color: '#cccccc', font: { size: 12 } }
+                        },
+                        y: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#cccccc', 
+                                font: { size: 12 },
+                                callback: function(value) {
+                                    return value.toFixed(0);
+                                }
+                            }
+                        }
+                    },
+                    animation: { duration: 2000, easing: 'easeOutQuart' }
+                }
+            });
+            
+            // ALLOCATION CHART
+            const allocationCtx = document.getElementById('allocationChart').getContext('2d');
+            new Chart(allocationCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Large Cap', 'Mid Cap', 'Small Cap', 'Debt', 'Gold', 'International'],
+                    datasets: [{
+                        data: [35, 20, 15, 20, 8, 2],
+                        backgroundColor: [
+                            '#d4af37',
+                            '#ffd700',
+                            '#b8860b',
+                            '#4a90e2',
+                            '#ff6b6b',
+                            '#4ecdc4'
+                        ],
+                        borderColor: '#1a1a1a',
+                        borderWidth: 3,
+                        hoverOffset: 10,
+                        cutout: '60%'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#ffffff',
+                                font: { size: 12, weight: '500' },
+                                padding: 15
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                            titleColor: '#d4af37',
+                            bodyColor: '#ffffff',
+                            borderColor: '#d4af37',
+                            borderWidth: 1,
+                            cornerRadius: 8,
+                            callbacks: {
+                                label: function(context) {
+                                    return context.label + ': ' + context.parsed + '% (₹' + (625000 * context.parsed / 100).toLocaleString('en-IN') + ')';
+                                }
+                            }
+                        }
+                    },
+                    animation: { duration: 1500, easing: 'easeOutQuart' }
+                }
+            });
+            
+            // RISK-RETURN CHART
+            const riskReturnCtx = document.getElementById('riskReturnChart').getContext('2d');
+            new Chart(riskReturnCtx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Large Cap',
+                        data: [{x: 12, y: 15.2}],
+                        backgroundColor: '#d4af37',
+                        borderColor: '#d4af37',
+                        pointRadius: 12,
+                        pointHoverRadius: 16
+                    }, {
+                        label: 'Mid Cap',
+                        data: [{x: 18, y: 22.4}],
+                        backgroundColor: '#ffd700',
+                        borderColor: '#ffd700',
+                        pointRadius: 12,
+                        pointHoverRadius: 16
+                    }, {
+                        label: 'Small Cap',
+                        data: [{x: 25, y: 28.7}],
+                        backgroundColor: '#b8860b',
+                        borderColor: '#b8860b',
+                        pointRadius: 12,
+                        pointHoverRadius: 16
+                    }, {
+                        label: 'Debt',
+                        data: [{x: 4, y: 7.8}],
+                        backgroundColor: '#4a90e2',
+                        borderColor: '#4a90e2',
+                        pointRadius: 12,
+                        pointHoverRadius: 16
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#ffffff',
+                                font: { size: 11, weight: '500' },
+                                padding: 10
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                            titleColor: '#d4af37',
+                            bodyColor: '#ffffff',
+                            borderColor: '#d4af37',
+                            borderWidth: 1,
+                            cornerRadius: 8
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: 'Risk (Volatility %)', color: '#cccccc', font: { size: 12, weight: '600' } },
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { color: '#cccccc', font: { size: 11 } }
+                        },
+                        y: {
+                            title: { display: true, text: 'Expected Return (%)', color: '#cccccc', font: { size: 12, weight: '600' } },
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { color: '#cccccc', font: { size: 11 } }
+                        }
+                    },
+                    animation: { duration: 1800, easing: 'easeOutBounce' }
+                }
+            });
+            
+            // SECTOR CHART
+            const sectorCtx = document.getElementById('sectorChart').getContext('2d');
+            new Chart(sectorCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Technology', 'Banking', 'Healthcare', 'Consumer', 'Energy', 'Industrial'],
+                    datasets: [{
+                        label: 'Sector Allocation (%)',
+                        data: [25, 20, 15, 12, 18, 10],
+                        backgroundColor: [
+                            'rgba(212, 175, 55, 0.8)',
+                            'rgba(255, 215, 0, 0.8)',
+                            'rgba(184, 134, 11, 0.8)',
+                            'rgba(74, 144, 226, 0.8)',
+                            'rgba(255, 107, 107, 0.8)',
+                            'rgba(78, 205, 196, 0.8)'
+                        ],
+                        borderColor: [
+                            '#d4af37',
+                            '#ffd700',
+                            '#b8860b',
+                            '#4a90e2',
+                            '#ff6b6b',
+                            '#4ecdc4'
+                        ],
+                        borderWidth: 2,
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+                            titleColor: '#d4af37',
+                            bodyColor: '#ffffff',
+                            borderColor: '#d4af37',
+                            borderWidth: 1,
+                            cornerRadius: 8
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { color: '#cccccc', font: { size: 11 } }
+                        },
+                        y: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { 
+                                color: '#cccccc', 
+                                font: { size: 11 },
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    animation: { duration: 1600, easing: 'easeOutQuart' }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "search_timestamp": "2025-07-28T18:04:43.922650",
+  "search_variations": [
+    "ZTECH",
+    "ZTECHINDIA",
+    "ZTECH-INDIA",
+    "ZTECH_INDIA",
+    "ZTECHIND",
+    "ZENTECH",
+    "ZENTECHINDIA",
+    "ZENTECH-INDIA",
+    "ZENTECH_INDIA",
+    "ZENTECHIND",
+    "ZENTECHSYSTEMS",
+    "ZENTECH-SYSTEMS",
+    "ZENTECH SYSTEMS",
+    "ZENTECH SYSTEMS LIMITED",
+    "ZENTECH SYSTEMS LTD",
+    "ZTECH SYSTEMS",
+    "ZTECH SYSTEMS LIMITED",
+    "ZTECH SYSTEMS LTD",
+    "ZENTECH INDIA",
+    "ZENTECH INDIA LIMITED",
+    "ZENTECH INDIA LTD",
+    "ZTECH INDIA",
+    "ZTECH INDIA LIMITED",
+    "ZTECH INDIA LTD"
+  ],
+  "yfinance_results": [
+    {
+      "symbol": "ZTECH.NS",
+      "company_name": "ZTECH.NS,0P0001T2S3,255600",
+      "exchange": "NSI",
+      "currency": "INR",
+      "market_state": "POSTPOST",
+      "latest_price": 579.0999755859375,
+      "volume": 12900,
+      "data_available": true
+    }
+  ],
+  "nse_results": [
+    {
+      "symbol": "ZTECH",
+      "company_name": "Z-Tech (India) Limited",
+      "exchange": "NSE",
+      "source": "nse_search"
+    }
+  ],
+  "bse_results": [],
+  "database_results": [
+    {
+      "symbol": "ZTECH",
+      "company_name": "Zentech Systems Limited",
+      "exchange": "NSE_EMERGE",
+      "sector": "Information Technology",
+      "industry": "IT Services",
+      "source": "enhanced_db"
+    }
+  ],
+  "summary": {
+    "total_variations_searched": 24,
+    "total_symbols_found": 3,
+    "yfinance_symbols": 1,
+    "nse_symbols": 1,
+    "bse_symbols": 0,
+    "database_symbols": 1,
+    "data_available_count": 1
+  }
+}

@@ -1,0 +1,306 @@
+# 🚨 PROMETHEUS ALERT RULES
+# Critical production alerts for SIP Brewery Finance ASI Platform
+
+groups:
+  # 🏥 System Health Alerts
+  - name: system_health
+    rules:
+      - alert: ServiceDown
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: platform
+        annotations:
+          summary: "Service {{ $labels.job }} is down"
+          description: "{{ $labels.job }} has been down for more than 1 minute"
+          runbook_url: "https://docs.sipbrewery.com/runbooks/service-down"
+
+      - alert: HighMemoryUsage
+        expr: (node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes > 0.85
+        for: 5m
+        labels:
+          severity: warning
+          team: platform
+        annotations:
+          summary: "High memory usage on {{ $labels.instance }}"
+          description: "Memory usage is above 85% for 5 minutes"
+
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 80
+        for: 10m
+        labels:
+          severity: warning
+          team: platform
+        annotations:
+          summary: "High CPU usage on {{ $labels.instance }}"
+          description: "CPU usage is above 80% for 10 minutes"
+
+      - alert: DiskSpaceLow
+        expr: (node_filesystem_avail_bytes / node_filesystem_size_bytes) < 0.1
+        for: 5m
+        labels:
+          severity: critical
+          team: platform
+        annotations:
+          summary: "Low disk space on {{ $labels.instance }}"
+          description: "Disk space is below 10% on {{ $labels.device }}"
+
+  # 💰 Finance ASI Alerts
+  - name: finance_asi
+    rules:
+      - alert: ASISystemDown
+        expr: asi_system_health != 1
+        for: 2m
+        labels:
+          severity: critical
+          team: asi
+        annotations:
+          summary: "ASI System is unhealthy"
+          description: "Unified ASI System health check failed for 2 minutes"
+          runbook_url: "https://docs.sipbrewery.com/runbooks/asi-system-down"
+
+      - alert: ASIRatingBelowThreshold
+        expr: asi_finance_rating < 8.0
+        for: 10m
+        labels:
+          severity: warning
+          team: asi
+        annotations:
+          summary: "ASI Finance Rating dropped below 8.0"
+          description: "Current ASI rating: {{ $value }}. Target: >9.0"
+
+      - alert: PythonASIBridgeDown
+        expr: python_asi_bridge_health != 1
+        for: 1m
+        labels:
+          severity: critical
+          team: asi
+        annotations:
+          summary: "Python ASI Bridge is down"
+          description: "Python ASI Bridge health check failed"
+
+      - alert: HighASIRequestLatency
+        expr: histogram_quantile(0.95, asi_request_duration_seconds_bucket) > 5
+        for: 5m
+        labels:
+          severity: warning
+          team: asi
+        annotations:
+          summary: "High ASI request latency"
+          description: "95th percentile latency is {{ $value }}s"
+
+      - alert: ASIRequestFailureRate
+        expr: rate(asi_requests_failed_total[5m]) / rate(asi_requests_total[5m]) > 0.05
+        for: 3m
+        labels:
+          severity: critical
+          team: asi
+        annotations:
+          summary: "High ASI request failure rate"
+          description: "ASI request failure rate is {{ $value | humanizePercentage }}"
+
+  # 🗄️ Database Alerts
+  - name: database
+    rules:
+      - alert: MongoDBDown
+        expr: mongodb_up == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: database
+        annotations:
+          summary: "MongoDB is down"
+          description: "MongoDB instance {{ $labels.instance }} is down"
+
+      - alert: MongoDBHighConnections
+        expr: mongodb_connections{state="current"} / mongodb_connections{state="available"} > 0.8
+        for: 5m
+        labels:
+          severity: warning
+          team: database
+        annotations:
+          summary: "MongoDB high connection usage"
+          description: "MongoDB connection usage is above 80%"
+
+      - alert: MongoDBReplicationLag
+        expr: mongodb_replset_member_replication_lag > 10
+        for: 5m
+        labels:
+          severity: warning
+          team: database
+        annotations:
+          summary: "MongoDB replication lag"
+          description: "Replication lag is {{ $value }} seconds"
+
+      - alert: RedisDown
+        expr: redis_up == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: database
+        annotations:
+          summary: "Redis is down"
+          description: "Redis instance {{ $labels.instance }} is down"
+
+      - alert: RedisHighMemoryUsage
+        expr: redis_memory_used_bytes / redis_memory_max_bytes > 0.9
+        for: 5m
+        labels:
+          severity: warning
+          team: database
+        annotations:
+          summary: "Redis high memory usage"
+          description: "Redis memory usage is above 90%"
+
+  # 🌐 Application Alerts
+  - name: application
+    rules:
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) / rate(http_requests_total[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: critical
+          team: backend
+        annotations:
+          summary: "High error rate"
+          description: "Error rate is {{ $value | humanizePercentage }} for {{ $labels.job }}"
+
+      - alert: HighResponseTime
+        expr: histogram_quantile(0.95, http_request_duration_seconds_bucket) > 2
+        for: 10m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "High response time"
+          description: "95th percentile response time is {{ $value }}s"
+
+      - alert: TooManyRequests
+        expr: rate(http_requests_total[1m]) > 1000
+        for: 5m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "High request rate"
+          description: "Request rate is {{ $value }} req/sec"
+
+      - alert: AuthenticationFailures
+        expr: rate(auth_failures_total[5m]) > 10
+        for: 2m
+        labels:
+          severity: warning
+          team: security
+        annotations:
+          summary: "High authentication failure rate"
+          description: "Authentication failures: {{ $value }} per second"
+
+  # 💼 Business Metrics Alerts
+  - name: business_metrics
+    rules:
+      - alert: LowUserRegistrations
+        expr: rate(user_registrations_total[1h]) < 1
+        for: 2h
+        labels:
+          severity: warning
+          team: business
+        annotations:
+          summary: "Low user registration rate"
+          description: "User registrations below 1 per hour for 2 hours"
+
+      - alert: PortfolioAnalysisFailures
+        expr: rate(portfolio_analysis_failures_total[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: critical
+          team: asi
+        annotations:
+          summary: "High portfolio analysis failure rate"
+          description: "Portfolio analysis failures: {{ $value }} per second"
+
+      - alert: MutualFundDataStale
+        expr: time() - mutual_fund_data_last_update_timestamp > 3600
+        for: 5m
+        labels:
+          severity: warning
+          team: data
+        annotations:
+          summary: "Mutual fund data is stale"
+          description: "Last update was {{ $value | humanizeDuration }} ago"
+
+      - alert: LowAUMGrowth
+        expr: rate(total_aum_inr[24h]) < 1000000
+        for: 24h
+        labels:
+          severity: info
+          team: business
+        annotations:
+          summary: "Low AUM growth rate"
+          description: "AUM growth is below ₹10L per day"
+
+  # 🔒 Security Alerts
+  - name: security
+    rules:
+      - alert: SuspiciousActivity
+        expr: rate(suspicious_requests_total[5m]) > 5
+        for: 2m
+        labels:
+          severity: critical
+          team: security
+        annotations:
+          summary: "Suspicious activity detected"
+          description: "{{ $value }} suspicious requests per second"
+
+      - alert: RateLimitExceeded
+        expr: rate(rate_limit_exceeded_total[5m]) > 50
+        for: 5m
+        labels:
+          severity: warning
+          team: security
+        annotations:
+          summary: "High rate limit violations"
+          description: "Rate limit exceeded {{ $value }} times per second"
+
+      - alert: FailedLogins
+        expr: rate(failed_login_attempts_total[5m]) > 20
+        for: 3m
+        labels:
+          severity: warning
+          team: security
+        annotations:
+          summary: "High failed login rate"
+          description: "Failed login attempts: {{ $value }} per second"
+
+  # 📊 Infrastructure Alerts
+  - name: infrastructure
+    rules:
+      - alert: LoadBalancerDown
+        expr: haproxy_up == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: infrastructure
+        annotations:
+          summary: "Load balancer is down"
+          description: "HAProxy instance {{ $labels.instance }} is down"
+
+      - alert: CertificateExpiringSoon
+        expr: probe_ssl_earliest_cert_expiry - time() < 86400 * 7
+        for: 1h
+        labels:
+          severity: warning
+          team: infrastructure
+        annotations:
+          summary: "SSL certificate expiring soon"
+          description: "Certificate for {{ $labels.instance }} expires in {{ $value | humanizeDuration }}"
+
+      - alert: BackupFailed
+        expr: time() - backup_last_success_timestamp > 86400
+        for: 1h
+        labels:
+          severity: critical
+          team: infrastructure
+        annotations:
+          summary: "Backup failed"
+          description: "Last successful backup was {{ $value | humanizeDuration }} ago"

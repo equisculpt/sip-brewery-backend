@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-07-12T12:16:35.183Z",
+  "totalTests": 8,
+  "passedTests": 0,
+  "failedTests": 8,
+  "coverage": null,
+  "performance": [
+    {
+      "test": "Load Testing",
+      "status": "FAILED",
+      "duration": 3061,
+      "error": "\n> sip-brewery-backend@1.0.0 test:performance\n> artillery run __tests__/performance/load-test.yml\n\nTest run id: td8tz_mmqhnjcx9ef9npdfq3y749c84xwdk_bgp9\nScenario validation error: \"scenarios[8].flow[0]\" must have 1 key\n"
+    },
+    {
+      "test": "Memory Usage",
+      "status": "FAILED",
+      "duration": 90,
+      "error": "C:\\Users\\MILINRAIJADA\\sip-brewery-backend\\node_modules\\.bin\\jest:2\r\nbasedir=$(dirname \"$(echo \"$0\" | sed -e 's,\\\\,/,g')\")\r\n          ^^^^^^^\r\n\r\nSyntaxError: missing ) after argument list\r\n    at wrapSafe (node:internal/modules/cjs/loader:1624:18)\r\n    at Module._compile (node:internal/modules/cjs/loader:1666:20)\r\n    at Object..js (node:internal/modules/cjs/loader:1824:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1427:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1250:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\r\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)\r\n    at node:internal/main/run_main_module:33:47\r\n\r\nNode.js v24.3.0\r\n"
+    }
+  ],
+  "security": [
+    {
+      "test": "Authentication",
+      "status": "FAILED",
+      "error": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  183 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js, **/*.test.js, **/*.spec.js - 7 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 183 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\\\security\\\\auth - 0 matches\n"
+    },
+    {
+      "test": "Authorization",
+      "status": "FAILED",
+      "error": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  183 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js, **/*.test.js, **/*.spec.js - 7 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 183 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\\\security\\\\authorization - 0 matches\n"
+    },
+    {
+      "test": "Input Validation",
+      "status": "FAILED",
+      "error": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  183 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js, **/*.test.js, **/*.spec.js - 7 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 183 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\\\security\\\\validation - 0 matches\n"
+    },
+    {
+      "test": "SQL Injection",
+      "status": "FAILED",
+      "error": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  183 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js, **/*.test.js, **/*.spec.js - 7 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 183 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\\\security\\\\sql-injection - 0 matches\n"
+    },
+    {
+      "test": "XSS Prevention",
+      "status": "FAILED",
+      "error": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  183 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js, **/*.test.js, **/*.spec.js - 7 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 183 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\\\security\\\\xss - 0 matches\n"
+    }
+  ],
+  "recommendations": [
+    "Fix failing tests in Controllers",
+    "Fix failing tests in Services",
+    "Fix failing tests in Models",
+    "Fix failing tests in Middleware",
+    "Fix failing tests in Utils",
+    "Fix failing integration tests in API Endpoints",
+    "Fix failing integration tests in WhatsApp Integration",
+    "Fix failing integration tests in Database Integration",
+    "Fix performance issues in Load Testing",
+    "Fix performance issues in Memory Usage",
+    "Fix security vulnerabilities in Authentication",
+    "Fix security vulnerabilities in Authorization",
+    "Fix security vulnerabilities in Input Validation",
+    "Fix security vulnerabilities in SQL Injection",
+    "Fix security vulnerabilities in XSS Prevention"
+  ]
+}

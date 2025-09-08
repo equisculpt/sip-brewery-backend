@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mug body -->
+  <rect x="20" y="30" width="40" height="50" rx="5" ry="5" fill="white" stroke="#1e40af" stroke-width="3"/>
+  
+  <!-- Mug handle -->
+  <path d="M 60 40 Q 75 40 75 55 Q 75 70 60 70" fill="none" stroke="#1e40af" stroke-width="3"/>
+  
+  <!-- Coffee/liquid inside -->
+  <rect x="25" y="35" width="30" height="20" rx="2" ry="2" fill="#8B4513" opacity="0.7"/>
+  
+  <!-- Steam lines -->
+  <path d="M 30 25 Q 32 20 30 15" fill="none" stroke="#1e40af" stroke-width="2" opacity="0.6"/>
+  <path d="M 40 25 Q 42 20 40 15" fill="none" stroke="#1e40af" stroke-width="2" opacity="0.6"/>
+  <path d="M 50 25 Q 52 20 50 15" fill="none" stroke="#1e40af" stroke-width="2" opacity="0.6"/>
+</svg>

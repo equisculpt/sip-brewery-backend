@@ -1,0 +1,1732 @@
+[
+  {
+    "name": "SBI Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.sbimf.com"
+  },
+  {
+    "name": "HDFC Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.hdfcfund.com"
+  },
+  {
+    "name": "ICICI Prudential MF",
+    "type": "AMC",
+    "url": "https://www.icicipruamc.com"
+  },
+  {
+    "name": "Nippon India MF",
+    "type": "AMC",
+    "url": "https://www.nipponindiamf.com"
+  },
+  {
+    "name": "Aditya Birla Sun Life MF",
+    "type": "AMC",
+    "url": "https://mutualfund.adityabirlacapital.com"
+  },
+  {
+    "name": "Kotak Mahindra MF",
+    "type": "AMC",
+    "url": "https://www.kotakmf.com"
+  },
+  {
+    "name": "Axis Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.axismf.com"
+  },
+  {
+    "name": "UTI Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.utimf.com"
+  },
+  {
+    "name": "DSP Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.dspim.com"
+  },
+  {
+    "name": "Franklin Templeton India",
+    "type": "AMC",
+    "url": "https://www.franklintempletonindia.com"
+  },
+  {
+    "name": "Mirae Asset MF",
+    "type": "AMC",
+    "url": "https://www.miraeassetmf.co.in"
+  },
+  {
+    "name": "Canara Robeco MF",
+    "type": "AMC",
+    "url": "https://www.canararobeco.com"
+  },
+  {
+    "name": "Tata Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.tatamutualfund.com"
+  },
+  {
+    "name": "Edelweiss MF",
+    "type": "AMC",
+    "url": "https://www.edelweissmf.com"
+  },
+  {
+    "name": "HSBC Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.assetmanagement.hsbc.co.in"
+  },
+  {
+    "name": "Baroda BNP Paribas MF",
+    "type": "AMC",
+    "url": "https://www.barodabnpparibasmf.in"
+  },
+  {
+    "name": "Bandhan Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.bandhanmutual.com"
+  },
+  {
+    "name": "Motilal Oswal MF",
+    "type": "AMC",
+    "url": "https://www.motilaloswalmf.com"
+  },
+  {
+    "name": "PPFAS MF",
+    "type": "AMC",
+    "url": "https://www.ppfas.com"
+  },
+  {
+    "name": "Sundaram MF",
+    "type": "AMC",
+    "url": "https://www.sundarammutual.com"
+  },
+  {
+    "name": "Union Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.unionmf.com"
+  },
+  {
+    "name": "Invesco MF",
+    "type": "AMC",
+    "url": "https://www.invescomutualfund.com"
+  },
+  {
+    "name": "Quant MF",
+    "type": "AMC",
+    "url": "https://www.quantmutual.com"
+  },
+  {
+    "name": "JM Financial MF",
+    "type": "AMC",
+    "url": "https://www.jmfinancialmf.com"
+  },
+  {
+    "name": "IDBI MF",
+    "type": "AMC",
+    "url": "https://www.idbimutual.co.in"
+  },
+  {
+    "name": "LIC MF",
+    "type": "AMC",
+    "url": "https://www.licmf.com"
+  },
+  {
+    "name": "Navi Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.navimutualfund.com"
+  },
+  {
+    "name": "IIFL MF",
+    "type": "AMC",
+    "url": "https://www.iiflmf.com"
+  },
+  {
+    "name": "Quantum MF",
+    "type": "AMC",
+    "url": "https://www.quantumamc.com"
+  },
+  {
+    "name": "Mahindra Manulife MF",
+    "type": "AMC",
+    "url": "https://www.mahindramanulife.com"
+  },
+  {
+    "name": "NJ Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.njmutualfund.com"
+  },
+  {
+    "name": "PGIM India MF",
+    "type": "AMC",
+    "url": "https://www.pgimindiamf.com"
+  },
+  {
+    "name": "Shriram MF",
+    "type": "AMC",
+    "url": "https://www.shrirammf.com"
+  },
+  {
+    "name": "Trust MF",
+    "type": "AMC",
+    "url": "https://www.trustmf.com"
+  },
+  {
+    "name": "Navi AMC",
+    "type": "AMC",
+    "url": "https://www.navimutualfund.com"
+  },
+  {
+    "name": "SEBI",
+    "type": "Regulatory",
+    "url": "https://www.sebi.gov.in"
+  },
+  {
+    "name": "RBI",
+    "type": "Regulatory",
+    "url": "https://www.rbi.org.in"
+  },
+  {
+    "name": "AMFI",
+    "type": "Regulatory",
+    "url": "https://www.amfiindia.com"
+  },
+  {
+    "name": "NSE India",
+    "type": "Exchange",
+    "url": "https://www.nseindia.com"
+  },
+  {
+    "name": "BSE India",
+    "type": "Exchange",
+    "url": "https://www.bseindia.com"
+  },
+  {
+    "name": "MCX",
+    "type": "Exchange",
+    "url": "https://www.mcxindia.com"
+  },
+  {
+    "name": "NCDEX",
+    "type": "Exchange",
+    "url": "https://www.ncdex.com"
+  },
+  {
+    "name": "CDSL",
+    "type": "Depository",
+    "url": "https://www.cdslindia.com"
+  },
+  {
+    "name": "NSDL",
+    "type": "Depository",
+    "url": "https://www.nsdl.co.in"
+  },
+  {
+    "name": "Zerodha",
+    "type": "Broker",
+    "url": "https://www.zerodha.com"
+  },
+  {
+    "name": "Groww",
+    "type": "Broker",
+    "url": "https://www.groww.in"
+  },
+  {
+    "name": "Upstox",
+    "type": "Broker",
+    "url": "https://www.upstox.com"
+  },
+  {
+    "name": "Paytm Money",
+    "type": "Broker",
+    "url": "https://www.paytmmoney.com"
+  },
+  {
+    "name": "Angel One",
+    "type": "Broker",
+    "url": "https://www.angelone.in"
+  },
+  {
+    "name": "5Paisa",
+    "type": "Broker",
+    "url": "https://www.5paisa.com"
+  },
+  {
+    "name": "ICICI Direct",
+    "type": "Broker",
+    "url": "https://www.icicidirect.com"
+  },
+  {
+    "name": "HDFC Securities",
+    "type": "Broker",
+    "url": "https://www.hdfcsec.com"
+  },
+  {
+    "name": "Kotak Securities",
+    "type": "Broker",
+    "url": "https://www.kotaksecurities.com"
+  },
+  {
+    "name": "Axis Direct",
+    "type": "Broker",
+    "url": "https://www.axisdirect.in"
+  },
+  {
+    "name": "Motilal Oswal",
+    "type": "Broker",
+    "url": "https://www.motilaloswal.com"
+  },
+  {
+    "name": "Sharekhan",
+    "type": "Broker",
+    "url": "https://www.sharekhan.com"
+  },
+  {
+    "name": "Edelweiss",
+    "type": "Broker",
+    "url": "https://www.edelweiss.in"
+  },
+  {
+    "name": "Alice Blue",
+    "type": "Broker",
+    "url": "https://www.aliceblueonline.com"
+  },
+  {
+    "name": "Fyers",
+    "type": "Broker",
+    "url": "https://www.fyers.in"
+  },
+  {
+    "name": "Samco",
+    "type": "Broker",
+    "url": "https://www.samco.in"
+  },
+  {
+    "name": "Dhan",
+    "type": "Broker",
+    "url": "https://www.dhan.co"
+  },
+  {
+    "name": "Stoxkart",
+    "type": "Broker",
+    "url": "https://www.stoxkart.com"
+  },
+  {
+    "name": "ProStocks",
+    "type": "Broker",
+    "url": "https://www.prostocks.com"
+  },
+  {
+    "name": "Ventura",
+    "type": "Broker",
+    "url": "https://www.ventura1.com"
+  },
+  {
+    "name": "Moneycontrol",
+    "type": "Financial News",
+    "url": "https://www.moneycontrol.com"
+  },
+  {
+    "name": "Economic Times",
+    "type": "Financial News",
+    "url": "https://economictimes.indiatimes.com"
+  },
+  {
+    "name": "Livemint",
+    "type": "Financial News",
+    "url": "https://www.livemint.com"
+  },
+  {
+    "name": "Bloomberg Quint",
+    "type": "Financial News",
+    "url": "https://www.bqprime.com"
+  },
+  {
+    "name": "Financial Express",
+    "type": "Financial News",
+    "url": "https://www.financialexpress.com"
+  },
+  {
+    "name": "Business Standard",
+    "type": "Financial News",
+    "url": "https://www.business-standard.com"
+  },
+  {
+    "name": "CNBC TV18",
+    "type": "Financial News",
+    "url": "https://www.cnbctv18.com"
+  },
+  {
+    "name": "Reuters India",
+    "type": "Financial News",
+    "url": "https://in.reuters.com"
+  },
+  {
+    "name": "Investing.com India",
+    "type": "Financial Data",
+    "url": "https://in.investing.com"
+  },
+  {
+    "name": "MarketMojo",
+    "type": "Analytics",
+    "url": "https://www.marketsmojo.com"
+  },
+  {
+    "name": "Screener",
+    "type": "Analytics",
+    "url": "https://www.screener.in"
+  },
+  {
+    "name": "Value Research",
+    "type": "Analytics",
+    "url": "https://www.valueresearchonline.com"
+  },
+  {
+    "name": "Morningstar India",
+    "type": "Analytics",
+    "url": "https://www.morningstar.in"
+  },
+  {
+    "name": "Trendlyne",
+    "type": "Analytics",
+    "url": "https://www.trendlyne.com"
+  },
+  {
+    "name": "Tickertape",
+    "type": "Analytics",
+    "url": "https://www.tickertape.in"
+  },
+  {
+    "name": "Smallcase",
+    "type": "Investment Platform",
+    "url": "https://www.smallcase.com"
+  },
+  {
+    "name": "Kuvera",
+    "type": "Investment Platform",
+    "url": "https://www.kuvera.in"
+  },
+  {
+    "name": "Goalwise",
+    "type": "Investment Platform",
+    "url": "https://www.goalwise.com"
+  },
+  {
+    "name": "INDmoney",
+    "type": "Investment Platform",
+    "url": "https://www.indmoney.com"
+  },
+  {
+    "name": "Niyo Money",
+    "type": "Investment Platform",
+    "url": "https://www.niyomoney.com"
+  },
+  {
+    "name": "Fisdom",
+    "type": "Investment Platform",
+    "url": "https://www.fisdom.com"
+  },
+  {
+    "name": "Growpital",
+    "type": "Agri Investment",
+    "url": "https://www.growpital.com"
+  },
+  {
+    "name": "Grip Invest",
+    "type": "Alternative Investment",
+    "url": "https://www.gripinvest.in"
+  },
+  {
+    "name": "GoldenPi",
+    "type": "Bonds",
+    "url": "https://www.goldenpi.com"
+  },
+  {
+    "name": "BondsIndia",
+    "type": "Bonds",
+    "url": "https://www.bondsindia.com"
+  },
+  {
+    "name": "RBI Retail Direct",
+    "type": "Bonds",
+    "url": "https://www.rbiretaildirect.org.in"
+  },
+  {
+    "name": "NSE NMF II",
+    "type": "Mutual Fund Platform",
+    "url": "https://www.nsenmf.com"
+  },
+  {
+    "name": "BSE Star MF",
+    "type": "Mutual Fund Platform",
+    "url": "https://www.bsestarmf.in"
+  },
+  {
+    "name": "CAMS Online",
+    "type": "RTA",
+    "url": "https://www.camsonline.com"
+  },
+  {
+    "name": "KFintech",
+    "type": "RTA",
+    "url": "https://www.kfintech.com"
+  },
+  {
+    "name": "MF Utilities",
+    "type": "Mutual Fund Platform",
+    "url": "https://www.mfuindia.com"
+  },
+  {
+    "name": "NISM",
+    "type": "Education",
+    "url": "https://www.nism.ac.in"
+  },
+  {
+    "name": "NSE Academy",
+    "type": "Education",
+    "url": "https://www.nseindia.com/education"
+  },
+  {
+    "name": "BSE Institute",
+    "type": "Education",
+    "url": "https://www.bsebti.com"
+  },
+  {
+    "name": "Zerodha Varsity",
+    "type": "Education",
+    "url": "https://zerodha.com/varsity"
+  },
+  {
+    "name": "Elearnmarkets",
+    "type": "Education",
+    "url": "https://www.elearnmarkets.com"
+  },
+  {
+    "name": "CFA Institute",
+    "type": "Education",
+    "url": "https://www.cfainstitute.org"
+  },
+  {
+    "name": "CAIA Association",
+    "type": "Education",
+    "url": "https://www.caia.org"
+  },
+  {
+    "name": "Coursera Finance",
+    "type": "Education",
+    "url": "https://www.coursera.org"
+  },
+  {
+    "name": "Udemy Finance",
+    "type": "Education",
+    "url": "https://www.udemy.com"
+  },
+  {
+    "name": "Khan Academy",
+    "type": "Education",
+    "url": "https://www.khanacademy.org"
+  },
+  {
+    "name": "Investopedia",
+    "type": "Education",
+    "url": "https://www.investopedia.com"
+  },
+  {
+    "name": "Moneylife Foundation",
+    "type": "Education",
+    "url": "https://www.moneylife.in"
+  },
+  {
+    "name": "ET Markets",
+    "type": "News",
+    "url": "https://economictimes.indiatimes.com/markets"
+  },
+  {
+    "name": "Bloomberg",
+    "type": "Global Finance",
+    "url": "https://www.bloomberg.com"
+  },
+  {
+    "name": "Reuters",
+    "type": "Global Finance",
+    "url": "https://www.reuters.com"
+  },
+  {
+    "name": "WSJ",
+    "type": "Global Finance",
+    "url": "https://www.wsj.com"
+  },
+  {
+    "name": "FT",
+    "type": "Global Finance",
+    "url": "https://www.ft.com"
+  },
+  {
+    "name": "MarketWatch",
+    "type": "Global Finance",
+    "url": "https://www.marketwatch.com"
+  },
+  {
+    "name": "Yahoo Finance",
+    "type": "Global Finance",
+    "url": "https://finance.yahoo.com"
+  },
+  {
+    "name": "Nasdaq",
+    "type": "Exchange",
+    "url": "https://www.nasdaq.com"
+  },
+  {
+    "name": "NYSE",
+    "type": "Exchange",
+    "url": "https://www.nyse.com"
+  },
+  {
+    "name": "LSE",
+    "type": "Exchange",
+    "url": "https://www.londonstockexchange.com"
+  },
+  {
+    "name": "JPX",
+    "type": "Exchange",
+    "url": "https://www.jpx.co.jp"
+  },
+  {
+    "name": "HKEX",
+    "type": "Exchange",
+    "url": "https://www.hkex.com.hk"
+  },
+  {
+    "name": "SGX",
+    "type": "Exchange",
+    "url": "https://www.sgx.com"
+  },
+  {
+    "name": "BlackRock",
+    "type": "AMC",
+    "url": "https://www.blackrock.com"
+  },
+  {
+    "name": "Vanguard",
+    "type": "AMC",
+    "url": "https://www.vanguard.com"
+  },
+  {
+    "name": "Fidelity Investments",
+    "type": "AMC",
+    "url": "https://www.fidelity.com"
+  },
+  {
+    "name": "State Street Global Advisors",
+    "type": "AMC",
+    "url": "https://www.ssga.com"
+  },
+  {
+    "name": "JP Morgan Asset Management",
+    "type": "AMC",
+    "url": "https://am.jpmorgan.com"
+  },
+  {
+    "name": "Goldman Sachs Asset Management",
+    "type": "AMC",
+    "url": "https://www.gsam.com"
+  },
+  {
+    "name": "Morgan Stanley Investment Management",
+    "type": "AMC",
+    "url": "https://www.morganstanley.com/im"
+  },
+  {
+    "name": "PIMCO",
+    "type": "AMC",
+    "url": "https://www.pimco.com"
+  },
+  {
+    "name": "T. Rowe Price",
+    "type": "AMC",
+    "url": "https://www.troweprice.com"
+  },
+  {
+    "name": "Invesco",
+    "type": "AMC",
+    "url": "https://www.invesco.com"
+  },
+  {
+    "name": "Franklin Templeton Global",
+    "type": "AMC",
+    "url": "https://www.franklintempleton.com"
+  },
+  {
+    "name": "Amundi",
+    "type": "AMC",
+    "url": "https://www.amundi.com"
+  },
+  {
+    "name": "Schroders",
+    "type": "AMC",
+    "url": "https://www.schroders.com"
+  },
+  {
+    "name": "UBS Asset Management",
+    "type": "AMC",
+    "url": "https://www.ubs.com/assetmanagement"
+  },
+  {
+    "name": "Allianz Global Investors",
+    "type": "AMC",
+    "url": "https://www.allianzgi.com"
+  },
+  {
+    "name": "Northern Trust",
+    "type": "AMC",
+    "url": "https://www.northerntrust.com"
+  },
+  {
+    "name": "Wellington Management",
+    "type": "AMC",
+    "url": "https://www.wellington.com"
+  },
+  {
+    "name": "Legg Mason",
+    "type": "AMC",
+    "url": "https://www.leggmason.com"
+  },
+  {
+    "name": "AXA Investment Managers",
+    "type": "AMC",
+    "url": "https://www.axa-im.com"
+  },
+  {
+    "name": "Aberdeen Standard Investments",
+    "type": "AMC",
+    "url": "https://www.aberdeenstandard.com"
+  },
+  {
+    "name": "Bridgewater Associates",
+    "type": "Hedge Fund",
+    "url": "https://www.bridgewater.com"
+  },
+  {
+    "name": "Renaissance Technologies",
+    "type": "Hedge Fund",
+    "url": "https://www.rentec.com"
+  },
+  {
+    "name": "AQR Capital Management",
+    "type": "Hedge Fund",
+    "url": "https://www.aqr.com"
+  },
+  {
+    "name": "Citadel",
+    "type": "Hedge Fund",
+    "url": "https://www.citadel.com"
+  },
+  {
+    "name": "Two Sigma",
+    "type": "Hedge Fund",
+    "url": "https://www.twosigma.com"
+  },
+  {
+    "name": "Millennium Management",
+    "type": "Hedge Fund",
+    "url": "https://www.mlp.com"
+  },
+  {
+    "name": "Man Group",
+    "type": "Hedge Fund",
+    "url": "https://www.man.com"
+  },
+  {
+    "name": "DE Shaw & Co",
+    "type": "Hedge Fund",
+    "url": "https://www.deshaw.com"
+  },
+  {
+    "name": "Point72 Asset Management",
+    "type": "Hedge Fund",
+    "url": "https://www.point72.com"
+  },
+  {
+    "name": "Elliott Management",
+    "type": "Hedge Fund",
+    "url": "https://www.elliottmgmt.com"
+  },
+  {
+    "name": "Blackstone Alternative Asset Management",
+    "type": "Hedge Fund",
+    "url": "https://www.blackstone.com"
+  },
+  {
+    "name": "Davidson Kempner",
+    "type": "Hedge Fund",
+    "url": "https://www.davidsonkempner.com"
+  },
+  {
+    "name": "BlueMountain Capital",
+    "type": "Hedge Fund",
+    "url": "https://www.bluemountaincapital.com"
+  },
+  {
+    "name": "Pershing Square Capital",
+    "type": "Hedge Fund",
+    "url": "https://www.pershingsquareholdings.com"
+  },
+  {
+    "name": "Baupost Group",
+    "type": "Hedge Fund",
+    "url": "https://www.baupost.com"
+  },
+  {
+    "name": "York Capital Management",
+    "type": "Hedge Fund",
+    "url": "https://www.yorkcapital.com"
+  },
+  {
+    "name": "Third Point LLC",
+    "type": "Hedge Fund",
+    "url": "https://thirdpoint.com"
+  },
+  {
+    "name": "Lone Pine Capital",
+    "type": "Hedge Fund",
+    "url": "https://www.lonepinecapital.com"
+  },
+  {
+    "name": "Viking Global Investors",
+    "type": "Hedge Fund",
+    "url": "https://www.vikingglobal.com"
+  },
+  {
+    "name": "Och-Ziff Capital",
+    "type": "Hedge Fund",
+    "url": "https://ozm.com"
+  },
+  {
+    "name": "Goldman Sachs",
+    "type": "Investment Bank",
+    "url": "https://www.goldmansachs.com"
+  },
+  {
+    "name": "Morgan Stanley",
+    "type": "Investment Bank",
+    "url": "https://www.morganstanley.com"
+  },
+  {
+    "name": "JPMorgan Chase",
+    "type": "Investment Bank",
+    "url": "https://www.jpmorganchase.com"
+  },
+  {
+    "name": "Bank of America Merrill Lynch",
+    "type": "Investment Bank",
+    "url": "https://www.bofaml.com"
+  },
+  {
+    "name": "Citigroup",
+    "type": "Investment Bank",
+    "url": "https://www.citigroup.com"
+  },
+  {
+    "name": "Barclays Capital",
+    "type": "Investment Bank",
+    "url": "https://www.barclays.com"
+  },
+  {
+    "name": "Credit Suisse",
+    "type": "Investment Bank",
+    "url": "https://www.credit-suisse.com"
+  },
+  {
+    "name": "Deutsche Bank",
+    "type": "Investment Bank",
+    "url": "https://www.db.com"
+  },
+  {
+    "name": "UBS",
+    "type": "Investment Bank",
+    "url": "https://www.ubs.com"
+  },
+  {
+    "name": "HSBC Global Banking",
+    "type": "Investment Bank",
+    "url": "https://www.hsbc.com"
+  },
+  {
+    "name": "CME Group",
+    "type": "Exchange",
+    "url": "https://www.cmegroup.com"
+  },
+  {
+    "name": "ICE (Intercontinental Exchange)",
+    "type": "Exchange",
+    "url": "https://www.theice.com"
+  },
+  {
+    "name": "Eurex",
+    "type": "Exchange",
+    "url": "https://www.eurex.com"
+  },
+  {
+    "name": "CBOE",
+    "type": "Exchange",
+    "url": "https://www.cboe.com"
+  },
+  {
+    "name": "LME (London Metal Exchange)",
+    "type": "Exchange",
+    "url": "https://www.lme.com"
+  },
+  {
+    "name": "TMX Group",
+    "type": "Exchange",
+    "url": "https://www.tmx.com"
+  },
+  {
+    "name": "ASX",
+    "type": "Exchange",
+    "url": "https://www.asx.com.au"
+  },
+  {
+    "name": "Johannesburg Stock Exchange",
+    "type": "Exchange",
+    "url": "https://www.jse.co.za"
+  },
+  {
+    "name": "Borsa Italiana",
+    "type": "Exchange",
+    "url": "https://www.borsaitaliana.it"
+  },
+  {
+    "name": "Bolsa Mexicana de Valores",
+    "type": "Exchange",
+    "url": "https://www.bmv.com.mx"
+  },
+  {
+    "name": "Bloomberg Terminal",
+    "type": "Analytics",
+    "url": "https://www.bloomberg.com/professional"
+  },
+  {
+    "name": "Refinitiv Eikon",
+    "type": "Analytics",
+    "url": "https://www.refinitiv.com/en/products/eikon-trading-software"
+  },
+  {
+    "name": "FactSet",
+    "type": "Analytics",
+    "url": "https://www.factset.com"
+  },
+  {
+    "name": "S&P Global Market Intelligence",
+    "type": "Analytics",
+    "url": "https://www.spglobal.com"
+  },
+  {
+    "name": "Morningstar Direct",
+    "type": "Analytics",
+    "url": "https://www.morningstar.com/products/direct"
+  },
+  {
+    "name": "Capital IQ",
+    "type": "Analytics",
+    "url": "https://www.capitaliq.com"
+  },
+  {
+    "name": "AlphaSense",
+    "type": "Research",
+    "url": "https://www.alpha-sense.com"
+  },
+  {
+    "name": "PitchBook",
+    "type": "Private Markets",
+    "url": "https://pitchbook.com"
+  },
+  {
+    "name": "CB Insights",
+    "type": "Analytics",
+    "url": "https://www.cbinsights.com"
+  },
+  {
+    "name": "PrivCo",
+    "type": "Analytics",
+    "url": "https://www.privco.com"
+  },
+  {
+    "name": "Blackstone",
+    "type": "Private Equity",
+    "url": "https://www.blackstone.com"
+  },
+  {
+    "name": "KKR",
+    "type": "Private Equity",
+    "url": "https://www.kkr.com"
+  },
+  {
+    "name": "Carlyle Group",
+    "type": "Private Equity",
+    "url": "https://www.carlyle.com"
+  },
+  {
+    "name": "Apollo Global Management",
+    "type": "Private Equity",
+    "url": "https://www.apollo.com"
+  },
+  {
+    "name": "TPG Capital",
+    "type": "Private Equity",
+    "url": "https://www.tpg.com"
+  },
+  {
+    "name": "Bain Capital",
+    "type": "Private Equity",
+    "url": "https://www.baincapital.com"
+  },
+  {
+    "name": "Warburg Pincus",
+    "type": "Private Equity",
+    "url": "https://www.warburgpincus.com"
+  },
+  {
+    "name": "Hellman & Friedman",
+    "type": "Private Equity",
+    "url": "https://www.hf.com"
+  },
+  {
+    "name": "EQT Partners",
+    "type": "Private Equity",
+    "url": "https://www.eqtgroup.com"
+  },
+  {
+    "name": "Permira",
+    "type": "Private Equity",
+    "url": "https://www.permira.com"
+  },
+  {
+    "name": "CFP Board",
+    "type": "Certification",
+    "url": "https://www.cfp.net"
+  },
+  {
+    "name": "FINRA",
+    "type": "Education",
+    "url": "https://www.finra.org"
+  },
+  {
+    "name": "edX Finance",
+    "type": "MOOC",
+    "url": "https://www.edx.org"
+  },
+  {
+    "name": "Khan Academy Finance",
+    "type": "MOOC",
+    "url": "https://www.khanacademy.org"
+  },
+  {
+    "name": "NISM India",
+    "type": "Certification",
+    "url": "https://www.nism.ac.in"
+  },
+  {
+    "name": "Value Research Online",
+    "type": "Blog",
+    "url": "https://www.valueresearchonline.com"
+  },
+  {
+    "name": "Moneylife",
+    "type": "Blog",
+    "url": "https://www.moneylife.in"
+  },
+  {
+    "name": "BasuNivesh",
+    "type": "Blog",
+    "url": "https://www.basunivesh.com"
+  },
+  {
+    "name": "JagoInvestor",
+    "type": "Blog",
+    "url": "https://www.jagoinvestor.com"
+  },
+  {
+    "name": "Freefincal",
+    "type": "Blog",
+    "url": "https://www.freefincal.com"
+  },
+  {
+    "name": "Capitalmind",
+    "type": "Blog",
+    "url": "https://www.capitalmind.in"
+  },
+  {
+    "name": "Safal Niveshak",
+    "type": "Blog",
+    "url": "https://www.safalniveshak.com"
+  },
+  {
+    "name": "Subramoney",
+    "type": "Blog",
+    "url": "https://www.subramoney.com"
+  },
+  {
+    "name": "Stable Investor",
+    "type": "Blog",
+    "url": "https://www.stableinvestor.com"
+  },
+  {
+    "name": "Life Insurance Corporation of India (LIC)",
+    "type": "Insurance",
+    "url": "https://www.licindia.in"
+  },
+  {
+    "name": "HDFC Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.hdfclife.com"
+  },
+  {
+    "name": "ICICI Prudential Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.iciciprulife.com"
+  },
+  {
+    "name": "SBI Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.sbilife.co.in"
+  },
+  {
+    "name": "Max Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.maxlifeinsurance.com"
+  },
+  {
+    "name": "Aditya Birla Sun Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.adityabirlasunlifeinsurance.com"
+  },
+  {
+    "name": "Bajaj Allianz Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.bajajallianzlife.com"
+  },
+  {
+    "name": "Kotak Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.kotaklife.com"
+  },
+  {
+    "name": "Tata AIA Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.tataaia.com"
+  },
+  {
+    "name": "PNB MetLife",
+    "type": "Insurance",
+    "url": "https://www.pnbmetlife.com"
+  },
+  {
+    "name": "Reliance Nippon Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.reliancenipponlife.com"
+  },
+  {
+    "name": "Exide Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.exidelife.in"
+  },
+  {
+    "name": "Edelweiss Tokio Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.edelweisstokio.in"
+  },
+  {
+    "name": "Star Health Insurance",
+    "type": "Health Insurance",
+    "url": "https://www.starhealth.in"
+  },
+  {
+    "name": "HDFC ERGO",
+    "type": "General Insurance",
+    "url": "https://www.hdfcergo.com"
+  },
+  {
+    "name": "ICICI Lombard",
+    "type": "General Insurance",
+    "url": "https://www.icicilombard.com"
+  },
+  {
+    "name": "Bajaj Allianz General Insurance",
+    "type": "General Insurance",
+    "url": "https://www.bajajallianz.com"
+  },
+  {
+    "name": "New India Assurance",
+    "type": "General Insurance",
+    "url": "https://www.newindia.co.in"
+  },
+  {
+    "name": "Oriental Insurance",
+    "type": "General Insurance",
+    "url": "https://orientalinsurance.org.in"
+  },
+  {
+    "name": "United India Insurance",
+    "type": "General Insurance",
+    "url": "https://uiic.co.in"
+  },
+  {
+    "name": "National Insurance",
+    "type": "General Insurance",
+    "url": "https://nationalinsurance.nic.co.in"
+  },
+  {
+    "name": "IFFCO Tokio",
+    "type": "General Insurance",
+    "url": "https://www.iffcotokio.co.in"
+  },
+  {
+    "name": "Go Digit General Insurance",
+    "type": "General Insurance",
+    "url": "https://www.godigit.com"
+  },
+  {
+    "name": "ACKO General Insurance",
+    "type": "General Insurance",
+    "url": "https://www.acko.com"
+  },
+  {
+    "name": "Policybazaar",
+    "type": "Fintech",
+    "url": "https://www.policybazaar.com"
+  },
+  {
+    "name": "Paytm",
+    "type": "Fintech",
+    "url": "https://www.paytm.com"
+  },
+  {
+    "name": "PhonePe",
+    "type": "Fintech",
+    "url": "https://www.phonepe.com"
+  },
+  {
+    "name": "Google Pay India",
+    "type": "Fintech",
+    "url": "https://pay.google.com/intl/en_in/about/"
+  },
+  {
+    "name": "Razorpay",
+    "type": "Fintech",
+    "url": "https://razorpay.com"
+  },
+  {
+    "name": "Pine Labs",
+    "type": "Fintech",
+    "url": "https://www.pinelabs.com"
+  },
+  {
+    "name": "MobiKwik",
+    "type": "Fintech",
+    "url": "https://www.mobikwik.com"
+  },
+  {
+    "name": "CRED",
+    "type": "Fintech",
+    "url": "https://www.cred.club"
+  },
+  {
+    "name": "BharatPe",
+    "type": "Fintech",
+    "url": "https://bharatpe.com"
+  },
+  {
+    "name": "Freecharge",
+    "type": "Fintech",
+    "url": "https://www.freecharge.in"
+  },
+  {
+    "name": "Groww",
+    "type": "Fintech",
+    "url": "https://groww.in"
+  },
+  {
+    "name": "Zerodha",
+    "type": "Fintech",
+    "url": "https://zerodha.com"
+  },
+  {
+    "name": "Upstox",
+    "type": "Fintech",
+    "url": "https://upstox.com"
+  },
+  {
+    "name": "ET Money",
+    "type": "Fintech",
+    "url": "https://www.etmoney.com"
+  },
+  {
+    "name": "INDmoney",
+    "type": "Fintech",
+    "url": "https://indmoney.com"
+  },
+  {
+    "name": "Niyo",
+    "type": "Fintech",
+    "url": "https://www.goniyo.com"
+  },
+  {
+    "name": "Fi Money",
+    "type": "Neobank",
+    "url": "https://fi.money"
+  },
+  {
+    "name": "Jupiter",
+    "type": "Neobank",
+    "url": "https://jupiter.money"
+  },
+  {
+    "name": "Open",
+    "type": "Neobank",
+    "url": "https://www.open.money"
+  },
+  {
+    "name": "InstantPay",
+    "type": "Neobank",
+    "url": "https://www.instantpay.in"
+  },
+  {
+    "name": "Kotak 811",
+    "type": "Neobank",
+    "url": "https://www.kotak.com/811"
+  },
+  {
+    "name": "Payzapp",
+    "type": "Fintech",
+    "url": "https://www.payzapp.com"
+  },
+  {
+    "name": "Slice",
+    "type": "Fintech",
+    "url": "https://www.sliceit.com"
+  },
+  {
+    "name": "Ola Money",
+    "type": "Fintech",
+    "url": "https://www.olamoney.com"
+  },
+  {
+    "name": "Flexiloans",
+    "type": "Fintech",
+    "url": "https://www.flexiloans.com"
+  },
+  {
+    "name": "Lendingkart",
+    "type": "Fintech",
+    "url": "https://www.lendingkart.com"
+  },
+  {
+    "name": "KreditBee",
+    "type": "Fintech",
+    "url": "https://www.kreditbee.in"
+  },
+  {
+    "name": "MoneyTap",
+    "type": "Fintech",
+    "url": "https://www.moneytap.com"
+  },
+  {
+    "name": "CASHe",
+    "type": "Fintech",
+    "url": "https://www.cashe.co.in"
+  },
+  {
+    "name": "Faircent",
+    "type": "Fintech",
+    "url": "https://www.faircent.com"
+  },
+  {
+    "name": "Rupeek",
+    "type": "Fintech",
+    "url": "https://www.rupeek.com"
+  },
+  {
+    "name": "ZestMoney",
+    "type": "Fintech",
+    "url": "https://www.zestmoney.in"
+  },
+  {
+    "name": "Money View",
+    "type": "Fintech",
+    "url": "https://moneyview.in"
+  },
+  {
+    "name": "Kissht",
+    "type": "Fintech",
+    "url": "https://www.kissht.com"
+  },
+  {
+    "name": "EarlySalary",
+    "type": "Fintech",
+    "url": "https://www.earlysalary.com"
+  },
+  {
+    "name": "Stashfin",
+    "type": "Fintech",
+    "url": "https://www.stashfin.com"
+  },
+  {
+    "name": "PaySense",
+    "type": "Fintech",
+    "url": "https://www.gopaysense.com"
+  },
+  {
+    "name": "Mobikwik Xtra",
+    "type": "Fintech",
+    "url": "https://xtra.mobikwik.com"
+  },
+  {
+    "name": "Creditas",
+    "type": "Fintech",
+    "url": "https://creditas.in"
+  },
+  {
+    "name": "Yubi",
+    "type": "Fintech",
+    "url": "https://www.go-yubi.com"
+  },
+  {
+    "name": "SMEcorner",
+    "type": "Fintech",
+    "url": "https://www.smecorner.com"
+  },
+  {
+    "name": "Capital Float",
+    "type": "Fintech",
+    "url": "https://www.capitalfloat.com"
+  },
+  {
+    "name": "RupeeRedee",
+    "type": "Fintech",
+    "url": "https://www.rupeeredee.com"
+  },
+  {
+    "name": "MoneyOnClick",
+    "type": "Fintech",
+    "url": "https://www.moneyonclick.com"
+  },
+  {
+    "name": "LoanTap",
+    "type": "Fintech",
+    "url": "https://www.loantap.in"
+  },
+  {
+    "name": "CashBean",
+    "type": "Fintech",
+    "url": "https://www.cashbean.in"
+  },
+  {
+    "name": "Paysense Partners",
+    "type": "Fintech",
+    "url": "https://partners.gopaysense.com"
+  },
+  {
+    "name": "Home Credit India",
+    "type": "Fintech",
+    "url": "https://www.homecredit.co.in"
+  },
+  {
+    "name": "Indiabulls Dhani",
+    "type": "Fintech",
+    "url": "https://www.dhani.com"
+  },
+  {
+    "name": "MoneyTap Partners",
+    "type": "Fintech",
+    "url": "https://partners.moneytap.com"
+  },
+  {
+    "name": "Navi",
+    "type": "Fintech",
+    "url": "https://navi.com"
+  },
+  {
+    "name": "Karvy",
+    "type": "RTA",
+    "url": "https://www.karvymfs.com"
+  },
+  {
+    "name": "Moneycontrol Mutual Funds",
+    "type": "Analytics",
+    "url": "https://www.moneycontrol.com/mutualfunds"
+  },
+  {
+    "name": "Value Research Mutual Funds",
+    "type": "Analytics",
+    "url": "https://www.valueresearchonline.com/mutual-funds"
+  },
+  {
+    "name": "Morningstar India Mutual Funds",
+    "type": "Analytics",
+    "url": "https://www.morningstar.in/mutualfunds"
+  },
+  {
+    "name": "Screener.in",
+    "type": "Analytics",
+    "url": "https://www.screener.in"
+  },
+  {
+    "name": "MarketsMojo",
+    "type": "Analytics",
+    "url": "https://www.marketsmojo.com"
+  },
+  {
+    "name": "Freefincal",
+    "type": "Education",
+    "url": "https://freefincal.com"
+  },
+  {
+    "name": "Finology Learn",
+    "type": "Education",
+    "url": "https://www.finology.in/academy"
+  },
+  {
+    "name": "Investing.com India Mutual Funds",
+    "type": "Analytics",
+    "url": "https://in.investing.com/mutual-funds/"
+  },
+  {
+    "name": "BSE Star MF Investor Education",
+    "type": "Education",
+    "url": "https://www.bsestarmf.in"
+  },
+  {
+    "name": "CAClubIndia Mutual Fund Learning",
+    "type": "Education",
+    "url": "https://www.caclubindia.com"
+  },
+  {
+    "name": "NSE NCFM Modules",
+    "type": "Certification",
+    "url": "https://www.nseindia.com/education/ncfm"
+  },
+  {
+    "name": "Ministry of Finance",
+    "type": "Government",
+    "url": "https://financialservices.gov.in"
+  },
+  {
+    "name": "Income Tax India",
+    "type": "Government",
+    "url": "https://www.incometax.gov.in"
+  },
+  {
+    "name": "PFRDA",
+    "type": "Regulatory",
+    "url": "https://www.pfrda.org.in"
+  },
+  {
+    "name": "IRDAI",
+    "type": "Regulatory",
+    "url": "https://www.irdai.gov.in"
+  },
+  {
+    "name": "SIDBI",
+    "type": "Government",
+    "url": "https://www.sidbi.in"
+  },
+  {
+    "name": "NABARD",
+    "type": "Government",
+    "url": "https://www.nabard.org"
+  },
+  {
+    "name": "FICCI",
+    "type": "Industry Association",
+    "url": "https://ficci.in"
+  },
+  {
+    "name": "CII",
+    "type": "Industry Association",
+    "url": "https://www.cii.in"
+  },
+  {
+    "name": "ASSOCHAM",
+    "type": "Industry Association",
+    "url": "https://www.assocham.org"
+  },
+  {
+    "name": "India FinTech Forum",
+    "type": "Industry Association",
+    "url": "https://www.indiafintech.com"
+  },
+  {
+    "name": "WealthTrust",
+    "type": "WealthTech",
+    "url": "https://www.wealthtrust.in"
+  },
+  {
+    "name": "Scripbox",
+    "type": "Robo-Advisory",
+    "url": "https://scripbox.com"
+  },
+  {
+    "name": "FundsIndia",
+    "type": "Robo-Advisory",
+    "url": "https://www.fundsindia.com"
+  },
+  {
+    "name": "Orowealth",
+    "type": "Robo-Advisory",
+    "url": "https://www.orowealth.com"
+  },
+  {
+    "name": "ClearTax Invest",
+    "type": "Robo-Advisory",
+    "url": "https://cleartax.in/invest"
+  },
+  {
+    "name": "Cube Wealth",
+    "type": "WealthTech",
+    "url": "https://www.cubewealth.com"
+  },
+  {
+    "name": "ET Prime",
+    "type": "Research",
+    "url": "https://prime.economictimes.indiatimes.com"
+  },
+  {
+    "name": "Economic Times Markets",
+    "type": "News",
+    "url": "https://economictimes.indiatimes.com/markets"
+  },
+  {
+    "name": "MintGenie",
+    "type": "WealthTech",
+    "url": "https://www.mintgenie.com"
+  },
+  {
+    "name": "MyCAMS",
+    "type": "WealthTech",
+    "url": "https://www.mycams.com"
+  },
+  {
+    "name": "Paisabazaar",
+    "type": "Aggregator",
+    "url": "https://www.paisabazaar.com"
+  },
+  {
+    "name": "BankBazaar",
+    "type": "Aggregator",
+    "url": "https://www.bankbazaar.com"
+  },
+  {
+    "name": "PolicyX",
+    "type": "Aggregator",
+    "url": "https://www.policyx.com"
+  },
+  {
+    "name": "Coverfox",
+    "type": "Aggregator",
+    "url": "https://www.coverfox.com"
+  },
+  {
+    "name": "InsuranceDekho",
+    "type": "Aggregator",
+    "url": "https://www.insurancedekho.com"
+  },
+  {
+    "name": "RenewBuy",
+    "type": "Aggregator",
+    "url": "https://www.renewbuy.com"
+  },
+  {
+    "name": "ComparePolicy",
+    "type": "Aggregator",
+    "url": "https://www.comparepolicy.com"
+  },
+  {
+    "name": "EasyPolicy",
+    "type": "Aggregator",
+    "url": "https://www.easypolicy.com"
+  },
+  {
+    "name": "ET Wealth",
+    "type": "News",
+    "url": "https://economictimes.indiatimes.com/wealth"
+  },
+  {
+    "name": "GoodReturns",
+    "type": "News",
+    "url": "https://www.goodreturns.in"
+  },
+  {
+    "name": "Money Today",
+    "type": "News",
+    "url": "https://www.businesstoday.in/money"
+  },
+  {
+    "name": "Money9",
+    "type": "News",
+    "url": "https://www.money9.com"
+  },
+  {
+    "name": "DNA Money",
+    "type": "News",
+    "url": "https://www.dnaindia.com/business"
+  },
+  {
+    "name": "Zee Business",
+    "type": "News",
+    "url": "https://www.zeebiz.com"
+  },
+  {
+    "name": "Mint",
+    "type": "News",
+    "url": "https://www.livemint.com"
+  },
+  {
+    "name": "Financial Chronicle",
+    "type": "News",
+    "url": "https://www.mydigitalfc.com"
+  },
+  {
+    "name": "Business Line",
+    "type": "News",
+    "url": "https://www.thehindubusinessline.com"
+  },
+  {
+    "name": "Outlook Money",
+    "type": "News",
+    "url": "https://www.outlookmoney.com"
+  },
+  {
+    "name": "MoneyWorks4me",
+    "type": "Analytics",
+    "url": "https://www.moneyworks4me.com"
+  },
+  {
+    "name": "Equitymaster",
+    "type": "Analytics",
+    "url": "https://www.equitymaster.com"
+  },
+  {
+    "name": "Research & Ranking",
+    "type": "Analytics",
+    "url": "https://www.researchandranking.com"
+  },
+  {
+    "name": "Marketsmith India",
+    "type": "Analytics",
+    "url": "https://marketsmithindia.com"
+  },
+  {
+    "name": "Dalal Street Investment Journal",
+    "type": "News",
+    "url": "https://www.dsij.in"
+  },
+  {
+    "name": "StockEdge",
+    "type": "Analytics",
+    "url": "https://www.stockedge.com"
+  },
+  {
+    "name": "TradingView India",
+    "type": "Analytics",
+    "url": "https://in.tradingview.com"
+  }
+]

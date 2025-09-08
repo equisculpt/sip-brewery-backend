@@ -1,0 +1,1082 @@
+{
+  "timestamp": "2025-07-15T04:46:59.784Z",
+  "totalModules": 107,
+  "passedModules": 1,
+  "failedModules": 106,
+  "passRate": "0.93",
+  "coverage": 0,
+  "moduleDetails": {
+    "basic-functionality.test.js": {
+      "category": "Basic Functionality",
+      "success": true,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": null,
+      "output": "  console.log\n    [dotenv@17.2.0] injecting env (20) from test.env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })\n\n      at _log (node_modules/dotenv/lib/main.js:136:11)\n\n  console.log\n    Starting MongoMemoryServer...\n\n      at Object.log (__tests__/setup.js:66:11)\n\n  console.log\n    MongoMemoryServer started at mongodb://127.0.0.1:36601/\n\n      at Object.log (__tests__/setup.js:70:11)\n\n  console.log\n    Connected to in-memory MongoDB\n\n      at Object.log (__tests__/setup.js:77:11)\n\n"
+    },
+    "whatsAppController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\whatsAppController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\whatsAppController.test.js - 0 matches\n"
+    },
+    "voiceBotController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\voiceBotController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\voiceBotController.test.js - 0 matches\n"
+    },
+    "tierOutreachController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\tierOutreachController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\tierOutreachController.test.js - 0 matches\n"
+    },
+    "socialInvestingController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\socialInvestingController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\socialInvestingController.test.js - 0 matches\n"
+    },
+    "smartSipController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\smartSipController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\smartSipController.test.js - 0 matches\n"
+    },
+    "roboAdvisorController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\roboAdvisorController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\roboAdvisorController.test.js - 0 matches\n"
+    },
+    "rewardsController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\rewardsController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\rewardsController.test.js - 0 matches\n"
+    },
+    "regionalLanguageController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\regionalLanguageController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\regionalLanguageController.test.js - 0 matches\n"
+    },
+    "pdfStatementController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\pdfStatementController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\pdfStatementController.test.js - 0 matches\n"
+    },
+    "ollamaController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\ollamaController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\ollamaController.test.js - 0 matches\n"
+    },
+    "marketAnalyticsController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\marketAnalyticsController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\marketAnalyticsController.test.js - 0 matches\n"
+    },
+    "learningController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\learningController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\learningController.test.js - 0 matches\n"
+    },
+    "leaderboardController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\leaderboardController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\leaderboardController.test.js - 0 matches\n"
+    },
+    "digioController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\digioController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\digioController.test.js - 0 matches\n"
+    },
+    "dashboardController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\dashboardController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\dashboardController.test.js - 0 matches\n"
+    },
+    "complianceController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\complianceController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\complianceController.test.js - 0 matches\n"
+    },
+    "bseStarMFController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\bseStarMFController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\bseStarMFController.test.js - 0 matches\n"
+    },
+    "benchmarkController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\benchmarkController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\benchmarkController.test.js - 0 matches\n"
+    },
+    "authController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\authController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\authController.test.js - 0 matches\n"
+    },
+    "analyticsController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\analyticsController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\analyticsController.test.js - 0 matches\n"
+    },
+    "aiPortfolioController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\aiPortfolioController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\aiPortfolioController.test.js - 0 matches\n"
+    },
+    "agiController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\agiController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\agiController.test.js - 0 matches\n"
+    },
+    "adminController.test.js": {
+      "category": "Controllers",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\controllers\\adminController.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\controllers\\adminController.test.js - 0 matches\n"
+    },
+    "whatsAppService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\whatsAppService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\whatsAppService.test.js - 0 matches\n"
+    },
+    "voiceBot.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\voiceBot.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\voiceBot.test.js - 0 matches\n"
+    },
+    "trainingDataService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\trainingDataService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\trainingDataService.test.js - 0 matches\n"
+    },
+    "tierOutreachService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\tierOutreachService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\tierOutreachService.test.js - 0 matches\n"
+    },
+    "taxOptimizationService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\taxOptimizationService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\taxOptimizationService.test.js - 0 matches\n"
+    },
+    "taxCalculationService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\taxCalculationService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\taxCalculationService.test.js - 0 matches\n"
+    },
+    "socialTradingService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\socialTradingService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\socialTradingService.test.js - 0 matches\n"
+    },
+    "socialInvestingService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\socialInvestingService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\socialInvestingService.test.js - 0 matches\n"
+    },
+    "smartSipService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\smartSipService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\smartSipService.test.js - 0 matches\n"
+    },
+    "scalabilityReliabilityService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\scalabilityReliabilityService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\scalabilityReliabilityService.test.js - 0 matches\n"
+    },
+    "roboAdvisor.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\roboAdvisor.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\roboAdvisor.test.js - 0 matches\n"
+    },
+    "riskProfilingService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\riskProfilingService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\riskProfilingService.test.js - 0 matches\n"
+    },
+    "rewardsService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\rewardsService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\rewardsService.test.js - 0 matches\n"
+    },
+    "regionalLanguageService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\regionalLanguageService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\regionalLanguageService.test.js - 0 matches\n"
+    },
+    "realTimeDataService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\realTimeDataService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\realTimeDataService.test.js - 0 matches\n"
+    },
+    "realNiftyDataService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\realNiftyDataService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\realNiftyDataService.test.js - 0 matches\n"
+    },
+    "ragService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\ragService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\ragService.test.js - 0 matches\n"
+    },
+    "quantumComputingService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\quantumComputingService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\quantumComputingService.test.js - 0 matches\n"
+    },
+    "predictiveEngine.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\predictiveEngine.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\predictiveEngine.test.js - 0 matches\n"
+    },
+    "portfolioOptimizer.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\portfolioOptimizer.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\portfolioOptimizer.test.js - 0 matches\n"
+    },
+    "portfolioAnalyticsService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\portfolioAnalyticsService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\portfolioAnalyticsService.test.js - 0 matches\n"
+    },
+    "pdfStatementService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\pdfStatementService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\pdfStatementService.test.js - 0 matches\n"
+    },
+    "ollamaService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\ollamaService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\ollamaService.test.js - 0 matches\n"
+    },
+    "nseService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\nseService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\nseService.test.js - 0 matches\n"
+    },
+    "navHistoryService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\navHistoryService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\navHistoryService.test.js - 0 matches\n"
+    },
+    "microservicesArchitectureService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\microservicesArchitectureService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\microservicesArchitectureService.test.js - 0 matches\n"
+    },
+    "marketScoreService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\marketScoreService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\marketScoreService.test.js - 0 matches\n"
+    },
+    "marketAnalyticsEngine.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\marketAnalyticsEngine.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\marketAnalyticsEngine.test.js - 0 matches\n"
+    },
+    "leaderboardService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\leaderboardService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\leaderboardService.test.js - 0 matches\n"
+    },
+    "leaderboardCronService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\leaderboardCronService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\leaderboardCronService.test.js - 0 matches\n"
+    },
+    "investmentCalculatorService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\investmentCalculatorService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\investmentCalculatorService.test.js - 0 matches\n"
+    },
+    "gamificationService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\gamificationService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\gamificationService.test.js - 0 matches\n"
+    },
+    "fundComparisonService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\fundComparisonService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\fundComparisonService.test.js - 0 matches\n"
+    },
+    "esgSustainableInvestingService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\esgSustainableInvestingService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\esgSustainableInvestingService.test.js - 0 matches\n"
+    },
+    "digioService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\digioService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\digioService.test.js - 0 matches\n"
+    },
+    "dashboardService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\dashboardService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\dashboardService.test.js - 0 matches\n"
+    },
+    "dashboardEngine.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\dashboardEngine.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\dashboardEngine.test.js - 0 matches\n"
+    },
+    "cronService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\cronService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\cronService.test.js - 0 matches\n"
+    },
+    "complianceService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\complianceService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\complianceService.test.js - 0 matches\n"
+    },
+    "complianceEngine.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\complianceEngine.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\complianceEngine.test.js - 0 matches\n"
+    },
+    "chartDataService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\chartDataService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\chartDataService.test.js - 0 matches\n"
+    },
+    "bseStarMFService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\bseStarMFService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\bseStarMFService.test.js - 0 matches\n"
+    },
+    "benchmarkService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\benchmarkService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\benchmarkService.test.js - 0 matches\n"
+    },
+    "auditService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\auditService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\auditService.test.js - 0 matches\n"
+    },
+    "aiService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\aiService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\aiService.test.js - 0 matches\n"
+    },
+    "aiPortfolioOptimizer.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\aiPortfolioOptimizer.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\aiPortfolioOptimizer.test.js - 0 matches\n"
+    },
+    "agiService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\agiService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\agiService.test.js - 0 matches\n"
+    },
+    "agiEngine.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\agiEngine.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\agiEngine.test.js - 0 matches\n"
+    },
+    "advancedSecurityService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\advancedSecurityService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\advancedSecurityService.test.js - 0 matches\n"
+    },
+    "advancedAIService.test.js": {
+      "category": "Services",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\services\\advancedAIService.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\services\\advancedAIService.test.js - 0 matches\n"
+    },
+    "WhatsAppSession.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\WhatsAppSession.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\WhatsAppSession.test.js - 0 matches\n"
+    },
+    "WhatsAppMessage.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\WhatsAppMessage.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\WhatsAppMessage.test.js - 0 matches\n"
+    },
+    "UserPortfolio.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\UserPortfolio.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\UserPortfolio.test.js - 0 matches\n"
+    },
+    "UserBehavior.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\UserBehavior.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\UserBehavior.test.js - 0 matches\n"
+    },
+    "User.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\User.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\User.test.js - 0 matches\n"
+    },
+    "Transaction.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Transaction.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Transaction.test.js - 0 matches\n"
+    },
+    "SmartSip.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\SmartSip.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\SmartSip.test.js - 0 matches\n"
+    },
+    "SipOrder.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\SipOrder.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\SipOrder.test.js - 0 matches\n"
+    },
+    "RewardSummary.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\RewardSummary.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\RewardSummary.test.js - 0 matches\n"
+    },
+    "Reward.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Reward.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Reward.test.js - 0 matches\n"
+    },
+    "Referral.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Referral.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Referral.test.js - 0 matches\n"
+    },
+    "PortfolioCopy.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\PortfolioCopy.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\PortfolioCopy.test.js - 0 matches\n"
+    },
+    "Notification.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Notification.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Notification.test.js - 0 matches\n"
+    },
+    "MarketData.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\MarketData.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\MarketData.test.js - 0 matches\n"
+    },
+    "Leaderboard.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Leaderboard.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Leaderboard.test.js - 0 matches\n"
+    },
+    "Holding.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Holding.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Holding.test.js - 0 matches\n"
+    },
+    "EconomicIndicator.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\EconomicIndicator.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\EconomicIndicator.test.js - 0 matches\n"
+    },
+    "Commission.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Commission.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Commission.test.js - 0 matches\n"
+    },
+    "Challenge.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Challenge.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Challenge.test.js - 0 matches\n"
+    },
+    "BenchmarkIndex.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\BenchmarkIndex.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\BenchmarkIndex.test.js - 0 matches\n"
+    },
+    "AuditLog.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\AuditLog.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\AuditLog.test.js - 0 matches\n"
+    },
+    "AIInsight.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\AIInsight.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\AIInsight.test.js - 0 matches\n"
+    },
+    "AGIInsight.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\AGIInsight.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\AGIInsight.test.js - 0 matches\n"
+    },
+    "Agent.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Agent.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Agent.test.js - 0 matches\n"
+    },
+    "Admin.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Admin.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Admin.test.js - 0 matches\n"
+    },
+    "Achievement.test.js": {
+      "category": "Models",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\models\\Achievement.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\models\\Achievement.test.js - 0 matches\n"
+    },
+    "validation.test.js": {
+      "category": "Middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\middleware\\validation.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\middleware\\validation.test.js - 0 matches\n"
+    },
+    "rateLimiter.test.js": {
+      "category": "Middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\middleware\\rateLimiter.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\middleware\\rateLimiter.test.js - 0 matches\n"
+    },
+    "errorHandler.test.js": {
+      "category": "Middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\middleware\\errorHandler.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\middleware\\errorHandler.test.js - 0 matches\n"
+    },
+    "authenticateUser.test.js": {
+      "category": "Middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\middleware\\authenticateUser.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\middleware\\authenticateUser.test.js - 0 matches\n"
+    },
+    "auth.test.js": {
+      "category": "Middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\middleware\\auth.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\middleware\\auth.test.js - 0 matches\n"
+    },
+    "adminAuth.test.js": {
+      "category": "Middleware",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__\\middleware\\adminAuth.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000",
+      "output": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nIn C:\\Users\\MILINRAIJADA\\sip-brewery-backend\n  818 files checked.\n  testMatch: **/__tests__/**/*.test.js, **/__tests__/**/*.spec.js - 110 matches\n  testPathIgnorePatterns: \\\\node_modules\\\\ - 818 matches\n  testRegex:  - 0 matches\nPattern: __tests__\\middleware\\adminAuth.test.js - 0 matches\n"
+    },
+    "comprehensive.test.js": {
+      "category": "Comprehensive",
+      "success": false,
+      "testCount": 0,
+      "passedCount": 0,
+      "failedCount": 0,
+      "coverage": 0,
+      "error": "Command failed: npx jest \"__tests__/comprehensive.test.js\" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000\n(node:14472) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version\n(Use `node --trace-warnings ...` to show where the warning was created)\n(node:14472) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version\nFAIL __tests__/comprehensive.test.js\n  Comprehensive Backend Tests\n    Database Connection\n      √ should connect to database (472 ms)\n    User Management\n      √ should create test user (58 ms)\n      √ should create user with custom data (43 ms)\n    Portfolio Management\n      √ should create test portfolio (55 ms)\n      √ should create portfolio with custom data (52 ms)\n    Transaction Management\n      √ should create test transaction (68 ms)\n      √ should create transaction with custom data (49 ms)\n    Smart SIP Management\n      × should create Smart SIP (61 ms)\n    Rewards System\n      × should create reward (48 ms)\n    WhatsApp Integration\n      √ should create WhatsApp session (48 ms)\n      √ should get conversation context (52 ms)\n    Authentication\n      √ should generate test JWT token (41 ms)\n    API Endpoints\n      √ should have working app instance (38 ms)\n\n  ● Comprehensive Backend Tests › Smart SIP Management › should create Smart SIP\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: 1000\n    Received: undefined\n\n    \u001b[0m \u001b[90m 120 |\u001b[39m       expect(savedSip)\u001b[33m.\u001b[39mtoBeDefined()\u001b[33m;\u001b[39m\n     \u001b[90m 121 |\u001b[39m       expect(savedSip\u001b[33m.\u001b[39muserId\u001b[33m.\u001b[39mtoString())\u001b[33m.\u001b[39mtoBe(user\u001b[33m.\u001b[39m_id\u001b[33m.\u001b[39mtoString())\u001b[33m;\u001b[39m\n    \u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 122 |\u001b[39m       expect(savedSip\u001b[33m.\u001b[39mamount)\u001b[33m.\u001b[39mtoBe(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n     \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n     \u001b[90m 123 |\u001b[39m     })\u001b[33m;\u001b[39m\n     \u001b[90m 124 |\u001b[39m   })\u001b[33m;\u001b[39m\n     \u001b[90m 125 |\u001b[39m\u001b[0m\n\n      at Object.toBe (__tests__/comprehensive.test.js:122:31)\n\n  ● Comprehensive Backend Tests › Rewards System › should create reward\n\n    ValidationError: Reward validation failed: type: `SIGNUP` is not a valid enum value for path `type`.\n\n      at model.Object.<anonymous>.Document.invalidate (node_modules/mongoose/lib/document.js:3354:32)\n      at node_modules/mongoose/lib/document.js:3115:17\n      at node_modules/mongoose/lib/schemaType.js:1410:9\n\nTest Suites: 1 failed, 1 total\nTests:       2 failed, 11 passed, 13 total\nSnapshots:   0 total\nTime:        3.124 s, estimated 6 s\nRan all test suites matching /__tests__\\\\comprehensive.test.js/i.\n",
+      "output": "  console.log\n    [dotenv@17.2.0] injecting env (20) from test.env (tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] })\n\n      at _log (node_modules/dotenv/lib/main.js:136:11)\n\n  console.log\n    Starting MongoMemoryServer...\n\n      at Object.log (__tests__/setup.js:66:11)\n\n  console.log\n    MongoMemoryServer started at mongodb://127.0.0.1:49549/\n\n      at Object.log (__tests__/setup.js:70:11)\n\n  console.log\n    Connected to in-memory MongoDB\n\n      at Object.log (__tests__/setup.js:77:11)\n\n"
+    }
+  },
+  "errors": [],
+  "fixes": []
+}

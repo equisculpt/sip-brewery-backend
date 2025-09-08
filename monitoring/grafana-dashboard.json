@@ -1,0 +1,292 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "🏦 SIP Brewery Finance ASI Platform - Production Dashboard",
+    "tags": ["sipbrewery", "finance", "asi", "production"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "🎯 System Overview",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "up{job=\"sipbrewery-backend\"}",
+            "legendFormat": "Backend Status"
+          },
+          {
+            "expr": "up{job=\"sipbrewery-frontend\"}",
+            "legendFormat": "Frontend Status"
+          },
+          {
+            "expr": "asi_system_health",
+            "legendFormat": "ASI Health"
+          },
+          {
+            "expr": "python_asi_bridge_health",
+            "legendFormat": "Python ASI"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "green", "value": 1}
+              ]
+            },
+            "mappings": [
+              {"options": {"0": {"text": "DOWN"}}, "type": "value"},
+              {"options": {"1": {"text": "UP"}}, "type": "value"}
+            ]
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "💰 Finance ASI Rating",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "asi_finance_rating",
+            "legendFormat": "ASI Rating"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "min": 0,
+            "max": 10,
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "yellow", "value": 7},
+                {"color": "green", "value": 9}
+              ]
+            }
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "📊 Request Rate & Latency",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(http_requests_total[5m])",
+            "legendFormat": "Requests/sec - {{method}} {{status}}"
+          },
+          {
+            "expr": "histogram_quantile(0.95, http_request_duration_seconds_bucket)",
+            "legendFormat": "95th Percentile Latency"
+          }
+        ],
+        "yAxes": [
+          {"label": "Requests/sec", "min": 0},
+          {"label": "Latency (s)", "min": 0}
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "🧠 ASI Performance Metrics",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(asi_requests_total[5m])",
+            "legendFormat": "ASI Requests/sec"
+          },
+          {
+            "expr": "rate(asi_requests_failed_total[5m])",
+            "legendFormat": "ASI Failures/sec"
+          },
+          {
+            "expr": "histogram_quantile(0.95, asi_request_duration_seconds_bucket)",
+            "legendFormat": "ASI 95th Percentile Latency"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16}
+      },
+      {
+        "id": 5,
+        "title": "💼 Business Metrics",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "total_aum_inr",
+            "legendFormat": "Total AUM (₹)"
+          },
+          {
+            "expr": "rate(user_registrations_total[1h])",
+            "legendFormat": "User Registrations/hour"
+          },
+          {
+            "expr": "rate(portfolio_analysis_total[5m])",
+            "legendFormat": "Portfolio Analyses/sec"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 16}
+      },
+      {
+        "id": 6,
+        "title": "🗄️ Database Performance",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "mongodb_connections{state=\"current\"}",
+            "legendFormat": "MongoDB Connections"
+          },
+          {
+            "expr": "redis_connected_clients",
+            "legendFormat": "Redis Connections"
+          },
+          {
+            "expr": "rate(mongodb_op_counters_total[5m])",
+            "legendFormat": "MongoDB Ops/sec - {{type}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 24}
+      },
+      {
+        "id": 7,
+        "title": "💾 System Resources",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "(node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes * 100",
+            "legendFormat": "Memory Usage %"
+          },
+          {
+            "expr": "100 - (avg by(instance) (irate(node_cpu_seconds_total{mode=\"idle\"}[5m])) * 100)",
+            "legendFormat": "CPU Usage %"
+          },
+          {
+            "expr": "(1 - node_filesystem_avail_bytes / node_filesystem_size_bytes) * 100",
+            "legendFormat": "Disk Usage % - {{device}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 24}
+      },
+      {
+        "id": 8,
+        "title": "🔒 Security Metrics",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(failed_login_attempts_total[5m])",
+            "legendFormat": "Failed Logins/sec"
+          },
+          {
+            "expr": "rate(rate_limit_exceeded_total[5m])",
+            "legendFormat": "Rate Limit Violations/sec"
+          },
+          {
+            "expr": "rate(suspicious_requests_total[5m])",
+            "legendFormat": "Suspicious Requests/sec"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 32}
+      },
+      {
+        "id": 9,
+        "title": "📈 Financial Data Health",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "time() - mutual_fund_data_last_update_timestamp",
+            "legendFormat": "MF Data Age (seconds)"
+          },
+          {
+            "expr": "time() - market_data_last_update_timestamp",
+            "legendFormat": "Market Data Age (seconds)"
+          },
+          {
+            "expr": "financial_data_sources_healthy",
+            "legendFormat": "Healthy Data Sources"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "s",
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "green", "value": 0},
+                {"color": "yellow", "value": 300},
+                {"color": "red", "value": 1800}
+              ]
+            }
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 40}
+      },
+      {
+        "id": 10,
+        "title": "🎯 SLA Metrics",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "avg_over_time(up{job=\"sipbrewery-backend\"}[24h]) * 100",
+            "legendFormat": "24h Uptime %"
+          },
+          {
+            "expr": "(1 - rate(http_requests_total{status=~\"5..\"}[24h]) / rate(http_requests_total[24h])) * 100",
+            "legendFormat": "24h Success Rate %"
+          },
+          {
+            "expr": "histogram_quantile(0.99, http_request_duration_seconds_bucket)",
+            "legendFormat": "99th Percentile Latency"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "yellow", "value": 95},
+                {"color": "green", "value": 99}
+              ]
+            }
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 40}
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "10s",
+    "schemaVersion": 27,
+    "version": 1,
+    "links": [
+      {
+        "title": "ASI Health Dashboard",
+        "url": "/d/asi-health/asi-health-dashboard",
+        "type": "dashboards"
+      },
+      {
+        "title": "Business Metrics Dashboard", 
+        "url": "/d/business-metrics/business-metrics-dashboard",
+        "type": "dashboards"
+      },
+      {
+        "title": "Security Dashboard",
+        "url": "/d/security/security-dashboard", 
+        "type": "dashboards"
+      }
+    ]
+  }
+}

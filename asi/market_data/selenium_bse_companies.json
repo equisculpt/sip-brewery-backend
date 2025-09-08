@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "total_companies": 0,
+    "crawling_method": "SELENIUM_JAVASCRIPT_CRAWLER",
+    "capabilities": [
+      "JAVASCRIPT_RENDERING",
+      "PAGINATION_HANDLING",
+      "DYNAMIC_CONTENT"
+    ],
+    "last_updated": "2025-07-28T22:52:14.661448",
+    "includes_rnit_ai": false,
+    "crawler_type": "GOOGLE_LIKE_SELENIUM"
+  },
+  "companies": []
+}

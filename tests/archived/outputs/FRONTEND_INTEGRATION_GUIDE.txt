@@ -1,0 +1,2029 @@
+==============================
+SIPBREWERY BACKEND INTEGRATION GUIDE
+==============================
+
+API BASE URL
+------------
+All frontend API calls must use:
+  https://api.sipbrewery.com/api
+
+AUTHENTICATION
+--------------
+- Most endpoints require a JWT token in the Authorization header.
+- Example:
+    Authorization: Bearer <your-jwt-token>
+- Obtain the token via your login/auth flow.
+
+CORS POLICY
+-----------
+- Only requests from https://sipbrewery.com are allowed.
+- Allowed HTTP methods: GET, POST, PUT, DELETE
+- Credentials (cookies, auth headers) are supported.
+
+RATE LIMITING
+-------------
+- 100 requests per 15 minutes per IP (unless otherwise specified).
+
+ERROR HANDLING
+--------------
+- 401 Unauthorized: Invalid/missing token.
+- 403 Forbidden: Insufficient permissions.
+- 429 Too Many Requests: Rate limit exceeded.
+- 400 Bad Request: Invalid input.
+- 500 Internal Server Error: Server-side error.
+
+GENERAL REQUEST/RESPONSE FORMAT
+------------------------------
+- Most endpoints accept/return JSON.
+- Standard response:
+    {
+      "success": true,
+      "message": "Operation successful",
+      "data": { ... }
+    }
+- On error:
+    {
+      "success": false,
+      "message": "Error message",
+      "error": { ... }
+    }
+
+NEXT: Endpoint documentation by module (Authentication, User Profile, Admin, BSE Star MF, Digio, Analytics, AGI, Learning, Social, SIP, Compliance, Robo Advisor, Market Analytics, Voice, Rewards, Benchmark, AI, etc.) 
+
+
+==============================
+AUTHENTICATION & USER PROFILE MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+1. CHECK AUTHENTICATION STATUS
+------------------------------
+GET /auth/check
+- Description: Check if the user is authenticated (token valid)
+- Response Example:
+  {
+    "success": true,
+    "message": "Authenticated",
+    "data": { "userId": "...", ... }
+  }
+
+2. GET KYC STATUS
+-----------------
+GET /auth/kyc/status
+- Description: Get the user's KYC status
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "kycStatus": "PENDING" // or APPROVED, REJECTED
+    }
+  }
+
+3. UPDATE KYC STATUS (Testing/Demo)
+-----------------------------------
+PUT /auth/kyc/status
+- Description: Update the user's KYC status (for testing/demo only)
+- Request Example:
+  {
+    "kycStatus": "APPROVED"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "KYC status updated"
+  }
+
+4. GET USER PROFILE
+-------------------
+GET /auth/profile
+- Description: Get the authenticated user's profile
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "userId": "...",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "9876543210",
+      "kycStatus": "APPROVED",
+      ...
+    }
+  }
+
+5. UPDATE USER PROFILE
+----------------------
+PUT /auth/profile
+- Description: Update the authenticated user's profile
+- Request Example:
+  {
+    "name": "Jane Doe",
+    "phone": "9123456789"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Profile updated successfully"
+  }
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- KYC status is required for investment features.
+
+NEXT: Admin module endpoints and usage. 
+
+
+==============================
+ADMIN MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /admin
+
+1. AUTHENTICATION
+-----------------
+POST /admin/auth/login
+- Description: Admin login (returns JWT)
+- Request Example:
+  {
+    "username": "admin",
+    "password": "yourpassword"
+  }
+- Response Example:
+  {
+    "success": true,
+    "token": "<jwt-token>",
+    "data": { ... }
+  }
+
+POST /admin/auth/logout
+- Description: Admin logout
+- Response Example:
+  {
+    "success": true,
+    "message": "Logged out"
+  }
+
+GET /admin/auth/profile
+- Description: Get admin profile
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+PUT /admin/auth/profile
+- Description: Update admin profile
+- Request Example:
+  {
+    "name": "Admin Name"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Profile updated"
+  }
+
+2. DASHBOARD
+------------
+GET /admin/dashboard
+- Description: Get admin dashboard data
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+3. AGENT MANAGEMENT
+-------------------
+GET /admin/agents
+- Description: Get all agents with stats
+
+GET /admin/agents/:id
+- Description: Get agent details
+
+POST /admin/agents
+- Description: Create new agent
+- Request Example:
+  {
+    "name": "Agent Name",
+    ...
+  }
+
+PUT /admin/agents/:id
+- Description: Update agent
+
+DELETE /admin/agents/:id
+- Description: Deactivate agent
+
+GET /admin/agents/:id/dashboard
+- Description: Get agent dashboard
+
+4. CLIENT MANAGEMENT
+--------------------
+GET /admin/clients
+- Description: Get all clients with filters
+
+GET /admin/clients/:id
+- Description: Get client details
+
+GET /admin/clients/:id/dashboard
+- Description: Get client dashboard
+
+PUT /admin/clients/:id/assign-agent
+- Description: Assign client to agent
+- Request Example:
+  {
+    "agentId": "..."
+  }
+
+5. COMMISSION
+-------------
+GET /admin/commission
+- Description: Get commission report
+
+GET /admin/commission/agent/:id
+- Description: Get agent commission details
+
+POST /admin/commission/approve
+- Description: Approve commission payout
+
+POST /admin/commission/process-payout
+- Description: Process commission payout
+
+GET /admin/commission/export
+- Description: Export commission report
+
+6. ANALYTICS
+------------
+GET /admin/analytics/platform
+- Description: Get platform analytics
+
+GET /admin/analytics/regional
+- Description: Get regional analytics
+
+GET /admin/analytics/agent/:id
+- Description: Get agent analytics
+
+7. KYC
+------
+GET /admin/kyc/status
+- Description: Get KYC status report
+
+POST /admin/kyc/retrigger
+- Description: Re-trigger KYC for client
+- Request Example:
+  {
+    "clientId": "..."
+  }
+
+GET /admin/kyc/logs/:clientId
+- Description: Get KYC logs for client
+
+8. TRANSACTIONS
+---------------
+GET /admin/transactions
+- Description: Get transaction logs
+
+GET /admin/transactions/pending
+- Description: Get pending transactions
+
+9. REWARDS
+----------
+GET /admin/rewards
+- Description: Get rewards report
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Some endpoints require specific roles (ADMIN, SUPER_ADMIN, AGENT). Handle role-based UI accordingly.
+- Use the response data to drive admin dashboards, agent/client management, analytics, and reporting features.
+
+NEXT: BSE Star MF module endpoints and usage. 
+
+
+==============================
+BSE STAR MF MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /bse-star-mf
+
+1. CLIENT ONBOARDING
+--------------------
+POST /bse-star-mf/client
+- Description: Create a new client (KYC, bank, nominee, etc.)
+- Request Example:
+  {
+    "clientData": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "1990-01-01",
+      "panNumber": "ABCDE1234F",
+      "email": "john@example.com",
+      "mobile": "9876543210",
+      "address": { ... },
+      "bankDetails": { ... },
+      "nomineeDetails": [ ... ],
+      "kycDetails": { ... }
+    }
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Client created successfully",
+    "data": {
+      "clientId": "...",
+      "bseClientId": "...",
+      "status": "PENDING"
+    }
+  }
+
+PUT /bse-star-mf/client/:clientId
+- Description: Modify an existing client
+- Request Example: (same as above)
+
+2. SCHEME MASTER DATA
+---------------------
+GET /bse-star-mf/schemes
+- Description: Get scheme master data (with optional filters)
+- Query Params: category, fundHouse, isActive, limit, offset
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "schemes": [ ... ]
+    }
+  }
+
+GET /bse-star-mf/schemes/:schemeCode
+- Description: Get scheme details
+
+3. ORDER PLACEMENT
+------------------
+POST /bse-star-mf/order
+- Description: Place a new order (lumpsum/SIP)
+- Request Example:
+  {
+    "orderData": {
+      "clientId": "...",
+      "schemeCode": "...",
+      "amount": 10000,
+      "paymentMode": "ONLINE",
+      "sipDetails": { "frequency": "MONTHLY", "duration": 12 },
+      "isSmartSIP": false
+    }
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Order placed successfully",
+    "data": { ... }
+  }
+
+4. REDEMPTION
+-------------
+POST /bse-star-mf/redeem
+- Description: Redeem by units/amount
+- Request Example:
+  {
+    "redemptionData": {
+      "clientId": "...",
+      "schemeCode": "...",
+      "redemptionType": "UNITS",
+      "units": 50,
+      "bankAccount": "..."
+    }
+  }
+
+5. MANDATE (E-MANDATE)
+----------------------
+POST /bse-star-mf/mandate
+- Description: Setup eMandate for SIPs
+- Request Example:
+  {
+    "mandateData": {
+      "clientId": "...",
+      "bankAccount": { ... },
+      "amount": 10000,
+      "frequency": "MONTHLY",
+      "startDate": "2024-01-01",
+      "endDate": "2025-01-01",
+      "purpose": "MUTUAL_FUND_INVESTMENT"
+    }
+  }
+
+6. OTHER ENDPOINTS
+------------------
+- GET /bse-star-mf/orders/:clientId - Get all orders for a client
+- GET /bse-star-mf/folio/:clientId - Get folio details
+- GET /bse-star-mf/transactions/:clientId - Get transaction history
+- GET /bse-star-mf/mandates/:clientId - Get mandates for a client
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive onboarding, order placement, redemption, and mandate flows in the frontend.
+
+NEXT: Digio module endpoints and usage. 
+
+
+==============================
+DIGIO MODULE (KYC, eMandate, eSign)
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /digio
+
+1. KYC
+------
+POST /digio/kyc/initiate
+- Description: Initiate KYC verification
+- Request Example:
+  {
+    "kycData": {
+      "name": "John Doe",
+      "mobile": "9876543210",
+      "email": "john@example.com",
+      "panNumber": "ABCDE1234F",
+      ...
+    }
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "KYC initiated successfully",
+    "data": { ... }
+  }
+
+GET /digio/kyc/status/:userId
+- Description: Get KYC status for a user
+
+2. eMANDATE
+-----------
+POST /digio/mandate/initiate
+- Description: Initiate eMandate setup
+- Request Example:
+  {
+    "mandateData": {
+      "accountNumber": "1234567890",
+      "ifscCode": "SBIN0001234",
+      "accountHolderName": "John Doe",
+      "amount": 10000,
+      "frequency": "MONTHLY",
+      "startDate": "2024-01-01",
+      "endDate": "2025-01-01"
+    }
+  }
+
+GET /digio/mandate/status/:mandateId
+- Description: Get eMandate status
+
+3. eSIGN
+--------
+POST /digio/esign/initiate
+- Description: Initiate eSign process
+- Request Example:
+  {
+    "eSignData": {
+      "customerDetails": { ... },
+      "documentDetails": { ... },
+      "signDetails": { ... }
+    }
+  }
+
+GET /digio/esign/status/:signId
+- Description: Get eSign status
+
+4. CKYC
+-------
+POST /digio/ckyc/initiate
+- Description: Initiate CKYC process
+- Request Example:
+  {
+    "panNumber": "ABCDE1234F",
+    "aadhaarNumber": "123456789012",
+    "mobile": "9876543210",
+    "email": "john@example.com"
+  }
+
+GET /digio/ckyc/status/:userId
+- Description: Get CKYC status
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive KYC, eMandate, and eSign flows in the frontend.
+
+NEXT: Analytics module endpoints and usage. 
+
+
+==============================
+ANALYTICS MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /analytics
+
+1. PERFORMANCE ANALYTICS
+------------------------
+GET /analytics/performance
+- Description: Get comprehensive performance analytics with chart data
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. CHART DATA
+-------------
+POST /analytics/chart-data
+- Description: Get chart data for various chart types
+- Request Example:
+  {
+    "type": "portfolio",
+    "period": "1y"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+3. SIP PROJECTIONS
+------------------
+POST /analytics/sip-projections
+- Description: Calculate SIP future value and projections
+- Request Example:
+  {
+    "monthlyAmount": 10000,
+    "duration": 60,
+    "expectedReturn": 12
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+4. GOAL-BASED INVESTMENT
+------------------------
+POST /analytics/goal-based-investment
+- Description: Calculate goal-based investment requirements
+- Request Example:
+  {
+    "targetAmount": 1000000,
+    "timeHorizon": 10,
+    "expectedReturn": 12,
+    "currentSavings": 100000
+  }
+
+5. RISK PROFILING
+-----------------
+GET /analytics/risk-profiling
+- Description: Get risk profiling and assessment
+
+6. NAV HISTORY
+--------------
+GET /analytics/nav-history/:fundCode
+- Description: Get NAV history with calculations
+
+7. TAX CALCULATIONS
+-------------------
+GET /analytics/tax-calculations
+- Description: Calculate tax implications and optimization
+
+8. XIRR ANALYTICS
+-----------------
+GET /analytics/xirr
+- Description: Get XIRR analytics
+
+9. PORTFOLIO COMPARISON
+-----------------------
+GET /analytics/portfolio-comparison
+- Description: Get portfolio comparison analytics
+
+10. DASHBOARD ANALYTICS
+-----------------------
+GET /analytics/dashboard
+- Description: Get comprehensive dashboard analytics
+
+11. PLATFORM/REGIONAL/AGENT ANALYTICS
+-------------------------------------
+GET /analytics/platform
+GET /analytics/regional
+GET /analytics/agent
+- Description: Get platform, regional, or agent analytics
+
+12. FUND COMPARISON
+-------------------
+POST /analytics/compare-funds
+- Description: Comprehensive fund comparison with detailed analysis and ratings
+- Request Example:
+  {
+    "fundCodes": ["HDFCMIDCAP", "ICICIBLUECHIP"],
+    "category": "Mid Cap",
+    "period": "1y",
+    "investmentAmount": 100000
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive analytics, charting, projections, and comparison features in the frontend.
+
+NEXT: AGI module endpoints and usage. 
+
+
+==============================
+AGI (ARTIFICIAL GENERAL INTELLIGENCE) MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /agi
+
+1. INITIALIZE AGI
+-----------------
+POST /agi/initialize
+- Description: Initialize AGI for user
+- Request Example:
+  {
+    "userId": "..."
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. AUTONOMOUS PORTFOLIO MANAGEMENT
+----------------------------------
+POST /agi/autonomous-management
+- Description: Perform autonomous portfolio management
+- Request Example:
+  {
+    "userId": "...",
+    ...
+  }
+
+3. MARKET PREDICTIONS
+---------------------
+GET /agi/predictions
+- Description: Get market predictions
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+4. RISK MANAGEMENT
+------------------
+POST /agi/risk-management
+- Description: Perform intelligent risk management
+- Request Example:
+  {
+    "userId": "...",
+    ...
+  }
+
+5. EXECUTE AUTONOMOUS ACTIONS
+-----------------------------
+POST /agi/execute-actions
+- Description: Execute autonomous actions
+- Request Example:
+  {
+    "userId": "...",
+    ...
+  }
+
+6. TOGGLE AUTONOMOUS MODE
+-------------------------
+POST /agi/toggle-autonomous
+- Description: Toggle autonomous mode for user
+- Request Example:
+  {
+    "userId": "...",
+    "autonomous": true
+  }
+
+7. AGI INSIGHTS
+---------------
+GET /agi/insights
+- Description: Get AGI insights
+
+GET /agi/insights/:userId
+- Description: Get weekly AGI insights for user
+
+8. PERSONALIZED RECOMMENDATIONS
+------------------------------
+GET /agi/recommendations/:userId
+- Description: Get personalized investment recommendations
+
+9. MACROECONOMIC IMPACT
+-----------------------
+GET /agi/macroeconomic/:userId
+- Description: Analyze macroeconomic impact on portfolio
+
+10. USER BEHAVIOR TRACKING
+--------------------------
+POST /agi/behavior
+- Description: Track user behavior for AGI learning
+- Request Example:
+  {
+    "userId": "...",
+    "action": "...",
+    "context": { ... }
+  }
+
+11. LEARN FROM MARKET EVENTS
+----------------------------
+POST /agi/learn
+- Description: Learn from market events
+- Request Example:
+  {
+    ...
+  }
+
+12. AGI CAPABILITIES
+--------------------
+GET /agi/capabilities
+- Description: Get AGI capabilities
+
+13. FEEDBACK
+------------
+POST /agi/feedback
+- Description: Submit feedback for AGI improvement
+- Request Example:
+  {
+    "userId": "...",
+    "insightId": "...",
+    "feedback": "accepted",
+    "rating": 5,
+    "comments": "Very helpful"
+  }
+
+14. AGI STATUS
+--------------
+GET /agi/status
+- Description: Get AGI system status
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive AGI-powered insights, recommendations, automation, and feedback features in the frontend.
+
+NEXT: Learning module endpoints and usage. 
+
+
+==============================
+LEARNING MODULE (Investor Education)
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /learning
+
+1. INITIALIZE LEARNING PATH
+---------------------------
+POST /learning/initialize/:userId
+- Description: Initialize learning path for user
+- Request Example:
+  {
+    "targetLevel": "INTERMEDIATE"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. GET PERSONALIZED LESSON
+--------------------------
+GET /learning/lesson/:userId/:topic/:lessonIndex
+- Description: Get personalized lesson for user
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "title": "...",
+      "content": "...",
+      "example": "...",
+      ...
+    }
+  }
+
+3. START QUIZ
+-------------
+POST /learning/quiz/start/:userId
+- Description: Start quiz for user
+- Request Example:
+  {
+    "topic": "mutual_funds"
+  }
+
+4. SUBMIT QUIZ ANSWERS
+----------------------
+POST /learning/quiz/submit/:userId/:quizId
+- Description: Submit quiz answers
+- Request Example:
+  {
+    "answers": [1, 3, 2, 4]
+  }
+
+5. GET DAILY LEARNING NUDGE
+---------------------------
+GET /learning/nudge/:userId
+- Description: Get daily learning nudge for user
+
+6. TRACK LEARNING PROGRESS
+--------------------------
+POST /learning/progress/:userId
+- Description: Track learning progress
+- Request Example:
+  {
+    "lessonId": "...",
+    "completed": true
+  }
+
+7. GET LEARNING ANALYTICS
+-------------------------
+GET /learning/analytics/:userId
+- Description: Get learning analytics for user
+
+8. GET LEARNING TOPICS
+----------------------
+GET /learning/topics
+- Description: Get available learning topics
+
+9. GET LEARNING LEVELS
+----------------------
+GET /learning/levels
+- Description: Get available learning levels
+
+10. GET USER LEARNING PROFILE
+-----------------------------
+GET /learning/profile/:userId
+- Description: Get user learning profile
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive investor education, quizzes, progress tracking, and analytics features in the frontend.
+
+NEXT: Social Investing module endpoints and usage. 
+
+
+==============================
+SOCIAL INVESTING MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /social
+
+1. CREATE SOCIAL PROFILE
+------------------------
+POST /social/profile
+- Description: Create social profile for user
+- Response Example:
+  {
+    "success": true,
+    "message": "Social profile created successfully"
+  }
+
+2. FOLLOW ANOTHER INVESTOR
+--------------------------
+POST /social/follow
+- Description: Follow another investor
+- Request Example:
+  {
+    "followingId": "userIdToFollow"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Successfully followed investor"
+  }
+
+3. SHARE PORTFOLIO PERFORMANCE
+------------------------------
+POST /social/share-portfolio
+- Description: Share portfolio performance
+- Request Example:
+  {
+    "shareType": "public" // or "private", "followers"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Portfolio performance shared successfully"
+  }
+
+4. CREATE INVESTMENT CHALLENGE
+------------------------------
+POST /social/challenge
+- Description: Create investment challenge
+- Request Example:
+  {
+    "challengeType": "sip_challenge"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Investment challenge created successfully"
+  }
+
+5. AWARD POINTS TO USER
+-----------------------
+POST /social/award-points
+- Description: Award points to user
+- Request Example:
+  {
+    "points": 100,
+    "reason": "Completed SIP challenge"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Points awarded successfully"
+  }
+
+6. COMMUNITY EVENTS, GAMES, AND MORE
+------------------------------------
+- Endpoints for community events, educational games, and other social features are available (see API for details).
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive social features, challenges, gamification, and community engagement in the frontend.
+
+NEXT: Tier Outreach module endpoints and usage. 
+
+
+==============================
+TIER OUTREACH MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /tier
+
+1. DETERMINE USER TIER
+----------------------
+POST /tier/determine
+- Description: Determine user tier based on location and profile
+- Request Example:
+  {
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { "tier": "TIER_1" }
+  }
+
+2. SIMPLIFIED ONBOARDING
+------------------------
+POST /tier/simplified-onboarding
+- Description: Create simplified onboarding flow
+- Request Example:
+  {
+    "languageCode": "hi"
+  }
+
+3. VERNACULAR CONTENT
+---------------------
+GET /tier/vernacular-content?contentType=onboarding&languageCode=hi
+- Description: Get vernacular content for user
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+4. MICRO-INVESTMENTS
+--------------------
+POST /tier/micro-investments
+- Description: Create micro-investment options
+
+5. COMMUNITY FEATURES
+---------------------
+POST /tier/community-features
+- Description: Create community features
+- Request Example:
+  {
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
+
+6. FINANCIAL LITERACY PROGRAM
+-----------------------------
+POST /tier/financial-literacy
+- Description: Create financial literacy program
+
+7. TIER-SPECIFIC FEATURES
+-------------------------
+GET /tier/features
+- Description: Get tier-specific features
+
+8. TIER CATEGORIES
+------------------
+GET /tier/categories
+- Description: Get tier categories
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive regional, vernacular, micro-investment, and community features in the frontend.
+
+NEXT: Regional Language module endpoints and usage. 
+
+
+==============================
+REGIONAL LANGUAGE MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /regional
+
+1. GET SUPPORTED LANGUAGES
+--------------------------
+GET /regional/languages
+- Description: Get supported languages
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "languages": [
+        { "code": "hi", "name": "Hindi", ... },
+        ...
+      ]
+    }
+  }
+
+2. SET USER LANGUAGE PREFERENCE
+-------------------------------
+POST /regional/language-preference
+- Description: Set user language preference
+- Request Example:
+  {
+    "languageCode": "hi",
+    "preferences": { "voiceEnabled": true, "textEnabled": true }
+  }
+
+3. GET USER LANGUAGE PREFERENCE
+-------------------------------
+GET /regional/language-preference
+- Description: Get user language preferences
+
+4. TRANSLATE TERMS
+------------------
+POST /regional/translate
+- Description: Translate investment terms
+- Request Example:
+  {
+    "terms": ["mutual fund", "SIP"],
+    "targetLanguage": "hi"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { "translations": [ ... ] }
+  }
+
+5. GET CULTURAL CONTEXT
+-----------------------
+GET /regional/cultural-context/:languageCode
+- Description: Get cultural context for language
+
+6. PROCESS VOICE COMMAND
+------------------------
+POST /regional/voice-command
+- Description: Process voice command
+- Request Example:
+  {
+    "audioData": "<base64>",
+    "languageCode": "hi"
+  }
+
+7. GET LOCALIZED CONTENT
+------------------------
+POST /regional/localized-content
+- Description: Get localized content for user
+- Request Example:
+  {
+    "contentType": "greeting",
+    "languageCode": "hi",
+    "context": { ... }
+  }
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive multilingual, voice, and culturally relevant features in the frontend.
+
+NEXT: Compliance module endpoints and usage. 
+
+
+==============================
+COMPLIANCE MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /compliance
+
+1. GENERATE SEBI REPORT
+-----------------------
+POST /compliance/sebi-report
+- Description: Generate SEBI report
+- Request Example:
+  {
+    "period": "monthly" // or "quarterly", "yearly"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. GENERATE AMFI REPORT
+-----------------------
+POST /compliance/amfi-report
+- Description: Generate AMFI report
+- Request Example:
+  {
+    "quarter": "Q1" // or "Q2", "Q3", "Q4"
+  }
+
+3. CHECK REGULATORY VIOLATIONS
+------------------------------
+GET /compliance/violations
+- Description: Check regulatory violations
+
+4. GENERATE ADMIN REPORTS (Admin only)
+--------------------------------------
+POST /compliance/admin-reports
+- Description: Generate admin reports
+- Request Example:
+  {
+    "reportType": "comprehensive" // or "compliance", "user_behavior", "risk_assessment", "tax_compliance"
+  }
+
+5. GET COMPLIANCE METRICS (Admin only)
+--------------------------------------
+GET /compliance/metrics
+- Description: Get compliance metrics
+
+6. MONITOR REAL-TIME COMPLIANCE (Admin only)
+--------------------------------------------
+GET /compliance/monitor
+- Description: Monitor real-time compliance
+
+7. GET USER COMPLIANCE STATUS
+-----------------------------
+GET /compliance/user-status
+- Description: Get user compliance status
+
+8. GET COMPLIANCE DASHBOARD (Admin only)
+----------------------------------------
+GET /compliance/dashboard
+- Description: Get compliance dashboard data
+
+9. GET VIOLATION TRENDS (Admin only)
+------------------------------------
+GET /compliance/violation-trends?period=1m
+- Description: Get violation trends for a period
+
+10. GET COMPLIANCE ALERTS (Admin only)
+--------------------------------------
+GET /compliance/alerts
+- Description: Get compliance alerts
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Some endpoints require admin privileges.
+- Use the response data to drive compliance, reporting, and regulatory features in the frontend.
+
+NEXT: Robo Advisor module endpoints and usage. 
+
+
+==============================
+ROBO ADVISOR MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /robo-advisor
+
+1. PORTFOLIO REVIEW
+-------------------
+POST /robo-advisor/portfolio-review
+- Description: Perform portfolio review
+- Request Example:
+  {
+    "reviewType": "monthly" // or "daily", "weekly", "quarterly"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. SWITCH RECOMMENDATIONS
+-------------------------
+POST /robo-advisor/switch-recommendations
+- Description: Generate switch recommendations
+- Request Example:
+  {
+    "fundName": "HDFC Mid-Cap Opportunities"
+  }
+
+3. TAX HARVESTING
+-----------------
+GET /robo-advisor/tax-harvesting
+- Description: Check tax harvesting opportunities
+
+4. STP/SWP PLAN
+---------------
+GET /robo-advisor/stpswp-plan
+- Description: Generate STP/SWP plans
+
+5. SIP GOAL DEVIATIONS
+----------------------
+GET /robo-advisor/sip-deviations
+- Description: Check SIP goal deviations
+
+6. ROBO-ADVISORY SUGGESTIONS
+----------------------------
+GET /robo-advisor/suggestions?suggestionType=portfolio
+- Description: Get robo-advisory suggestions (all, portfolio, switches, tax, stpswp, sip)
+
+7. PORTFOLIO HEALTH SUMMARY
+---------------------------
+GET /robo-advisor/portfolio-health
+- Description: Get portfolio health summary
+
+8. REBALANCING RECOMMENDATIONS
+------------------------------
+GET /robo-advisor/rebalancing
+- Description: Get rebalancing recommendations
+
+9. GOAL PROGRESS SUMMARY
+------------------------
+GET /robo-advisor/goal-progress
+- Description: Get goal progress summary
+
+10. RISK ASSESSMENT SUMMARY
+---------------------------
+GET /robo-advisor/risk-assessment
+- Description: Get risk assessment summary
+
+11. MARKET OPPORTUNITIES
+------------------------
+GET /robo-advisor/market-opportunities
+- Description: Get market opportunities
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive portfolio review, recommendations, tax harvesting, rebalancing, and goal tracking features in the frontend.
+
+NEXT: Market Analytics module endpoints and usage. 
+
+
+==============================
+MARKET ANALYTICS MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /market-analytics
+
+1. SCRAPE MARKET DATA
+---------------------
+POST /market-analytics/scrape-data
+- Description: Scrape NSE/BSE daily market data
+- Request Example:
+  {
+    "date": "2024-07-01" // optional, defaults to today
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. ANALYZE MARKET SENTIMENT
+---------------------------
+POST /market-analytics/sentiment
+- Description: Analyze market sentiment
+- Request Example:
+  {
+    "period": "1m" // or "1d", "1w", "3m", "1y"
+  }
+
+3. FETCH MACROECONOMIC DATA
+---------------------------
+GET /market-analytics/macro-data
+- Description: Fetch macroeconomic data
+
+4. ANALYZE SECTOR CORRELATIONS
+------------------------------
+GET /market-analytics/sector-correlations
+- Description: Analyze sector correlations
+
+5. PREDICT HIGH-RISK FUNDS
+--------------------------
+GET /market-analytics/high-risk-funds
+- Description: Predict high-risk funds
+
+6. COMPREHENSIVE MARKET ANALYSIS
+--------------------------------
+GET /market-analytics/comprehensive-analysis
+- Description: Perform comprehensive market analysis
+
+7. DASHBOARD DATA
+-----------------
+GET /market-analytics/dashboard
+- Description: Get market analytics dashboard data
+
+8. PORTFOLIO INSIGHTS
+---------------------
+GET /market-analytics/portfolio-insights/:portfolioId
+- Description: Get market insights for user portfolio
+
+9. SECTOR PERFORMANCE TRENDS
+----------------------------
+GET /market-analytics/sector-trends?period=1m
+- Description: Get sector performance trends for a period
+
+10. MARKET SENTIMENT TRENDS
+---------------------------
+GET /market-analytics/sentiment-trends?period=1m
+- Description: Get market sentiment trends for a period
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive market data, analytics, insights, and dashboard features in the frontend.
+
+NEXT: Voice Bot module endpoints and usage. 
+
+
+==============================
+VOICE BOT MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /voice
+
+1. ANALYZE VOICE INPUT
+----------------------
+POST /voice/analyze
+- Description: Analyze voice input and extract investment intent
+- Request Example:
+  {
+    "audioData": {
+      "content": "<base64-encoded-audio>",
+      "format": "wav",
+      "duration": 5.2
+    },
+    "language": "en"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "transcription": "Buy HDFC Mid-Cap",
+      "intent": { ... },
+      "response": { ... },
+      "confidence": 0.95,
+      "language": "en"
+    }
+  }
+
+2. PROCESS VOICE COMMAND
+------------------------
+POST /voice/command
+- Description: Process voice command for investment actions
+- Request Example:
+  {
+    "command": "Show my portfolio",
+    "language": "en"
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "action": "PORTFOLIO",
+      "message": "Here is your portfolio...",
+      "data": { ... }
+    }
+  }
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive voice-driven investment, portfolio, and analytics features in the frontend.
+
+NEXT: Smart SIP module endpoints and usage. 
+
+
+==============================
+SMART SIP MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /sip
+
+1. START A NEW SIP
+------------------
+POST /sip/start
+- Description: Start a new SIP (static or smart)
+- Request Example:
+  {
+    "schemeCode": "HDFCMIDCAP",
+    "amount": 5000,
+    "frequency": "monthly",
+    "duration": 12,
+    "isSmart": true
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. GET SIP RECOMMENDATION
+-------------------------
+GET /sip/recommendation
+- Description: Get current SIP recommendation based on market conditions
+
+3. GET USER'S SIP DETAILS
+-------------------------
+GET /sip/details
+- Description: Get user's SIP details and current status
+
+4. UPDATE SIP PREFERENCES
+-------------------------
+PUT /sip/preferences
+- Description: Update SIP preferences (risk tolerance, AI settings, etc.)
+- Request Example:
+  {
+    "riskTolerance": "moderate",
+    "aiEnabled": true
+  }
+
+5. UPDATE SIP STATUS
+--------------------
+PUT /sip/status
+- Description: Update SIP status (pause/resume/stop)
+- Request Example:
+  {
+    "status": "paused"
+  }
+
+6. EXECUTE SIP MANUALLY
+-----------------------
+POST /sip/execute
+- Description: Execute SIP manually (for testing or immediate execution)
+
+7. GET SIP ANALYTICS
+--------------------
+GET /sip/analytics
+- Description: Get SIP analytics and performance metrics
+
+8. GET SIP HISTORY
+------------------
+GET /sip/history
+- Description: Get SIP history with optional limit parameter
+
+9. GET MARKET ANALYSIS
+----------------------
+GET /sip/market-analysis
+- Description: Get current market analysis for frontend display
+
+10. GET ALL ACTIVE SIPS (Admin)
+-------------------------------
+GET /sip/all
+GET /sip/all-users
+- Description: Get all active SIPs (admin endpoint)
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive SIP setup, recommendations, analytics, and management features in the frontend.
+
+NEXT: AI Portfolio module endpoints and usage. 
+
+
+==============================
+AI PORTFOLIO MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /ai-portfolio
+
+1. GET AI PORTFOLIO INSIGHTS
+----------------------------
+GET /ai-portfolio/insights
+- Description: Get AI-generated portfolio insights for the user
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. GET AI PORTFOLIO RECOMMENDATIONS
+-----------------------------------
+GET /ai-portfolio/recommendations
+- Description: Get AI-generated investment recommendations
+
+3. GET AI PORTFOLIO PERFORMANCE
+-------------------------------
+GET /ai-portfolio/performance
+- Description: Get AI portfolio performance analytics
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive AI-powered portfolio insights and recommendations in the frontend.
+
+==============================
+DASHBOARD MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /dashboard
+
+1. GET DASHBOARD OVERVIEW
+-------------------------
+GET /dashboard/overview
+- Description: Get dashboard overview data (portfolio, performance, recent transactions, upcoming SIPs, etc.)
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. GET DASHBOARD ANALYTICS
+--------------------------
+GET /dashboard/analytics
+- Description: Get dashboard analytics data
+
+3. GET RECENT TRANSACTIONS
+--------------------------
+GET /dashboard/recent-transactions
+- Description: Get recent transactions for the user
+
+4. GET UPCOMING SIPS
+--------------------
+GET /dashboard/upcoming-sips
+- Description: Get upcoming SIPs for the user
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive dashboard, analytics, and transaction features in the frontend.
+
+==============================
+WHATSAPP MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /whatsapp
+
+1. SEND WHATSAPP MESSAGE
+------------------------
+POST /whatsapp/send
+- Description: Send a WhatsApp message to a user
+- Request Example:
+  {
+    "to": "+919876543210",
+    "message": "Your SIP is due tomorrow."
+  }
+- Response Example:
+  {
+    "success": true,
+    "messageId": "..."
+  }
+
+2. GET WHATSAPP MESSAGE STATUS
+------------------------------
+GET /whatsapp/status/:messageId
+- Description: Get the status of a WhatsApp message
+
+3. GET WHATSAPP CHAT HISTORY
+----------------------------
+GET /whatsapp/history/:userId
+- Description: Get WhatsApp chat history for a user
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive WhatsApp notifications, reminders, and chat features in the frontend.
+
+NEXT: Leaderboard, Ollama, and PDF Statement modules. 
+
+
+==============================
+LEADERBOARD MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /leaderboard
+
+1. GET LEADERBOARD DATA
+-----------------------
+GET /leaderboard
+- Description: Get leaderboard data (rankings, scores, etc.)
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "leaderboard": [ ... ],
+      "userRank": { ... }
+    }
+  }
+
+2. GET USER LEADERBOARD POSITION
+--------------------------------
+GET /leaderboard/user/:userId
+- Description: Get a specific user's leaderboard position
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive leaderboard and gamification features in the frontend.
+
+==============================
+OLLAMA MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /ollama
+
+1. GET OLLAMA STATUS
+--------------------
+GET /ollama/status
+- Description: Get Ollama system status
+- Response Example:
+  {
+    "success": true,
+    "status": "online"
+  }
+
+2. RUN OLLAMA TASK
+------------------
+POST /ollama/task
+- Description: Run a specific Ollama task (AI/ML, analytics, etc.)
+- Request Example:
+  {
+    "taskType": "fund_analysis",
+    "params": { ... }
+  }
+- Response Example:
+  {
+    "success": true,
+    "result": { ... }
+  }
+
+3. GET OLLAMA TASK RESULT
+-------------------------
+GET /ollama/task/:taskId
+- Description: Get the result of a specific Ollama task
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive advanced analytics, AI, and ML features in the frontend.
+
+==============================
+PDF STATEMENT MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /pdf-statement
+
+1. GENERATE PDF STATEMENT
+-------------------------
+POST /pdf-statement/generate
+- Description: Generate a PDF statement for a user or portfolio
+- Request Example:
+  {
+    "userId": "...",
+    "period": "2024-01"
+  }
+- Response Example:
+  {
+    "success": true,
+    "pdfUrl": "https://.../statement.pdf"
+  }
+
+2. GET PDF STATEMENT STATUS
+---------------------------
+GET /pdf-statement/status/:statementId
+- Description: Get the status of a PDF statement generation
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive PDF statement generation and download features in the frontend.
+
+NEXT: Auth, Rewards, Benchmark, and AI modules. 
+
+
+==============================
+AUTH MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /auth
+
+1. CHECK AUTHENTICATION STATUS
+------------------------------
+GET /auth/check
+- Description: Check if the user is authenticated (token valid)
+- Response Example:
+  {
+    "success": true,
+    "message": "Authenticated",
+    "data": { "userId": "...", ... }
+  }
+
+2. GET KYC STATUS
+-----------------
+GET /auth/kyc/status
+- Description: Get the user's KYC status
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "kycStatus": "PENDING" // or APPROVED, REJECTED
+    }
+  }
+
+3. UPDATE KYC STATUS (Testing/Demo)
+-----------------------------------
+PUT /auth/kyc/status
+- Description: Update the user's KYC status (for testing/demo only)
+- Request Example:
+  {
+    "kycStatus": "APPROVED"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "KYC status updated"
+  }
+
+4. GET USER PROFILE
+-------------------
+GET /auth/profile
+- Description: Get the authenticated user's profile
+- Response Example:
+  {
+    "success": true,
+    "data": {
+      "userId": "...",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "9876543210",
+      "kycStatus": "APPROVED",
+      ...
+    }
+  }
+
+5. UPDATE USER PROFILE
+----------------------
+PUT /auth/profile
+- Description: Update the authenticated user's profile
+- Request Example:
+  {
+    "name": "Jane Doe",
+    "phone": "9123456789"
+  }
+- Response Example:
+  {
+    "success": true,
+    "message": "Profile updated successfully"
+  }
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- KYC status is required for investment features.
+
+==============================
+REWARDS MODULE
+==============================
+
+All endpoints in this section require the Authorization header:
+  Authorization: Bearer <your-jwt-token>
+
+ROUTE PREFIX: /rewards
+
+1. GET REWARD SUMMARY
+---------------------
+GET /rewards/summary
+- Description: Get user's reward summary
+
+2. GET REWARD TRANSACTIONS
+--------------------------
+GET /rewards/transactions
+- Description: Get user's reward transactions
+
+3. SIMULATE SIP REWARD
+----------------------
+POST /rewards/simulate-sip-reward
+- Description: Simulate SIP reward for user
+
+4. GET REFERRAL CODE
+--------------------
+GET /rewards/referral-code
+- Description: Get user's referral code
+
+5. GET REFERRAL LEADERBOARD
+---------------------------
+GET /rewards/leaderboard
+- Description: Get referral leaderboard
+
+6. AWARD SIP POINTS (Internal)
+------------------------------
+POST /rewards/award-sip-points
+- Description: Award SIP points to user (internal use)
+
+7. VALIDATE REFERRAL (Internal)
+-------------------------------
+POST /rewards/validate-referral
+- Description: Validate referral code (internal use)
+
+8. REVOKE REFERRAL BONUS (Internal)
+-----------------------------------
+POST /rewards/revoke-referral
+- Description: Revoke referral bonus (internal use)
+
+9. ADMIN: MARK REWARD AS PAID
+-----------------------------
+POST /rewards/admin/mark-paid
+- Description: Mark reward as paid (admin)
+
+10. ADMIN: GET UNPAID REWARDS
+-----------------------------
+GET /rewards/admin/unpaid
+- Description: Get unpaid rewards (admin)
+
+11. ADMIN: GET USER REWARD HISTORY
+----------------------------------
+GET /rewards/admin/user/:userId
+- Description: Get user reward history (admin)
+
+12. ADMIN: EXPORT UNPAID REWARDS CSV
+------------------------------------
+GET /rewards/admin/export-csv
+- Description: Export unpaid rewards as CSV (admin)
+
+NOTES:
+- All requests and responses are JSON.
+- Always include the Authorization header for these endpoints.
+- Use the response data to drive rewards, referrals, and gamification features in the frontend.
+
+==============================
+BENCHMARK MODULE
+==============================
+
+ROUTE PREFIX: /benchmark
+
+1. GET MARKET STATUS
+--------------------
+GET /benchmark/market-status
+- Description: Get real-time market status and indices
+
+2. GET GAINERS AND LOSERS
+-------------------------
+GET /benchmark/gainers-losers
+- Description: Get gainers and losers for a specific index
+
+3. GET MOST ACTIVE EQUITIES
+---------------------------
+GET /benchmark/most-active
+- Description: Get most active equities
+
+4. UPDATE NIFTY 50 DATA
+-----------------------
+POST /benchmark/update-nifty
+- Description: Update NIFTY 50 data from NSE service
+
+5. COMPARE FUND WITH BENCHMARK
+------------------------------
+GET /benchmark/compare/:fundId
+- Description: Compare mutual fund with benchmark
+
+6. GENERATE AI INSIGHTS
+-----------------------
+GET /benchmark/insights/:fundId
+- Description: Generate AI insights comparing fund with benchmark
+
+7. GET BENCHMARK DATA
+---------------------
+GET /benchmark/:indexId
+- Description: Get benchmark data for a specific index
+
+8. GET REAL NIFTY 50 DATA
+-------------------------
+GET /benchmark/nifty50/real-data
+- Description: Get real NIFTY 50 data for 1 year for charting
+
+NOTES:
+- All requests and responses are JSON.
+- Use the response data to drive market comparison, analytics, and charting features in the frontend.
+
+==============================
+AI MODULE
+==============================
+
+ROUTE PREFIX: /ai
+
+1. ANALYZE MUTUAL FUNDS
+-----------------------
+POST /ai/analyze
+- Description: Comprehensive mutual fund analysis (scheme codes → full analysis)
+- Request Example:
+  {
+    "schemeCodes": ["HDFCMIDCAP", "ICICIBLUECHIP"]
+  }
+- Response Example:
+  {
+    "success": true,
+    "data": { ... }
+  }
+
+2. GET AI SERVICE HEALTH STATUS
+-------------------------------
+GET /ai/health
+- Description: Get AI service health status
+
+3. TEST MUTUAL FUND DATA FETCH
+------------------------------
+GET /ai/test/:schemeCode
+- Description: Test mutual fund data fetching
+
+NOTES:
+- All requests and responses are JSON.
+- Use the response data to drive AI-powered analytics and mutual fund features in the frontend.
+
+==============================
+END OF MODULE DOCUMENTATION
+============================== 

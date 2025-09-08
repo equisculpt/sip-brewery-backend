@@ -1,0 +1,16 @@
+{
+  "enableCommodityMonitoring": true,
+  "enableLogisticsTracking": true,
+  "enableManufacturingMonitoring": true,
+  "enableRiskEngine": true,
+  "enableASIIntegration": true,
+  "enableSatelliteIntelligence": true,
+  "autoStart": true,
+  "enableHealthChecks": true,
+  "enableReporting": true,
+  "enableAlerting": true,
+  "healthCheckInterval": 600000,
+  "reportGenerationInterval": 3600000,
+  "alertCheckInterval": 300000,
+  "dataPath": "./data/test-supply-chain"
+}

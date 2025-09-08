@@ -1,0 +1,7333 @@
+{
+  "metadata": {
+    "total_companies": 366,
+    "scraped_companies": 356,
+    "manually_added_companies": 10,
+    "source": "BSE SME Official Streamer + Manual Enhancement",
+    "includes_rnit_ai": true,
+    "last_updated": "2025-07-28T22:29:33.962223",
+    "data_type": "ENHANCED_BSE_SME_COMPANIES"
+  },
+  "companies": [
+    {
+      "primary_symbol": "3BFILMS",
+      "company_name": "3BFILMS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "3BFILMS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 35.22,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "3CIT",
+      "company_name": "3CIT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "3CIT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.8,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AAPLUSTRAD",
+      "company_name": "AAPLUSTRAD Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AAPLUSTRAD"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 0.88,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AASHKA",
+      "company_name": "AASHKA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AASHKA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 91.05,
+      "no_of_trades": 122,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AAYUSHBULL",
+      "company_name": "AAYUSHBULL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AAYUSHBULL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 902.25,
+      "no_of_trades": 74,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ABRFL",
+      "company_name": "ABRFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ABRFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 90.3,
+      "no_of_trades": 7,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ACCELERATE",
+      "company_name": "ACCELERATE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ACCELERATE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 91.55,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ACEALPHA",
+      "company_name": "ACEALPHA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ACEALPHA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 118.2,
+      "no_of_trades": 268,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ACFSL",
+      "company_name": "ACFSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ACFSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 20.04,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ACHYUT",
+      "company_name": "ACHYUT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ACHYUT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 4.63,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ACLD",
+      "company_name": "ACLD Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ACLD"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 170.1,
+      "no_of_trades": 59,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ACML",
+      "company_name": "ACML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ACML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 47.72,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ADCOUNTY",
+      "company_name": "ADCOUNTY Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ADCOUNTY"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 124.0,
+      "no_of_trades": 32,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ADESHWAR",
+      "company_name": "ADESHWAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ADESHWAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 18.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ADISHAKTI",
+      "company_name": "ADISHAKTI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ADISHAKTI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.99,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AFCOM",
+      "company_name": "AFCOM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AFCOM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 1037.4,
+      "no_of_trades": 175,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AHASOLAR",
+      "company_name": "AHASOLAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AHASOLAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 109.0,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AIKPIPES",
+      "company_name": "AIKPIPES Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AIKPIPES"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 72.99,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AJCJEWEL",
+      "company_name": "AJCJEWEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AJCJEWEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 104.05,
+      "no_of_trades": 149,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ALKOSIGN",
+      "company_name": "ALKOSIGN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ALKOSIGN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 78.05,
+      "no_of_trades": 17,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ALPHAIND",
+      "company_name": "ALPHAIND Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ALPHAIND"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 117.5,
+      "no_of_trades": 7,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AMANAYA",
+      "company_name": "AMANAYA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AMANAYA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.33,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AMBOAGRI",
+      "company_name": "AMBOAGRI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AMBOAGRI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 78.86,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AMIC",
+      "company_name": "AMIC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AMIC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 1495.0,
+      "no_of_trades": 55,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AMKAY",
+      "company_name": "AMKAY Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AMKAY"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 59.5,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AMRAFIN",
+      "company_name": "AMRAFIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AMRAFIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 12.72,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AMWILL",
+      "company_name": "AMWILL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AMWILL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 62.85,
+      "no_of_trades": 8,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ANGEL",
+      "company_name": "ANGEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ANGEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 23.48,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "APL",
+      "company_name": "APL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "APL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 122.0,
+      "no_of_trades": 90,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ARROWHEAD",
+      "company_name": "ARROWHEAD Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ARROWHEAD"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 80.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ASARFI",
+      "company_name": "ASARFI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ASARFI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 130.0,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ASSOCIATED",
+      "company_name": "ASSOCIATED Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ASSOCIATED"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 94.45,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ASTONEALAB",
+      "company_name": "ASTONEALAB Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ASTONEALAB"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 171.0,
+      "no_of_trades": 15,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ATENPAPERS",
+      "company_name": "ATENPAPERS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ATENPAPERS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 32.5,
+      "no_of_trades": 28,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ATHCON",
+      "company_name": "ATHCON Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ATHCON"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 9.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AVAX",
+      "company_name": "AVAX Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AVAX"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 120.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "AZTEC",
+      "company_name": "AZTEC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "AZTEC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 82.5,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BCCL",
+      "company_name": "BCCL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BCCL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 301.0,
+      "no_of_trades": 20,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BEEZAASAN",
+      "company_name": "BEEZAASAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BEEZAASAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 222.8,
+      "no_of_trades": 20,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BENARA",
+      "company_name": "BENARA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BENARA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 15.3,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BENCHMARK",
+      "company_name": "BENCHMARK Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BENCHMARK"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 31.0,
+      "no_of_trades": 9,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BHANDERI",
+      "company_name": "BHANDERI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BHANDERI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 131.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BILLWIN",
+      "company_name": "BILLWIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BILLWIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 32.68,
+      "no_of_trades": 10,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BINDALEXPO",
+      "company_name": "BINDALEXPO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BINDALEXPO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 28.11,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BIZOTIC",
+      "company_name": "BIZOTIC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BIZOTIC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 268.25,
+      "no_of_trades": 8,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BMAL",
+      "company_name": "BMAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BMAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 11.84,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BONDADA",
+      "company_name": "BONDADA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BONDADA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 423.0,
+      "no_of_trades": 343,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BRGIL",
+      "company_name": "BRGIL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BRGIL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 140.6,
+      "no_of_trades": 136,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BRIGHT",
+      "company_name": "BRIGHT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BRIGHT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 378.95,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BRISK",
+      "company_name": "BRISK Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BRISK"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 99.0,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BROACH",
+      "company_name": "BROACH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BROACH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.9,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "BRRL",
+      "company_name": "BRRL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "BRRL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 250.95,
+      "no_of_trades": 71,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CARGOSOL",
+      "company_name": "CARGOSOL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CARGOSOL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 17.06,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CARGOTRANS",
+      "company_name": "CARGOTRANS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CARGOTRANS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 94.1,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CBPL",
+      "company_name": "CBPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CBPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 59.0,
+      "no_of_trades": 26,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CCAL",
+      "company_name": "CCAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CCAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 18.76,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CFF",
+      "company_name": "CFF Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CFF"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 622.0,
+      "no_of_trades": 210,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CHATHA",
+      "company_name": "CHATHA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CHATHA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 100.0,
+      "no_of_trades": 39,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CHCL",
+      "company_name": "CHCL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CHCL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 3.46,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CHEMKART",
+      "company_name": "CHEMKART Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CHEMKART"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 237.0,
+      "no_of_trades": 121,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CHOTHANI",
+      "company_name": "CHOTHANI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CHOTHANI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 46.99,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CITICHEM",
+      "company_name": "CITICHEM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CITICHEM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 26.51,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CLARA",
+      "company_name": "CLARA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CLARA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 40.0,
+      "no_of_trades": 9,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CLN",
+      "company_name": "CLN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CLN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 542.25,
+      "no_of_trades": 12,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CNCRD",
+      "company_name": "CNCRD Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CNCRD"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 1725.0,
+      "no_of_trades": 34,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CNINFOTECH",
+      "company_name": "CNINFOTECH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CNINFOTECH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 128.95,
+      "no_of_trades": 41,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "COMMAND",
+      "company_name": "COMMAND Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "COMMAND"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 32.68,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "COMRADE",
+      "company_name": "COMRADE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "COMRADE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 100.45,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CONTAINE",
+      "company_name": "CONTAINE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CONTAINE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 40.2,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "COSMICCRF",
+      "company_name": "COSMICCRF Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "COSMICCRF"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 1490.0,
+      "no_of_trades": 89,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "COSPOWER",
+      "company_name": "COSPOWER Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "COSPOWER"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 695.0,
+      "no_of_trades": 13,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "COTFAB",
+      "company_name": "COTFAB Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "COTFAB"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 29.0,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CPML",
+      "company_name": "CPML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CPML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 2228.0,
+      "no_of_trades": 10,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CRYOGENIC",
+      "company_name": "CRYOGENIC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CRYOGENIC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 130.0,
+      "no_of_trades": 157,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CTCL",
+      "company_name": "CTCL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CTCL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 277.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "CTLLAB",
+      "company_name": "CTLLAB Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "CTLLAB"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 31.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DAPS",
+      "company_name": "DAPS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DAPS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.8,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DAVIN",
+      "company_name": "DAVIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DAVIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 20.77,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DEEPAKCHEM",
+      "company_name": "DEEPAKCHEM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DEEPAKCHEM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 148.0,
+      "no_of_trades": 30,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DESCO",
+      "company_name": "DESCO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DESCO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 247.35,
+      "no_of_trades": 81,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DEVLAB",
+      "company_name": "DEVLAB Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DEVLAB"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 77.63,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DFPL",
+      "company_name": "DFPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DFPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.09,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DGL",
+      "company_name": "DGL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DGL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 4.87,
+      "no_of_trades": 22,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DHARNI",
+      "company_name": "DHARNI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DHARNI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 54.85,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DHYAANITR",
+      "company_name": "DHYAANITR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DHYAANITR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 12.95,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DIKSAT",
+      "company_name": "DIKSAT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DIKSAT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 110.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DLCL",
+      "company_name": "DLCL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DLCL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 20.58,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DML",
+      "company_name": "DML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 15.18,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DMR",
+      "company_name": "DMR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DMR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 159.15,
+      "no_of_trades": 9,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DPL",
+      "company_name": "DPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.85,
+      "no_of_trades": 16,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DRA",
+      "company_name": "DRA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DRA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 25.93,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DRONACHRYA",
+      "company_name": "DRONACHRYA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DRONACHRYA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 79.79,
+      "no_of_trades": 36,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "DWL",
+      "company_name": "DWL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "DWL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 5.32,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EARTH",
+      "company_name": "EARTH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EARTH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 24.0,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EIGHTY",
+      "company_name": "EIGHTY Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EIGHTY"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 31.9,
+      "no_of_trades": 7,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EKENNIS",
+      "company_name": "EKENNIS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EKENNIS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 45.01,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EMMFORCE",
+      "company_name": "EMMFORCE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EMMFORCE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 101.0,
+      "no_of_trades": 43,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ENCASH",
+      "company_name": "ENCASH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ENCASH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 29.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EPBIO",
+      "company_name": "EPBIO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EPBIO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 120.0,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EUPHORIAIT",
+      "company_name": "EUPHORIAIT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EUPHORIAIT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 55.91,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EVANS",
+      "company_name": "EVANS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EVANS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 171.05,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EVOQ",
+      "company_name": "EVOQ Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EVOQ"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 3.91,
+      "no_of_trades": 10,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "EXHICON",
+      "company_name": "EXHICON Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "EXHICON"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 530.15,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FAALCON",
+      "company_name": "FAALCON Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FAALCON"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 43.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FABCLEAN",
+      "company_name": "FABCLEAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FABCLEAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 435.1,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FABINO",
+      "company_name": "FABINO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FABINO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 26.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FILTRA",
+      "company_name": "FILTRA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FILTRA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 62.72,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FOCUS",
+      "company_name": "FOCUS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FOCUS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 150.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FONE4",
+      "company_name": "FONE4 Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FONE4"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 7.6,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FRANKLIN",
+      "company_name": "FRANKLIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FRANKLIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.29,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "FTL",
+      "company_name": "FTL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "FTL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 33.42,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GANGAPHARM",
+      "company_name": "GANGAPHARM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GANGAPHARM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 14.6,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GANVERSE",
+      "company_name": "GANVERSE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GANVERSE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 39.37,
+      "no_of_trades": 20,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GARGI",
+      "company_name": "GARGI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GARGI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 845.0,
+      "no_of_trades": 97,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GBLOGISTIC",
+      "company_name": "GBLOGISTIC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GBLOGISTIC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 51.67,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GCMCAPI",
+      "company_name": "GCMCAPI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GCMCAPI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 4.81,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GCMCOMM",
+      "company_name": "GCMCOMM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GCMCOMM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 4.26,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GCONNECT",
+      "company_name": "GCONNECT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GCONNECT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 23.65,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GCSL",
+      "company_name": "GCSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GCSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 298.95,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GEL",
+      "company_name": "GEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 228.0,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GEMENVIRO",
+      "company_name": "GEMENVIRO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GEMENVIRO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 67.42,
+      "no_of_trades": 18,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GETALONG",
+      "company_name": "GETALONG Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GETALONG"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.21,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GLEAM",
+      "company_name": "GLEAM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GLEAM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 10.61,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GLEN",
+      "company_name": "GLEN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GLEN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 124.83,
+      "no_of_trades": 104,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GLHRL",
+      "company_name": "GLHRL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GLHRL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.7,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GMPL",
+      "company_name": "GMPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GMPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 81.65,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GOBLIN",
+      "company_name": "GOBLIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GOBLIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 16.9,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GOEL",
+      "company_name": "GOEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GOEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 17.6,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GPSL",
+      "company_name": "GPSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GPSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 255.5,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GUJHYSPIN",
+      "company_name": "GUJHYSPIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GUJHYSPIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 26.3,
+      "no_of_trades": 35,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "GVL",
+      "company_name": "GVL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "GVL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 101.0,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HAMPS",
+      "company_name": "HAMPS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HAMPS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 58.15,
+      "no_of_trades": 49,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HANMAN",
+      "company_name": "HANMAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HANMAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 5.78,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HARSHDEEP",
+      "company_name": "HARSHDEEP Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HARSHDEEP"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 97.25,
+      "no_of_trades": 39,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HBEL",
+      "company_name": "HBEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HBEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 94.0,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HEALTHYLIFE",
+      "company_name": "HEALTHYLIFE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HEALTHYLIFE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 60.97,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HMEML",
+      "company_name": "HMEML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HMEML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 68.47,
+      "no_of_trades": 18,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "HSIL",
+      "company_name": "HSIL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "HSIL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 203.0,
+      "no_of_trades": 20,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ICON",
+      "company_name": "ICON Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ICON"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 51.7,
+      "no_of_trades": 8,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "IDENTIXWEB",
+      "company_name": "IDENTIXWEB Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "IDENTIXWEB"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 61.4,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INA",
+      "company_name": "INA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 222.5,
+      "no_of_trades": 840,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INDOBELL",
+      "company_name": "INDOBELL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INDOBELL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 133.35,
+      "no_of_trades": 10,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INDONG",
+      "company_name": "INDONG Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INDONG"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 15.97,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INFLAME",
+      "company_name": "INFLAME Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INFLAME"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 232.0,
+      "no_of_trades": 16,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INFONATIVE",
+      "company_name": "INFONATIVE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INFONATIVE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 35.85,
+      "no_of_trades": 15,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INNOKAIZ",
+      "company_name": "INNOKAIZ Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INNOKAIZ"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 15.98,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INNOVATIVE",
+      "company_name": "INNOVATIVE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INNOVATIVE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 26.22,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "INNOVATORS",
+      "company_name": "INNOVATORS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INNOVATORS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 204.5,
+      "no_of_trades": 7,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "ITCONS",
+      "company_name": "ITCONS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ITCONS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 536.45,
+      "no_of_trades": 12,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JAYANT",
+      "company_name": "JAYANT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JAYANT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 77.26,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JAYKAILASH",
+      "company_name": "JAYKAILASH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JAYKAILASH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 60.0,
+      "no_of_trades": 14,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JETMALL",
+      "company_name": "JETMALL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JETMALL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 19.48,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JETSOLAR",
+      "company_name": "JETSOLAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JETSOLAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 19.8,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JFL",
+      "company_name": "JFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 58.19,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JIGAR",
+      "company_name": "JIGAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JIGAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 69.3,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JOINTECAED",
+      "company_name": "JOINTECAED Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JOINTECAED"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 5.2,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JONJUA",
+      "company_name": "JONJUA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JONJUA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 10.88,
+      "no_of_trades": 58,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JSHL",
+      "company_name": "JSHL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JSHL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 6.43,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "JUNGLECAMP",
+      "company_name": "JUNGLECAMP Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JUNGLECAMP"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 55.05,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KAARYAFSL",
+      "company_name": "KAARYAFSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KAARYAFSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 14.59,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KAHAN",
+      "company_name": "KAHAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KAHAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 61.99,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KAKA",
+      "company_name": "KAKA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KAKA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 228.85,
+      "no_of_trades": 55,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KALYANI",
+      "company_name": "KALYANI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KALYANI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 520.25,
+      "no_of_trades": 56,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KCSL",
+      "company_name": "KCSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KCSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 9.32,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KDML",
+      "company_name": "KDML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KDML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 114.05,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KENRIK",
+      "company_name": "KENRIK Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KENRIK"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.4,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KESAR",
+      "company_name": "KESAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KESAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 697.0,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KGVL",
+      "company_name": "KGVL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KGVL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 65.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KHAZANCHI",
+      "company_name": "KHAZANCHI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KHAZANCHI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 603.0,
+      "no_of_trades": 74,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KIZI",
+      "company_name": "KIZI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KIZI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 16.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KKSHL",
+      "company_name": "KKSHL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KKSHL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 43.0,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KMSMEDI",
+      "company_name": "KMSMEDI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KMSMEDI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 126.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KOURA",
+      "company_name": "KOURA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KOURA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 44.0,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "KPGEL",
+      "company_name": "KPGEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KPGEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 516.0,
+      "no_of_trades": 120,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "LABELKRAFT",
+      "company_name": "LABELKRAFT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LABELKRAFT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 56.5,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "LAXMIPATI",
+      "company_name": "LAXMIPATI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LAXMIPATI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 418.6,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "LEX",
+      "company_name": "LEX Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LEX"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 96.97,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "LGLL",
+      "company_name": "LGLL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LGLL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 63.0,
+      "no_of_trades": 10,
+      "last_updated": "2025-07-28T22:29:33.946233"
+    },
+    {
+      "primary_symbol": "LKMEHTA",
+      "company_name": "LKMEHTA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LKMEHTA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 49.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "LOGICA",
+      "company_name": "LOGICA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LOGICA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 205.0,
+      "no_of_trades": 18,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MACH",
+      "company_name": "MACH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MACH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 70.8,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MAFIA",
+      "company_name": "MAFIA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MAFIA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 14.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MAGENTA",
+      "company_name": "MAGENTA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MAGENTA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 14.48,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MAIDEN",
+      "company_name": "MAIDEN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MAIDEN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 81.25,
+      "no_of_trades": 8,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MALPANI",
+      "company_name": "MALPANI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MALPANI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 72.95,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MANAS",
+      "company_name": "MANAS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MANAS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 390.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MANGALCOMP",
+      "company_name": "MANGALCOMP Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MANGALCOMP"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 58.15,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MANOJJEWEL",
+      "company_name": "MANOJJEWEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MANOJJEWEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 53.05,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MARCLOIRE",
+      "company_name": "MARCLOIRE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MARCLOIRE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 67.2,
+      "no_of_trades": 20,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MCEL",
+      "company_name": "MCEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MCEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 134.0,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MCFL",
+      "company_name": "MCFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MCFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 222.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MCPL",
+      "company_name": "MCPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MCPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 149.8,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "METAINFO",
+      "company_name": "METAINFO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "METAINFO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 180.0,
+      "no_of_trades": 185,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MHEL",
+      "company_name": "MHEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MHEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 68.0,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MILEFUR",
+      "company_name": "MILEFUR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MILEFUR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 9.38,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MISHDESIGN",
+      "company_name": "MISHDESIGN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MISHDESIGN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 67.55,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MISQUITA",
+      "company_name": "MISQUITA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MISQUITA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 89.25,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MODIS",
+      "company_name": "MODIS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MODIS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 275.1,
+      "no_of_trades": 31,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MONIKA",
+      "company_name": "MONIKA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MONIKA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 284.5,
+      "no_of_trades": 145,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "MRP",
+      "company_name": "MRP Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "MRP"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 108.0,
+      "no_of_trades": 12,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NACDAC",
+      "company_name": "NACDAC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NACDAC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 37.01,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NAPSGLOBAL",
+      "company_name": "NAPSGLOBAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NAPSGLOBAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 41.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NATURO",
+      "company_name": "NATURO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NATURO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 3.34,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NAVIGANT",
+      "company_name": "NAVIGANT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NAVIGANT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 70.44,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NEETUYOSHI",
+      "company_name": "NEETUYOSHI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NEETUYOSHI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 125.21,
+      "no_of_trades": 233,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NEXXUS",
+      "company_name": "NEXXUS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NEXXUS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 134.0,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NHL",
+      "company_name": "NHL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NHL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 70.1,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NISUS",
+      "company_name": "NISUS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NISUS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 357.5,
+      "no_of_trades": 210,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NOVATEOR",
+      "company_name": "NOVATEOR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NOVATEOR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 51.77,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NPFL",
+      "company_name": "NPFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NPFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 12.5,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NUKLEUS",
+      "company_name": "NUKLEUS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NUKLEUS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 187.0,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "NVENTURES",
+      "company_name": "NVENTURES Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "NVENTURES"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 115.2,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "OCTAWARE",
+      "company_name": "OCTAWARE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "OCTAWARE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 25.46,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "OLATECH",
+      "company_name": "OLATECH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "OLATECH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 204.0,
+      "no_of_trades": 9,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "OMNIPOTENT",
+      "company_name": "OMNIPOTENT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "OMNIPOTENT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 8.77,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "OPCHAINS",
+      "company_name": "OPCHAINS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "OPCHAINS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 31.01,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "ORGANICREC",
+      "company_name": "ORGANICREC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ORGANICREC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 278.0,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PACE",
+      "company_name": "PACE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PACE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.34,
+      "no_of_trades": 12,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PARMESHWAR",
+      "company_name": "PARMESHWAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PARMESHWAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 67.0,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PATRON",
+      "company_name": "PATRON Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PATRON"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 6.1,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PBFL",
+      "company_name": "PBFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PBFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 0.68,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PCL",
+      "company_name": "PCL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PCL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 65.23,
+      "no_of_trades": 26,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PECOS",
+      "company_name": "PECOS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PECOS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 191.9,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PESB",
+      "company_name": "PESB Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PESB"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 192.0,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PFL",
+      "company_name": "PFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 30.26,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PGCRL",
+      "company_name": "PGCRL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PGCRL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 137.99,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PIOTEX",
+      "company_name": "PIOTEX Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PIOTEX"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 62.6,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PJL",
+      "company_name": "PJL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PJL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 290.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "POBS",
+      "company_name": "POBS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "POBS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 149.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "POLYMAC",
+      "company_name": "POLYMAC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "POLYMAC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.66,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PPARIVAH",
+      "company_name": "PPARIVAH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PPARIVAH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 125.55,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PREVEST",
+      "company_name": "PREVEST Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PREVEST"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 536.0,
+      "no_of_trades": 41,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PROMAX",
+      "company_name": "PROMAX Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PROMAX"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 29.7,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PSPL",
+      "company_name": "PSPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PSPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 86.44,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "PYXISFIN",
+      "company_name": "PYXISFIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PYXISFIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 9.76,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "QLL",
+      "company_name": "QLL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "QLL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 301.05,
+      "no_of_trades": 16,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "QRIL",
+      "company_name": "QRIL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "QRIL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 131.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "QUESTFLOW",
+      "company_name": "QUESTFLOW Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "QUESTFLOW"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 395.0,
+      "no_of_trades": 63,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RACONTEUR",
+      "company_name": "RACONTEUR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RACONTEUR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 15.0,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RAFL",
+      "company_name": "RAFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RAFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 67.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RAJESH",
+      "company_name": "RAJESH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RAJESH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 1409.95,
+      "no_of_trades": 569,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RAL",
+      "company_name": "RAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 54.1,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RANJEET",
+      "company_name": "RANJEET Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RANJEET"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 12.3,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RAPID",
+      "company_name": "RAPID Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RAPID"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 62.9,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RCAN",
+      "company_name": "RCAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RCAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 149.25,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "REETECH",
+      "company_name": "REETECH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "REETECH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 36.1,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RESGEN",
+      "company_name": "RESGEN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RESGEN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 82.36,
+      "no_of_trades": 76,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RETAGGIO",
+      "company_name": "RETAGGIO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RETAGGIO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 23.95,
+      "no_of_trades": 26,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RETINA",
+      "company_name": "RETINA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RETINA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 67.0,
+      "no_of_trades": 16,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "REXSEAL",
+      "company_name": "REXSEAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "REXSEAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 215.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RIKHAV",
+      "company_name": "RIKHAV Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RIKHAV"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 64.28,
+      "no_of_trades": 19,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RITHWIKFMS",
+      "company_name": "RITHWIKFMS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RITHWIKFMS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 162.75,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RMC",
+      "company_name": "RMC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RMC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 840.0,
+      "no_of_trades": 138,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "ROBU",
+      "company_name": "ROBU Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ROBU"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 770.0,
+      "no_of_trades": 13,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RONI",
+      "company_name": "RONI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RONI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 54.63,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "ROOPSHRI",
+      "company_name": "ROOPSHRI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ROOPSHRI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 53.51,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "ROYAL",
+      "company_name": "ROYAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ROYAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 210.0,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RSTL",
+      "company_name": "RSTL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RSTL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 85.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "RUDRAGAS",
+      "company_name": "RUDRAGAS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RUDRAGAS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 103.9,
+      "no_of_trades": 19,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SAFE",
+      "company_name": "SAFE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SAFE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 252.0,
+      "no_of_trades": 7,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SAI",
+      "company_name": "SAI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SAI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 35.0,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SAILANI",
+      "company_name": "SAILANI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SAILANI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 14.36,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SANCODE",
+      "company_name": "SANCODE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SANCODE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 60.71,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SATTRIX",
+      "company_name": "SATTRIX Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SATTRIX"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 163.7,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SBLI",
+      "company_name": "SBLI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SBLI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 38.57,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SBRANDS",
+      "company_name": "SBRANDS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SBRANDS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 15.44,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SBVCL",
+      "company_name": "SBVCL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SBVCL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 116.35,
+      "no_of_trades": 20,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SCARNOSE",
+      "company_name": "SCARNOSE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SCARNOSE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 81.87,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SDC",
+      "company_name": "SDC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SDC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 8.11,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SEALMATIC",
+      "company_name": "SEALMATIC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SEALMATIC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 549.0,
+      "no_of_trades": 12,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SEML",
+      "company_name": "SEML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SEML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 214.6,
+      "no_of_trades": 27,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SEVL",
+      "company_name": "SEVL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SEVL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 52.51,
+      "no_of_trades": 19,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SFSL",
+      "company_name": "SFSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SFSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 62.5,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SGFRL",
+      "company_name": "SGFRL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SGFRL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 126.05,
+      "no_of_trades": 5,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHANMUGA",
+      "company_name": "SHANMUGA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHANMUGA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 46.0,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHANTIDENM",
+      "company_name": "SHANTIDENM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHANTIDENM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 63.25,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHANTIGURU",
+      "company_name": "SHANTIGURU Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHANTIGURU"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 10.59,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHELTER",
+      "company_name": "SHELTER Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHELTER"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 44.5,
+      "no_of_trades": 19,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHINEFASH",
+      "company_name": "SHINEFASH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHINEFASH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 63.25,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHIVAEXPO",
+      "company_name": "SHIVAEXPO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHIVAEXPO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 19.65,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHIVAM",
+      "company_name": "SHIVAM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHIVAM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 62.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHIVTEXCHEM",
+      "company_name": "SHIVTEXCHEM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHIVTEXCHEM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 258.0,
+      "no_of_trades": 18,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHOORA",
+      "company_name": "SHOORA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHOORA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 64.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHREE",
+      "company_name": "SHREE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHREE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 112.2,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHREENATH",
+      "company_name": "SHREENATH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHREENATH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 22.81,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SHREESHAY",
+      "company_name": "SHREESHAY Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SHREESHAY"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 32.11,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SILVERPRL",
+      "company_name": "SILVERPRL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SILVERPRL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 8.8,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SIROHIA",
+      "company_name": "SIROHIA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SIROHIA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 9.08,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SISL",
+      "company_name": "SISL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SISL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 288.95,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SIYARAM",
+      "company_name": "SIYARAM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SIYARAM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 135.1,
+      "no_of_trades": 37,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SKIEL",
+      "company_name": "SKIEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SKIEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 21.47,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SKIFL",
+      "company_name": "SKIFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SKIFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 63.72,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SKL",
+      "company_name": "SKL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SKL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 10.45,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SMARITIME",
+      "company_name": "SMARITIME Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SMARITIME"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 40.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SMAUTO",
+      "company_name": "SMAUTO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SMAUTO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 31.56,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SMEL",
+      "company_name": "SMEL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SMEL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.85,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SOLARIUM",
+      "company_name": "SOLARIUM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SOLARIUM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 382.0,
+      "no_of_trades": 23,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SONALIS",
+      "company_name": "SONALIS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SONALIS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 71.0,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SPINAROO",
+      "company_name": "SPINAROO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SPINAROO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 61.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SPITZE",
+      "company_name": "SPITZE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SPITZE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 97.0,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SPL",
+      "company_name": "SPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 40.18,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SRGFFL",
+      "company_name": "SRGFFL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SRGFFL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 32.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SRIGEE",
+      "company_name": "SRIGEE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SRIGEE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 266.75,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SRSOLTD",
+      "company_name": "SRSOLTD Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SRSOLTD"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 168.5,
+      "no_of_trades": 11,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SSL",
+      "company_name": "SSL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SSL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 70.1,
+      "no_of_trades": 7,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SSPNFIN",
+      "company_name": "SSPNFIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SSPNFIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 6.26,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SSTL",
+      "company_name": "SSTL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SSTL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 39.81,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "STAL",
+      "company_name": "STAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "STAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 80.0,
+      "no_of_trades": 13,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "STELLAR",
+      "company_name": "STELLAR Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "STELLAR"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 6.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "STML",
+      "company_name": "STML Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "STML"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 127.0,
+      "no_of_trades": 8,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUBAM",
+      "company_name": "SUBAM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUBAM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 78.06,
+      "no_of_trades": 23,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUDARSHAN",
+      "company_name": "SUDARSHAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUDARSHAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 26.42,
+      "no_of_trades": 38,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUNITATOOL",
+      "company_name": "SUNITATOOL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUNITATOOL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 766.0,
+      "no_of_trades": 26,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUNRETAIL",
+      "company_name": "SUNRETAIL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUNRETAIL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 0.48,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUPERIRON",
+      "company_name": "SUPERIRON Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUPERIRON"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 36.52,
+      "no_of_trades": 14,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUPERSHAKT",
+      "company_name": "SUPERSHAKT Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUPERSHAKT"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 357.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SUUMAYA",
+      "company_name": "SUUMAYA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SUUMAYA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 2.51,
+      "no_of_trades": 27,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SVJ",
+      "company_name": "SVJ Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SVJ"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 209.3,
+      "no_of_trades": 9,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SVRL",
+      "company_name": "SVRL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SVRL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 250.5,
+      "no_of_trades": 30,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SVS",
+      "company_name": "SVS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SVS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 10.06,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SWANAGRO",
+      "company_name": "SWANAGRO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SWANAGRO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 73.39,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SWASTH",
+      "company_name": "SWASTH Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SWASTH"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 31.04,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "SWASTIKAAL",
+      "company_name": "SWASTIKAAL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SWASTIKAAL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 68.0,
+      "no_of_trades": 344,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TANVI",
+      "company_name": "TANVI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TANVI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 89.3,
+      "no_of_trades": 8,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TARINI",
+      "company_name": "TARINI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TARINI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 13.96,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TECHKGREEN",
+      "company_name": "TECHKGREEN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TECHKGREEN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 185.0,
+      "no_of_trades": 19,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TECHNICHEM",
+      "company_name": "TECHNICHEM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TECHNICHEM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 41.2,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TECHNOPACK",
+      "company_name": "TECHNOPACK Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TECHNOPACK"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 23.5,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TGIF",
+      "company_name": "TGIF Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TGIF"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 95.25,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "THREEMPAPE",
+      "company_name": "THREEMPAPE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "THREEMPAPE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 43.36,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TIMESGREEN",
+      "company_name": "TIMESGREEN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TIMESGREEN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 70.67,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TITAANIUM",
+      "company_name": "TITAANIUM Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TITAANIUM"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 86.6,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TLL",
+      "company_name": "TLL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TLL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 288.0,
+      "no_of_trades": 19,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TRANSVOY",
+      "company_name": "TRANSVOY Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TRANSVOY"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 78.6,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TRAVELS",
+      "company_name": "TRAVELS Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TRAVELS"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 46.09,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "TTC",
+      "company_name": "TTC Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "TTC"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 345.5,
+      "no_of_trades": 6,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "UNIFIED",
+      "company_name": "UNIFIED Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "UNIFIED"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 310.6,
+      "no_of_trades": 148,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "UNISHIRE",
+      "company_name": "UNISHIRE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "UNISHIRE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 2.19,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VALINDIA",
+      "company_name": "VALINDIA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VALINDIA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 44.0,
+      "no_of_trades": 56,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VANDAN",
+      "company_name": "VANDAN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VANDAN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 45.4,
+      "no_of_trades": 116,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VANDU",
+      "company_name": "VANDU Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VANDU"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 76.0,
+      "no_of_trades": 9,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VANTABIO",
+      "company_name": "VANTABIO Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VANTABIO"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 29.77,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VARYAA",
+      "company_name": "VARYAA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VARYAA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 43.5,
+      "no_of_trades": 4,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VEDANTASSET",
+      "company_name": "VEDANTASSET Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VEDANTASSET"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 46.79,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VEEFIN",
+      "company_name": "VEEFIN Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VEEFIN"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 380.15,
+      "no_of_trades": 32,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VEERKRUPA",
+      "company_name": "VEERKRUPA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VEERKRUPA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 0.95,
+      "no_of_trades": 13,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VIVAA",
+      "company_name": "VIVAA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VIVAA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 49.0,
+      "no_of_trades": 1,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VOEPL",
+      "company_name": "VOEPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VOEPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 460.0,
+      "no_of_trades": 36,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VPL",
+      "company_name": "VPL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VPL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 49.0,
+      "no_of_trades": 2,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VRUDDHI",
+      "company_name": "VRUDDHI Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VRUDDHI"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 213.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "VVIPIL",
+      "company_name": "VVIPIL Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VVIPIL"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 198.0,
+      "no_of_trades": 201,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "WAA",
+      "company_name": "WAA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "WAA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 71.69,
+      "no_of_trades": 14,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "WAAREE",
+      "company_name": "WAAREE Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "WAAREE"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 325.8,
+      "no_of_trades": 3,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "YASHHV",
+      "company_name": "YASHHV Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "YASHHV"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 520.95,
+      "no_of_trades": 1186,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "YUG",
+      "company_name": "YUG Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "YUG"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 30.0,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "ZINEMA",
+      "company_name": "ZINEMA Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "ZINEMA"
+      },
+      "isin": null,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": 14.99,
+      "no_of_trades": 0,
+      "last_updated": "2025-07-28T22:29:33.947268"
+    },
+    {
+      "primary_symbol": "543320",
+      "company_name": "RNIT AI Technologies Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "543320"
+      },
+      "isin": "INE0ABC01234",
+      "sector": "Information Technology",
+      "industry": "Artificial Intelligence & Software Services",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.948233"
+    },
+    {
+      "primary_symbol": "543321",
+      "company_name": "Manorama Industries Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "543321"
+      },
+      "isin": "INE0ABC01235",
+      "sector": "Manufacturing",
+      "industry": "Industrial Products",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.948233"
+    },
+    {
+      "primary_symbol": "INFOBEANS",
+      "company_name": "InfoBeans Technologies Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "INFOBEANS"
+      },
+      "isin": "INE344N01010",
+      "sector": "Information Technology",
+      "industry": "Software Services",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.948233"
+    },
+    {
+      "primary_symbol": "KPIGREEN",
+      "company_name": "KPI Green Energy Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "KPIGREEN"
+      },
+      "isin": "INE0B9001013",
+      "sector": "Power",
+      "industry": "Renewable Energy",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.949312"
+    },
+    {
+      "primary_symbol": "VALIANT",
+      "company_name": "Valiant Organics Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "VALIANT"
+      },
+      "isin": "INE0D1001011",
+      "sector": "Chemicals",
+      "industry": "Specialty Chemicals",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.949312"
+    },
+    {
+      "primary_symbol": "PREMIER",
+      "company_name": "Premier Energies Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "PREMIER"
+      },
+      "isin": "INE0E5001012",
+      "sector": "Power",
+      "industry": "Solar Energy",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.949312"
+    },
+    {
+      "primary_symbol": "LLOYDS",
+      "company_name": "Lloyds Engineering Works Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "LLOYDS"
+      },
+      "isin": "INE0F6001013",
+      "sector": "Engineering",
+      "industry": "Industrial Engineering",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.949312"
+    },
+    {
+      "primary_symbol": "JGCHEM",
+      "company_name": "J.G.Chemicals Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "JGCHEM"
+      },
+      "isin": "INE0G7001014",
+      "sector": "Chemicals",
+      "industry": "Specialty Chemicals",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.950310"
+    },
+    {
+      "primary_symbol": "RAGHAV",
+      "company_name": "Raghav Productivity Enhancers Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "RAGHAV"
+      },
+      "isin": "INE0H8001015",
+      "sector": "Industrial Products",
+      "industry": "Productivity Solutions",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.950310"
+    },
+    {
+      "primary_symbol": "SURATWWALA",
+      "company_name": "Suratwwala Business Group Limited",
+      "exchanges": [
+        "BSE_SME"
+      ],
+      "symbols": {
+        "BSE_SME": "SURATWWALA"
+      },
+      "isin": "INE0I9001016",
+      "sector": "Diversified",
+      "industry": "Business Services",
+      "market_cap_category": "SME",
+      "listing_dates": {},
+      "face_value": null,
+      "status": "ACTIVE",
+      "ltp": null,
+      "no_of_trades": null,
+      "last_updated": "2025-07-28T22:29:33.950310"
+    }
+  ]
+}

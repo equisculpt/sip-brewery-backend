@@ -1,0 +1,19 @@
+{
+  "last_full_update": "2025-07-28T22:01:15.476605",
+  "companies_count": 2148,
+  "funds_count": 14195,
+  "exchanges": {
+    "NSE_MAIN": 2148,
+    "NSE_SME": 0,
+    "NSE_EMERGE": 0
+  },
+  "fund_categories": {
+    "Debt": 1747,
+    "Equity": 5444,
+    "Unknown": 5718,
+    "Liquid": 316,
+    "Hybrid": 220,
+    "Index": 465,
+    "ETF": 285
+  }
+}

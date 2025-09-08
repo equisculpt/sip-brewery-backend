@@ -1,0 +1,30 @@
+
+=== LIVE DATA FOR RELIANCE ===
+Price: 0.0
+Change: 0.0
+Percent Change: 0.0
+Volume: 0
+Timestamp: 2025-07-28 11:53:26.694123
+Sources: ['MoneyControl']
+Confidence: 0.5
+Raw: {'symbol': 'RELIANCE', 'price': 0.0, 'change': 0.0, 'change_percent': 0.0, 'volume': 0, 'sources': ['MoneyControl'], 'timestamp': datetime.datetime(2025, 7, 28, 11, 53, 26, 694123), 'confidence': 0.5}
+
+=== LIVE DATA FOR TCS ===
+Price: 3101.9
+Change: -33.90000000000009
+Percent Change: -1.0810638433573598
+Volume: 0
+Timestamp: 2025-07-28 11:53:27.916528
+Sources: ['NSE', 'MoneyControl']
+Confidence: 1.0
+Raw: {'symbol': 'TCS', 'price': 3101.9, 'change': -33.90000000000009, 'change_percent': -1.0810638433573598, 'volume': 0, 'sources': ['NSE', 'MoneyControl'], 'timestamp': datetime.datetime(2025, 7, 28, 11, 53, 27, 916528), 'confidence': 1.0}
+
+=== LIVE DATA FOR SBIN ===
+Price: 804.8
+Change: -1.75
+Percent Change: -0.216973529229434
+Volume: 0
+Timestamp: 2025-07-28 11:53:29.269801
+Sources: ['NSE', 'MoneyControl']
+Confidence: 1.0
+Raw: {'symbol': 'SBIN', 'price': 804.8, 'change': -1.75, 'change_percent': -0.216973529229434, 'volume': 0, 'sources': ['NSE', 'MoneyControl'], 'timestamp': datetime.datetime(2025, 7, 28, 11, 53, 29, 269801), 'confidence': 1.0}

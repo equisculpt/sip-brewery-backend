@@ -1,0 +1,47 @@
+{
+  "deployment": {
+    "deployed_at": "2025-07-28T23:26:29.368741",
+    "version": "1.0.0",
+    "environment": "production"
+  },
+  "monitoring": {
+    "monitoring_interval": 5,
+    "alert_threshold": 24,
+    "max_alerts_per_run": 50,
+    "enable_email_alerts": false,
+    "enable_webhook_alerts": false,
+    "log_level": "INFO"
+  },
+  "data_sources": {
+    "NSE_LIVE": {
+      "enabled": true,
+      "url": "https://www.nseindia.com/api/corporates-corporateActions",
+      "timeout": 30
+    },
+    "BSE_LIVE": {
+      "enabled": true,
+      "url": "https://www.bseindia.com/corporates/ann.html",
+      "timeout": 30
+    },
+    "SEBI_FILINGS": {
+      "enabled": true,
+      "url": "https://www.sebi.gov.in/filings/exchange-filings",
+      "timeout": 30
+    }
+  },
+  "alerts": {
+    "email": {
+      "enabled": false,
+      "smtp_server": "",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "recipients": []
+    },
+    "webhook": {
+      "enabled": false,
+      "url": "",
+      "headers": {}
+    }
+  }
+}

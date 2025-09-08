@@ -1,0 +1,285 @@
+BACKEND AUDIT SUMMARY
+Generated: 2025-07-15T04:49:16.102Z
+=====================================
+
+OVERALL RESULTS:
+Total Modules Tested: 107
+Passed: 1
+Failed: 106
+Pass Rate: 0.93%
+
+FAILED MODULES:
+- whatsAppController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\whatsAppController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- voiceBotController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\voiceBotController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- tierOutreachController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\tierOutreachController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- socialInvestingController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\socialInvestingController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- smartSipController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\smartSipController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- roboAdvisorController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\roboAdvisorController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- rewardsController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\rewardsController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- regionalLanguageController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\regionalLanguageController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- pdfStatementController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\pdfStatementController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- ollamaController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\ollamaController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- marketAnalyticsController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\marketAnalyticsController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- learningController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\learningController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- leaderboardController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\leaderboardController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- digioController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\digioController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- dashboardController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\dashboardController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- complianceController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\complianceController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- bseStarMFController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\bseStarMFController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- benchmarkController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\benchmarkController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- authController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\authController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- analyticsController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\analyticsController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- aiPortfolioController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\aiPortfolioController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- agiController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\agiController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- adminController.test.js (Controllers)
+  Error: Command failed: npx jest "__tests__\controllers\adminController.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- whatsAppService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\whatsAppService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- voiceBot.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\voiceBot.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- trainingDataService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\trainingDataService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- tierOutreachService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\tierOutreachService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- taxOptimizationService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\taxOptimizationService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- taxCalculationService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\taxCalculationService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- socialTradingService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\socialTradingService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- socialInvestingService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\socialInvestingService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- smartSipService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\smartSipService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- scalabilityReliabilityService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\scalabilityReliabilityService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- roboAdvisor.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\roboAdvisor.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- riskProfilingService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\riskProfilingService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- rewardsService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\rewardsService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- regionalLanguageService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\regionalLanguageService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- realTimeDataService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\realTimeDataService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- realNiftyDataService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\realNiftyDataService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- ragService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\ragService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- quantumComputingService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\quantumComputingService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- predictiveEngine.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\predictiveEngine.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- portfolioOptimizer.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\portfolioOptimizer.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- portfolioAnalyticsService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\portfolioAnalyticsService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- pdfStatementService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\pdfStatementService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- ollamaService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\ollamaService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- nseService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\nseService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- navHistoryService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\navHistoryService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- microservicesArchitectureService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\microservicesArchitectureService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- marketScoreService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\marketScoreService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- marketAnalyticsEngine.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\marketAnalyticsEngine.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- leaderboardService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\leaderboardService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- leaderboardCronService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\leaderboardCronService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- investmentCalculatorService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\investmentCalculatorService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- gamificationService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\gamificationService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- fundComparisonService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\fundComparisonService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- esgSustainableInvestingService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\esgSustainableInvestingService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- digioService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\digioService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- dashboardService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\dashboardService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- dashboardEngine.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\dashboardEngine.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- cronService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\cronService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- complianceService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\complianceService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- complianceEngine.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\complianceEngine.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- chartDataService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\chartDataService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- bseStarMFService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\bseStarMFService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- benchmarkService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\benchmarkService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- auditService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\auditService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- aiService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\aiService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- aiPortfolioOptimizer.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\aiPortfolioOptimizer.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- agiService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\agiService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- agiEngine.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\agiEngine.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- advancedSecurityService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\advancedSecurityService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- advancedAIService.test.js (Services)
+  Error: Command failed: npx jest "__tests__\services\advancedAIService.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- WhatsAppSession.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\WhatsAppSession.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- WhatsAppMessage.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\WhatsAppMessage.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- UserPortfolio.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\UserPortfolio.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- UserBehavior.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\UserBehavior.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- User.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\User.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Transaction.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Transaction.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- SmartSip.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\SmartSip.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- SipOrder.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\SipOrder.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- RewardSummary.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\RewardSummary.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Reward.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Reward.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Referral.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Referral.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- PortfolioCopy.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\PortfolioCopy.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Notification.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Notification.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- MarketData.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\MarketData.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Leaderboard.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Leaderboard.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Holding.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Holding.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- EconomicIndicator.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\EconomicIndicator.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Commission.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Commission.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Challenge.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Challenge.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- BenchmarkIndex.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\BenchmarkIndex.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- AuditLog.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\AuditLog.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- AIInsight.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\AIInsight.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- AGIInsight.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\AGIInsight.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Agent.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Agent.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Admin.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Admin.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- Achievement.test.js (Models)
+  Error: Command failed: npx jest "__tests__\models\Achievement.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- validation.test.js (Middleware)
+  Error: Command failed: npx jest "__tests__\middleware\validation.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- rateLimiter.test.js (Middleware)
+  Error: Command failed: npx jest "__tests__\middleware\rateLimiter.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- errorHandler.test.js (Middleware)
+  Error: Command failed: npx jest "__tests__\middleware\errorHandler.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- authenticateUser.test.js (Middleware)
+  Error: Command failed: npx jest "__tests__\middleware\authenticateUser.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- auth.test.js (Middleware)
+  Error: Command failed: npx jest "__tests__\middleware\auth.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- adminAuth.test.js (Middleware)
+  Error: Command failed: npx jest "__tests__\middleware\adminAuth.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+- comprehensive.test.js (Comprehensive)
+  Error: Command failed: npx jest "__tests__/comprehensive.test.js" --verbose --detectOpenHandles --forceExit --maxWorkers=1 --testTimeout=30000
+(node:14472) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14472) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+FAIL __tests__/comprehensive.test.js
+  Comprehensive Backend Tests
+    Database Connection
+      √ should connect to database (472 ms)
+    User Management
+      √ should create test user (58 ms)
+      √ should create user with custom data (43 ms)
+    Portfolio Management
+      √ should create test portfolio (55 ms)
+      √ should create portfolio with custom data (52 ms)
+    Transaction Management
+      √ should create test transaction (68 ms)
+      √ should create transaction with custom data (49 ms)
+    Smart SIP Management
+      × should create Smart SIP (61 ms)
+    Rewards System
+      × should create reward (48 ms)
+    WhatsApp Integration
+      √ should create WhatsApp session (48 ms)
+      √ should get conversation context (52 ms)
+    Authentication
+      √ should generate test JWT token (41 ms)
+    API Endpoints
+      √ should have working app instance (38 ms)
+
+  ● Comprehensive Backend Tests › Smart SIP Management › should create Smart SIP
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1000
+    Received: undefined
+
+    [0m [90m 120 |[39m       expect(savedSip)[33m.[39mtoBeDefined()[33m;[39m
+     [90m 121 |[39m       expect(savedSip[33m.[39muserId[33m.[39mtoString())[33m.[39mtoBe(user[33m.[39m_id[33m.[39mtoString())[33m;[39m
+    [31m[1m>[22m[39m[90m 122 |[39m       expect(savedSip[33m.[39mamount)[33m.[39mtoBe([35m1000[39m)[33m;[39m
+     [90m     |[39m                               [31m[1m^[22m[39m
+     [90m 123 |[39m     })[33m;[39m
+     [90m 124 |[39m   })[33m;[39m
+     [90m 125 |[39m[0m
+
+      at Object.toBe (__tests__/comprehensive.test.js:122:31)
+
+  ● Comprehensive Backend Tests › Rewards System › should create reward
+
+    ValidationError: Reward validation failed: type: `SIGNUP` is not a valid enum value for path `type`.
+
+      at model.Object.<anonymous>.Document.invalidate (node_modules/mongoose/lib/document.js:3354:32)
+      at node_modules/mongoose/lib/document.js:3115:17
+      at node_modules/mongoose/lib/schemaType.js:1410:9
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 11 passed, 13 total
+Snapshots:   0 total
+Time:        3.124 s, estimated 6 s
+Ran all test suites matching /__tests__\\comprehensive.test.js/i.
+
+
+RECOMMENDATIONS:
+❌ Backend requires significant fixes

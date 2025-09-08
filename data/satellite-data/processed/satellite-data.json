@@ -1,0 +1,1055 @@
+{
+  "2025-08-04T04:32:51.250Z": {
+    "majorPorts": {
+      "Mumbai Port": {
+        "portActivity": {
+          "region": "Mumbai Port",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 43,
+            "congestionIndex": 89.15251857385545,
+            "throughputIndicator": 70.55477187144344,
+            "vesselWaitTime": 25.978512584515713
+          },
+          "quality": "good",
+          "cloudCover": 16.695880774579784,
+          "timestamp": "2025-08-04T04:32:51.250Z",
+          "bbox": [
+            72.8,
+            18.9,
+            72.9,
+            19
+          ]
+        },
+        "industrialActivity": {
+          "region": "Mumbai Port",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 20.029888430416715,
+            "thermalActivity": 14.935259209013115,
+            "expansionIndicator": 7.707176269592882,
+            "operationalStatus": "inactive"
+          },
+          "quality": "good",
+          "cloudCover": 28.016374384807335,
+          "timestamp": "2025-08-04T04:32:51.251Z",
+          "bbox": [
+            72.8,
+            18.9,
+            72.9,
+            19
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Mumbai Port",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.6263256562630939,
+            "cropHealth": 62.632565626309386,
+            "irrigationActivity": 37.23333611620954,
+            "harvestReadiness": 49.932950871259465
+          },
+          "quality": "good",
+          "cloudCover": 24.552232974328216,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            72.8,
+            18.9,
+            72.9,
+            19
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Mumbai Port",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 20.03954947838237,
+            "fireActivity": 13.352091719890467,
+            "weatherSeverity": 26.704183439780934,
+            "airQualityIndex": 200.03031403033017
+          },
+          "quality": "good",
+          "cloudCover": 14.769621200427617,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            72.8,
+            18.9,
+            72.9,
+            19
+          ]
+        }
+      },
+      "Chennai Port": {
+        "portActivity": {
+          "region": "Chennai Port",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 8,
+            "congestionIndex": 16.368228784916212,
+            "throughputIndicator": 13.097326711278656,
+            "vesselWaitTime": 4.913212318820549
+          },
+          "quality": "good",
+          "cloudCover": 26.11336676391791,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.25,
+            13.05,
+            80.35,
+            13.15
+          ]
+        },
+        "industrialActivity": {
+          "region": "Chennai Port",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 26.776521448877475,
+            "thermalActivity": 19.026205835857468,
+            "expansionIndicator": 10.616394972336579,
+            "operationalStatus": "inactive"
+          },
+          "quality": "good",
+          "cloudCover": 5.583595490677413,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.25,
+            13.05,
+            80.35,
+            13.15
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Chennai Port",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.5968807695389599,
+            "cropHealth": 59.68807695389599,
+            "irrigationActivity": 36.6718554569953,
+            "harvestReadiness": 48.179966205445645
+          },
+          "quality": "good",
+          "cloudCover": 16.041493152403547,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.25,
+            13.05,
+            80.35,
+            13.15
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Chennai Port",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 3.1293626274360142,
+            "fireActivity": 1.5930752534506443,
+            "weatherSeverity": 3.1861505069012885,
+            "airQualityIndex": 7.621634362038612
+          },
+          "quality": "good",
+          "cloudCover": 5.791293485485003,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.25,
+            13.05,
+            80.35,
+            13.15
+          ]
+        }
+      },
+      "Kolkata Port": {
+        "portActivity": {
+          "region": "Kolkata Port",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 49,
+            "congestionIndex": 98.50154825368566,
+            "throughputIndicator": 78.53099008891903,
+            "vesselWaitTime": 29.28021596207619
+          },
+          "quality": "good",
+          "cloudCover": 11.955395658376018,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            88.2,
+            22.55,
+            88.3,
+            22.65
+          ]
+        },
+        "industrialActivity": {
+          "region": "Kolkata Port",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 88.52156900457608,
+            "thermalActivity": 60.692991152877454,
+            "expansionIndicator": 35.8326633186057,
+            "operationalStatus": "active"
+          },
+          "quality": "good",
+          "cloudCover": 1.7414607381397351,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            88.2,
+            22.55,
+            88.3,
+            22.65
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Kolkata Port",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.2067791855758717,
+            "cropHealth": 20.67791855758717,
+            "irrigationActivity": 13.722645243576704,
+            "harvestReadiness": 17.20028190058194
+          },
+          "quality": "good",
+          "cloudCover": 0.47120225640072233,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            88.2,
+            22.55,
+            88.3,
+            22.65
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Kolkata Port",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 3.001663575501281,
+            "fireActivity": 1.961308926133234,
+            "weatherSeverity": 3.922617852266468,
+            "airQualityIndex": 28.106229793367046
+          },
+          "quality": "good",
+          "cloudCover": 0.18469378761176714,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            88.2,
+            22.55,
+            88.3,
+            22.65
+          ]
+        }
+      },
+      "Visakhapatnam Port": {
+        "portActivity": {
+          "region": "Visakhapatnam Port",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 2,
+            "congestionIndex": 6.564270367776697,
+            "throughputIndicator": 4.728581557366098,
+            "vesselWaitTime": 1.44644637347775
+          },
+          "quality": "good",
+          "cloudCover": 20.231273558783137,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            83.25,
+            17.7,
+            83.35,
+            17.8
+          ]
+        },
+        "industrialActivity": {
+          "region": "Visakhapatnam Port",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 42.7334549521766,
+            "thermalActivity": 28.935984651207797,
+            "expansionIndicator": 17.41919325264258,
+            "operationalStatus": "active"
+          },
+          "quality": "good",
+          "cloudCover": 9.428422818636617,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            83.25,
+            17.7,
+            83.35,
+            17.8
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Visakhapatnam Port",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.9365593868153197,
+            "cropHealth": 93.65593868153196,
+            "irrigationActivity": 56.99220681620004,
+            "harvestReadiness": 75.324072748866
+          },
+          "quality": "poor",
+          "cloudCover": 1.854621201179525,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            83.25,
+            17.7,
+            83.35,
+            17.8
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Visakhapatnam Port",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 15.02527589193764,
+            "fireActivity": 9.461408872606322,
+            "weatherSeverity": 18.922817745212644,
+            "airQualityIndex": 123.59155626247538
+          },
+          "quality": "good",
+          "cloudCover": 12.04097767586809,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            83.25,
+            17.7,
+            83.35,
+            17.8
+          ]
+        }
+      }
+    },
+    "industrialClusters": {
+      "Mumbai Industrial Area": {
+        "portActivity": {
+          "region": "Mumbai Industrial Area",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 32,
+            "congestionIndex": 66.48833173807542,
+            "throughputIndicator": 52.53968371891172,
+            "vesselWaitTime": 19.295517849874003
+          },
+          "quality": "good",
+          "cloudCover": 20.841105196657146,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            72.8,
+            19,
+            72.95,
+            19.15
+          ]
+        },
+        "industrialActivity": {
+          "region": "Mumbai Industrial Area",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 64.51615570963563,
+            "thermalActivity": 46.403073695030095,
+            "expansionIndicator": 25.392540717759204,
+            "operationalStatus": "active"
+          },
+          "quality": "good",
+          "cloudCover": 20.520925077749396,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            72.8,
+            19,
+            72.95,
+            19.15
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Mumbai Industrial Area",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.361600899756456,
+            "cropHealth": 36.1600899756456,
+            "irrigationActivity": 21.319838806944688,
+            "harvestReadiness": 28.739964391295146
+          },
+          "quality": "good",
+          "cloudCover": 9.202139359945003,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            72.8,
+            19,
+            72.95,
+            19.15
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Mumbai Industrial Area",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 16.665066528256656,
+            "fireActivity": 11.096292914044623,
+            "weatherSeverity": 22.192585828089246,
+            "airQualityIndex": 165.9905962524954
+          },
+          "quality": "good",
+          "cloudCover": 22.06433284808589,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            72.8,
+            19,
+            72.95,
+            19.15
+          ]
+        }
+      },
+      "Chennai Industrial Corridor": {
+        "portActivity": {
+          "region": "Chennai Industrial Corridor",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 30,
+            "congestionIndex": 64.76698249530226,
+            "throughputIndicator": 50.95052197265795,
+            "vesselWaitTime": 18.56703072500682
+          },
+          "quality": "good",
+          "cloudCover": 14.115419300317186,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.2,
+            12.9,
+            80.35,
+            13.05
+          ]
+        },
+        "industrialActivity": {
+          "region": "Chennai Industrial Corridor",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 28.682387587614237,
+            "thermalActivity": 20.441900858022525,
+            "expansionIndicator": 11.351545186148176,
+            "operationalStatus": "inactive"
+          },
+          "quality": "good",
+          "cloudCover": 0.8916630923044266,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.2,
+            12.9,
+            80.35,
+            13.05
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Chennai Industrial Corridor",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.16724753148794844,
+            "cropHealth": 16.724753148794843,
+            "irrigationActivity": 11.379991846730709,
+            "harvestReadiness": 14.052372497762777
+          },
+          "quality": "good",
+          "cloudCover": 4.365782181208662,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.2,
+            12.9,
+            80.35,
+            13.05
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Chennai Industrial Corridor",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 32.56751102123709,
+            "fireActivity": 20.995177858826775,
+            "weatherSeverity": 41.99035571765355,
+            "airQualityIndex": 291.28329475646933
+          },
+          "quality": "good",
+          "cloudCover": 22.728074553928085,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            80.2,
+            12.9,
+            80.35,
+            13.05
+          ]
+        }
+      },
+      "Bangalore IT Hub": {
+        "portActivity": {
+          "region": "Bangalore IT Hub",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 40,
+            "congestionIndex": 80.22558387827738,
+            "throughputIndicator": 64.1604932146812,
+            "vesselWaitTime": 24.047701275542497
+          },
+          "quality": "good",
+          "cloudCover": 16.422580776149275,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            77.55,
+            12.9,
+            77.65,
+            13.05
+          ]
+        },
+        "industrialActivity": {
+          "region": "Bangalore IT Hub",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 24.34250207024638,
+            "thermalActivity": 17.91816754785178,
+            "expansionIndicator": 9.444195461872113,
+            "operationalStatus": "inactive"
+          },
+          "quality": "good",
+          "cloudCover": 10.155125582529935,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            77.55,
+            12.9,
+            77.65,
+            13.05
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Bangalore IT Hub",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.46143304225938303,
+            "cropHealth": 46.1433042259383,
+            "irrigationActivity": 26.955475395239887,
+            "harvestReadiness": 36.5493898105891
+          },
+          "quality": "good",
+          "cloudCover": 16.76299248305378,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            77.55,
+            12.9,
+            77.65,
+            13.05
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Bangalore IT Hub",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 15.080595254648474,
+            "fireActivity": 9.547213049417124,
+            "weatherSeverity": 19.094426098834248,
+            "airQualityIndex": 126.49313076975554
+          },
+          "quality": "good",
+          "cloudCover": 25.98893103716254,
+          "timestamp": "2025-08-04T04:32:51.254Z",
+          "bbox": [
+            77.55,
+            12.9,
+            77.65,
+            13.05
+          ]
+        }
+      },
+      "Pune Industrial Belt": {
+        "portActivity": {
+          "region": "Pune Industrial Belt",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 30,
+            "congestionIndex": 63.7511864547985,
+            "throughputIndicator": 50.13795601517107,
+            "vesselWaitTime": 18.26236278777182
+          },
+          "quality": "good",
+          "cloudCover": 11.352463819955831,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            73.8,
+            18.45,
+            73.95,
+            18.6
+          ]
+        },
+        "industrialActivity": {
+          "region": "Pune Industrial Belt",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 34.05989682831755,
+            "thermalActivity": 22.57963983532628,
+            "expansionIndicator": 14.044721379492357,
+            "operationalStatus": "active"
+          },
+          "quality": "good",
+          "cloudCover": 21.124911299869158,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            73.8,
+            18.45,
+            73.95,
+            18.6
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Pune Industrial Belt",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 1,
+            "cropHealth": 100,
+            "irrigationActivity": 62.80219800957008,
+            "harvestReadiness": 82.61637633317038
+          },
+          "quality": "good",
+          "cloudCover": 21.73112329150826,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            73.8,
+            18.45,
+            73.95,
+            18.6
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Pune Industrial Belt",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 4.282018513215931,
+            "fireActivity": 2.531323392484346,
+            "weatherSeverity": 5.062646784968692,
+            "airQualityIndex": 27.299115548498133
+          },
+          "quality": "good",
+          "cloudCover": 18.154729438127426,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            73.8,
+            18.45,
+            73.95,
+            18.6
+          ]
+        }
+      }
+    },
+    "agriculturalRegions": {
+      "Punjab Agricultural Belt": {
+        "portActivity": {
+          "region": "Punjab Agricultural Belt",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 23,
+            "congestionIndex": 45.320901448958246,
+            "throughputIndicator": 36.56720230267868,
+            "vesselWaitTime": 13.90675157819956
+          },
+          "quality": "good",
+          "cloudCover": 8.893503534048603,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74.5,
+            30.5,
+            76.5,
+            32
+          ]
+        },
+        "industrialActivity": {
+          "region": "Punjab Agricultural Belt",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 15.373122616447407,
+            "thermalActivity": 11.295055134320377,
+            "expansionIndicator": 5.971292612309899,
+            "operationalStatus": "inactive"
+          },
+          "quality": "good",
+          "cloudCover": 3.425531546311249,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74.5,
+            30.5,
+            76.5,
+            32
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Punjab Agricultural Belt",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.8396133558985249,
+            "cropHealth": 83.9613355898525,
+            "irrigationActivity": 51.15341100833473,
+            "harvestReadiness": 67.55737329909361
+          },
+          "quality": "good",
+          "cloudCover": 18.26005228882706,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74.5,
+            30.5,
+            76.5,
+            32
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Punjab Agricultural Belt",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 26.130074180948025,
+            "fireActivity": 16.964207713322377,
+            "weatherSeverity": 33.928415426644754,
+            "airQualityIndex": 239.4203382586175
+          },
+          "quality": "good",
+          "cloudCover": 28.906683445801285,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74.5,
+            30.5,
+            76.5,
+            32
+          ]
+        }
+      },
+      "Haryana Wheat Belt": {
+        "portActivity": {
+          "region": "Haryana Wheat Belt",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 26,
+            "congestionIndex": 50.11225041800067,
+            "throughputIndicator": 40.58986907280016,
+            "vesselWaitTime": 15.533743863799826
+          },
+          "quality": "good",
+          "cloudCover": 14.733343782626022,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            75,
+            28,
+            77.5,
+            30.5
+          ]
+        },
+        "industrialActivity": {
+          "region": "Haryana Wheat Belt",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 64.39695529395144,
+            "thermalActivity": 45.027504916358446,
+            "expansionIndicator": 25.775570047383095,
+            "operationalStatus": "active"
+          },
+          "quality": "good",
+          "cloudCover": 1.7848572113796957,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            75,
+            28,
+            77.5,
+            30.5
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Haryana Wheat Belt",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.6555476904429932,
+            "cropHealth": 65.55476904429932,
+            "irrigationActivity": 39.734957794483606,
+            "harvestReadiness": 52.64486341939146
+          },
+          "quality": "good",
+          "cloudCover": 20.025171715173027,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            75,
+            28,
+            77.5,
+            30.5
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Haryana Wheat Belt",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 23.652427802763818,
+            "fireActivity": 15.567384657963903,
+            "weatherSeverity": 31.134769315927805,
+            "airQualityIndex": 226.8810519214633
+          },
+          "quality": "good",
+          "cloudCover": 15.888605925427495,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            75,
+            28,
+            77.5,
+            30.5
+          ]
+        }
+      },
+      "Maharashtra Sugar Belt": {
+        "portActivity": {
+          "region": "Maharashtra Sugar Belt",
+          "dataType": "portActivity",
+          "satellites": [
+            "Sentinel-1",
+            "Sentinel-2"
+          ],
+          "metrics": {
+            "shipCount": 2,
+            "congestionIndex": 8.928603964517867,
+            "throughputIndicator": 6.247361687862938,
+            "vesselWaitTime": 1.7830597056040043
+          },
+          "quality": "good",
+          "cloudCover": 19.257374921440125,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74,
+            18.5,
+            77,
+            21
+          ]
+        },
+        "industrialActivity": {
+          "region": "Maharashtra Sugar Belt",
+          "dataType": "industrialActivity",
+          "satellites": [
+            "Sentinel-2",
+            "Landsat-8"
+          ],
+          "metrics": {
+            "facilityUtilization": 96.2891327048247,
+            "thermalActivity": 66.61831574698425,
+            "expansionIndicator": 38.777012130727556,
+            "operationalStatus": "active"
+          },
+          "quality": "poor",
+          "cloudCover": 22.836842316659958,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74,
+            18.5,
+            77,
+            21
+          ]
+        },
+        "agriculturalMonitoring": {
+          "region": "Maharashtra Sugar Belt",
+          "dataType": "agriculturalMonitoring",
+          "satellites": [
+            "Sentinel-2",
+            "MODIS"
+          ],
+          "metrics": {
+            "vegetationIndex": 0.08385979664767305,
+            "cropHealth": 8.385979664767305,
+            "irrigationActivity": 6.501215210650402,
+            "harvestReadiness": 7.443597437708853
+          },
+          "quality": "good",
+          "cloudCover": 2.9022751735136088,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74,
+            18.5,
+            77,
+            21
+          ]
+        },
+        "environmentalRisk": {
+          "region": "Maharashtra Sugar Belt",
+          "dataType": "environmentalRisk",
+          "satellites": [
+            "MODIS",
+            "VIIRS",
+            "Sentinel-3"
+          ],
+          "metrics": {
+            "floodRisk": 4.619440910929367,
+            "fireActivity": 3.0586725178329885,
+            "weatherSeverity": 6.117345035665977,
+            "airQualityIndex": 45.18858081553739
+          },
+          "quality": "good",
+          "cloudCover": 28.98754237468866,
+          "timestamp": "2025-08-04T04:32:51.255Z",
+          "bbox": [
+            74,
+            18.5,
+            77,
+            21
+          ]
+        }
+      }
+    }
+  }
+}

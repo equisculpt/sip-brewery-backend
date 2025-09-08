@@ -1,0 +1,16 @@
+[Unit]
+Description=AGI Autonomous Research Agent
+After=network.target
+
+[Service]
+Type=simple
+User=milinraijada
+WorkingDirectory=/home/milinraijada/sip-brewery-backend/agi
+ExecStart=/usr/bin/python3 agi_research_agent.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/milinraijada/sip-brewery-backend/agi/agi_research_agent.log
+StandardError=append:/home/milinraijada/sip-brewery-backend/agi/agi_research_agent.log
+
+[Install]
+WantedBy=multi-user.target

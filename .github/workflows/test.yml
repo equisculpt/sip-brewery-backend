@@ -1,0 +1,127 @@
+name: Backend Tests
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Create test environment file
+      run: |
+        cp .env.example .env.test
+        echo "NODE_ENV=test" >> .env.test
+        echo "MONGODB_URI=mongodb://localhost:27017/sipbrewery-test" >> .env.test
+        echo "JWT_SECRET=test-jwt-secret-key" >> .env.test
+        echo "DISABLE_EXTERNAL_APIS=true" >> .env.test
+        echo "DISABLE_WHATSAPP=true" >> .env.test
+        echo "DISABLE_AI_SERVICES=true" >> .env.test
+
+    - name: Run unit tests
+      run: npm run test:unit
+
+    - name: Run API tests
+      run: npm run test:api
+
+    - name: Run WhatsApp tests
+      run: npm run test:whatsapp
+
+    - name: Run integration tests
+      run: npm run test:integration
+
+    - name: Generate coverage report
+      run: npm run test:coverage
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage/lcov.info
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: true
+
+    - name: Check test coverage threshold
+      run: |
+        COVERAGE=$(npm run test:coverage --silent | grep -o 'All files[^%]*' | grep -o '[0-9.]*' | tail -1)
+        if (( $(echo "$COVERAGE < 90" | bc -l) )); then
+          echo "Test coverage is below 90%: $COVERAGE%"
+          exit 1
+        fi
+        echo "Test coverage: $COVERAGE%"
+
+  security:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run security audit
+      run: npm audit --audit-level=moderate
+
+    - name: Check for known vulnerabilities
+      run: |
+        if npm audit --audit-level=moderate; then
+          echo "No security vulnerabilities found"
+        else
+          echo "Security vulnerabilities detected"
+          exit 1
+        fi
+
+  performance:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Start application
+      run: |
+        npm start &
+        sleep 10
+
+    - name: Run performance tests
+      run: npm run test:performance
+
+    - name: Upload performance results
+      uses: actions/upload-artifact@v3
+      with:
+        name: performance-results
+        path: artillery-report.json 

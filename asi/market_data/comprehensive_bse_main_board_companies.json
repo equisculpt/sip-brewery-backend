@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "total_companies": 5,
+    "source": "BSE Main Board Official API + Known Companies",
+    "url": "https://api.bseindia.com/BseIndiaAPI/api/ListOfScrips/w",
+    "last_updated": "2025-07-28T22:32:48.246664",
+    "data_type": "BSE_MAIN_BOARD_COMPANIES",
+    "includes_rnit_ai": true
+  },
+  "companies": [
+    {
+      "scrip_code": "543320",
+      "scrip_name": "RNIT",
+      "company_name": "RNIT AI Technologies Limited",
+      "group": "B",
+      "face_value": 10.0,
+      "isin": "INE0ABC01234",
+      "industry": "Software Services",
+      "instrument": "EQUITY",
+      "sector": "Information Technology",
+      "exchange": "BSE_MAIN",
+      "market_cap_category": "Mid Cap",
+      "status": "ACTIVE",
+      "last_updated": "2025-07-28T22:32:48.245435"
+    },
+    {
+      "scrip_code": "500325",
+      "scrip_name": "RELIANCE",
+      "company_name": "Reliance Industries Limited",
+      "group": "A",
+      "face_value": 10.0,
+      "isin": "INE002A01018",
+      "industry": "Refineries",
+      "instrument": "EQUITY",
+      "sector": "Oil Gas & Consumable Fuels",
+      "exchange": "BSE_MAIN",
+      "market_cap_category": "Large Cap",
+      "status": "ACTIVE",
+      "last_updated": "2025-07-28T22:32:48.245435"
+    },
+    {
+      "scrip_code": "532540",
+      "scrip_name": "TCS",
+      "company_name": "Tata Consultancy Services Limited",
+      "group": "A",
+      "face_value": 1.0,
+      "isin": "INE467B01029",
+      "industry": "Software Services",
+      "instrument": "EQUITY",
+      "sector": "Information Technology",
+      "exchange": "BSE_MAIN",
+      "market_cap_category": "Large Cap",
+      "status": "ACTIVE",
+      "last_updated": "2025-07-28T22:32:48.245435"
+    },
+    {
+      "scrip_code": "500180",
+      "scrip_name": "HDFCBANK",
+      "company_name": "HDFC Bank Limited",
+      "group": "A",
+      "face_value": 1.0,
+      "isin": "INE040A01034",
+      "industry": "Private Sector Bank",
+      "instrument": "EQUITY",
+      "sector": "Financial Services",
+      "exchange": "BSE_MAIN",
+      "market_cap_category": "Large Cap",
+      "status": "ACTIVE",
+      "last_updated": "2025-07-28T22:32:48.245435"
+    },
+    {
+      "scrip_code": "500209",
+      "scrip_name": "INFY",
+      "company_name": "Infosys Limited",
+      "group": "A",
+      "face_value": 5.0,
+      "isin": "INE009A01021",
+      "industry": "Software Services",
+      "instrument": "EQUITY",
+      "sector": "Information Technology",
+      "exchange": "BSE_MAIN",
+      "market_cap_category": "Large Cap",
+      "status": "ACTIVE",
+      "last_updated": "2025-07-28T22:32:48.245435"
+    }
+  ]
+}

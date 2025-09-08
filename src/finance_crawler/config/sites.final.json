@@ -1,0 +1,5202 @@
+[
+  {
+    "name": "SBI Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.sbimf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HDFC Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.hdfcfund.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ICICI Prudential MF",
+    "type": "AMC",
+    "url": "https://www.icicipruamc.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nippon India MF",
+    "type": "AMC",
+    "url": "https://www.nipponindiamf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Aditya Birla Sun Life MF",
+    "type": "AMC",
+    "url": "https://mutualfund.adityabirlacapital.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kotak Mahindra MF",
+    "type": "AMC",
+    "url": "https://www.kotakmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Axis Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.axismf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "UTI Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.utimf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "DSP Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.dspim.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Franklin Templeton India",
+    "type": "AMC",
+    "url": "https://www.franklintempletonindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mirae Asset MF",
+    "type": "AMC",
+    "url": "https://www.miraeassetmf.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Canara Robeco MF",
+    "type": "AMC",
+    "url": "https://www.canararobeco.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Tata Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.tatamutualfund.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Edelweiss MF",
+    "type": "AMC",
+    "url": "https://www.edelweissmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HSBC Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.assetmanagement.hsbc.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Baroda BNP Paribas MF",
+    "type": "AMC",
+    "url": "https://www.barodabnpparibasmf.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bandhan Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.bandhanmutual.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Motilal Oswal MF",
+    "type": "AMC",
+    "url": "https://www.motilaloswalmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PPFAS MF",
+    "type": "AMC",
+    "url": "https://www.ppfas.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sundaram MF",
+    "type": "AMC",
+    "url": "https://www.sundarammutual.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Union Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.unionmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Invesco MF",
+    "type": "AMC",
+    "url": "https://www.invescomutualfund.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Quant MF",
+    "type": "AMC",
+    "url": "https://www.quantmutual.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "JM Financial MF",
+    "type": "AMC",
+    "url": "https://www.jmfinancialmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "IDBI MF",
+    "type": "AMC",
+    "url": "https://www.idbimutual.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "LIC MF",
+    "type": "AMC",
+    "url": "https://www.licmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Navi Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.navimutualfund.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "IIFL MF",
+    "type": "AMC",
+    "url": "https://www.iiflmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Quantum MF",
+    "type": "AMC",
+    "url": "https://www.quantumamc.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mahindra Manulife MF",
+    "type": "AMC",
+    "url": "https://www.mahindramanulife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NJ Mutual Fund",
+    "type": "AMC",
+    "url": "https://www.njmutualfund.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PGIM India MF",
+    "type": "AMC",
+    "url": "https://www.pgimindiamf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Shriram MF",
+    "type": "AMC",
+    "url": "https://www.shrirammf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Trust MF",
+    "type": "AMC",
+    "url": "https://www.trustmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Navi AMC",
+    "type": "AMC",
+    "url": "https://www.navimutualfund.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "SEBI",
+    "type": "Regulatory",
+    "url": "https://www.sebi.gov.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "regulatory"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "RBI",
+    "type": "Regulatory",
+    "url": "https://www.rbi.org.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "regulatory"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "AMFI",
+    "type": "Regulatory",
+    "url": "https://www.amfiindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "regulatory"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NSE India",
+    "type": "Exchange",
+    "url": "https://www.nseindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BSE India",
+    "type": "Exchange",
+    "url": "https://www.bseindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MCX",
+    "type": "Exchange",
+    "url": "https://www.mcxindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NCDEX",
+    "type": "Exchange",
+    "url": "https://www.ncdex.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CDSL",
+    "type": "Depository",
+    "url": "https://www.cdslindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NSDL",
+    "type": "Depository",
+    "url": "https://www.nsdl.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Zerodha",
+    "type": "Broker",
+    "url": "https://www.zerodha.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Groww",
+    "type": "Broker",
+    "url": "https://www.groww.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Upstox",
+    "type": "Broker",
+    "url": "https://www.upstox.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Paytm Money",
+    "type": "Broker",
+    "url": "https://www.paytmmoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Angel One",
+    "type": "Broker",
+    "url": "https://www.angelone.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "5Paisa",
+    "type": "Broker",
+    "url": "https://www.5paisa.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ICICI Direct",
+    "type": "Broker",
+    "url": "https://www.icicidirect.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HDFC Securities",
+    "type": "Broker",
+    "url": "https://www.hdfcsec.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kotak Securities",
+    "type": "Broker",
+    "url": "https://www.kotaksecurities.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Axis Direct",
+    "type": "Broker",
+    "url": "https://www.axisdirect.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Motilal Oswal",
+    "type": "Broker",
+    "url": "https://www.motilaloswal.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Sharekhan",
+    "type": "Broker",
+    "url": "https://www.sharekhan.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Edelweiss",
+    "type": "Broker",
+    "url": "https://www.edelweiss.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Alice Blue",
+    "type": "Broker",
+    "url": "https://www.aliceblueonline.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fyers",
+    "type": "Broker",
+    "url": "https://www.fyers.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Samco",
+    "type": "Broker",
+    "url": "https://www.samco.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dhan",
+    "type": "Broker",
+    "url": "https://www.dhan.co",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stoxkart",
+    "type": "Broker",
+    "url": "https://www.stoxkart.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ProStocks",
+    "type": "Broker",
+    "url": "https://www.prostocks.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ventura",
+    "type": "Broker",
+    "url": "https://www.ventura1.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Moneycontrol",
+    "type": "Financial News",
+    "url": "https://www.moneycontrol.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Economic Times",
+    "type": "Financial News",
+    "url": "https://economictimes.indiatimes.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Livemint",
+    "type": "Financial News",
+    "url": "https://www.livemint.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bloomberg Quint",
+    "type": "Financial News",
+    "url": "https://www.bqprime.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Financial Express",
+    "type": "Financial News",
+    "url": "https://www.financialexpress.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Business Standard",
+    "type": "Financial News",
+    "url": "https://www.business-standard.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CNBC TV18",
+    "type": "Financial News",
+    "url": "https://www.cnbctv18.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Reuters India",
+    "type": "Financial News",
+    "url": "https://in.reuters.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Investing.com India",
+    "type": "Financial Data",
+    "url": "https://in.investing.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MarketMojo",
+    "type": "Analytics",
+    "url": "https://www.marketsmojo.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Screener",
+    "type": "Analytics",
+    "url": "https://www.screener.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Value Research",
+    "type": "Analytics",
+    "url": "https://www.valueresearchonline.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Morningstar India",
+    "type": "Analytics",
+    "url": "https://www.morningstar.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Trendlyne",
+    "type": "Analytics",
+    "url": "https://www.trendlyne.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Tickertape",
+    "type": "Analytics",
+    "url": "https://www.tickertape.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Smallcase",
+    "type": "Investment Platform",
+    "url": "https://www.smallcase.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kuvera",
+    "type": "Investment Platform",
+    "url": "https://www.kuvera.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Goalwise",
+    "type": "Investment Platform",
+    "url": "https://www.goalwise.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "INDmoney",
+    "type": "Investment Platform",
+    "url": "https://www.indmoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Niyo Money",
+    "type": "Investment Platform",
+    "url": "https://www.niyomoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fisdom",
+    "type": "Investment Platform",
+    "url": "https://www.fisdom.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Growpital",
+    "type": "Agri Investment",
+    "url": "https://www.growpital.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Grip Invest",
+    "type": "Alternative Investment",
+    "url": "https://www.gripinvest.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "GoldenPi",
+    "type": "Bonds",
+    "url": "https://www.goldenpi.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "bonds"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BondsIndia",
+    "type": "Bonds",
+    "url": "https://www.bondsindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "bonds"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "RBI Retail Direct",
+    "type": "Bonds",
+    "url": "https://www.rbiretaildirect.org.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "regulatory",
+      "bonds"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NSE NMF II",
+    "type": "Mutual Fund Platform",
+    "url": "https://www.nsenmf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "exchange",
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BSE Star MF",
+    "type": "Mutual Fund Platform",
+    "url": "https://www.bsestarmf.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "exchange",
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CAMS Online",
+    "type": "RTA",
+    "url": "https://www.camsonline.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "rta"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "KFintech",
+    "type": "RTA",
+    "url": "https://www.kfintech.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "rta"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MF Utilities",
+    "type": "Mutual Fund Platform",
+    "url": "https://www.mfuindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NISM",
+    "type": "Education",
+    "url": "https://www.nism.ac.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NSE Academy",
+    "type": "Education",
+    "url": "https://www.nseindia.com/education",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "exchange",
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BSE Institute",
+    "type": "Education",
+    "url": "https://www.bsebti.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "exchange",
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Zerodha Varsity",
+    "type": "Education",
+    "url": "https://zerodha.com/varsity",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elearnmarkets",
+    "type": "Education",
+    "url": "https://www.elearnmarkets.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CFA Institute",
+    "type": "Education",
+    "url": "https://www.cfainstitute.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CAIA Association",
+    "type": "Education",
+    "url": "https://www.caia.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Coursera Finance",
+    "type": "Education",
+    "url": "https://www.coursera.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Udemy Finance",
+    "type": "Education",
+    "url": "https://www.udemy.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Khan Academy",
+    "type": "Education",
+    "url": "https://www.khanacademy.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Investopedia",
+    "type": "Education",
+    "url": "https://www.investopedia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Moneylife Foundation",
+    "type": "Education",
+    "url": "https://www.moneylife.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ET Markets",
+    "type": "News",
+    "url": "https://economictimes.indiatimes.com/markets",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bloomberg",
+    "type": "Global Finance",
+    "url": "https://www.bloomberg.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Reuters",
+    "type": "Global Finance",
+    "url": "https://www.reuters.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "WSJ",
+    "type": "Global Finance",
+    "url": "https://www.wsj.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "FT",
+    "type": "Global Finance",
+    "url": "https://www.ft.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MarketWatch",
+    "type": "Global Finance",
+    "url": "https://www.marketwatch.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Yahoo Finance",
+    "type": "Global Finance",
+    "url": "https://finance.yahoo.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Nasdaq",
+    "type": "Exchange",
+    "url": "https://www.nasdaq.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NYSE",
+    "type": "Exchange",
+    "url": "https://www.nyse.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "LSE",
+    "type": "Exchange",
+    "url": "https://www.londonstockexchange.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "JPX",
+    "type": "Exchange",
+    "url": "https://www.jpx.co.jp",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HKEX",
+    "type": "Exchange",
+    "url": "https://www.hkex.com.hk",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "SGX",
+    "type": "Exchange",
+    "url": "https://www.sgx.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BlackRock",
+    "type": "AMC",
+    "url": "https://www.blackrock.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Vanguard",
+    "type": "AMC",
+    "url": "https://www.vanguard.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fidelity Investments",
+    "type": "AMC",
+    "url": "https://www.fidelity.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "State Street Global Advisors",
+    "type": "AMC",
+    "url": "https://www.ssga.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "JP Morgan Asset Management",
+    "type": "AMC",
+    "url": "https://am.jpmorgan.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Goldman Sachs Asset Management",
+    "type": "AMC",
+    "url": "https://www.gsam.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Morgan Stanley Investment Management",
+    "type": "AMC",
+    "url": "https://www.morganstanley.com/im",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PIMCO",
+    "type": "AMC",
+    "url": "https://www.pimco.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "T. Rowe Price",
+    "type": "AMC",
+    "url": "https://www.troweprice.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Invesco",
+    "type": "AMC",
+    "url": "https://www.invesco.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Franklin Templeton Global",
+    "type": "AMC",
+    "url": "https://www.franklintempleton.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Amundi",
+    "type": "AMC",
+    "url": "https://www.amundi.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Schroders",
+    "type": "AMC",
+    "url": "https://www.schroders.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "UBS Asset Management",
+    "type": "AMC",
+    "url": "https://www.ubs.com/assetmanagement",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Allianz Global Investors",
+    "type": "AMC",
+    "url": "https://www.allianzgi.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Northern Trust",
+    "type": "AMC",
+    "url": "https://www.northerntrust.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Wellington Management",
+    "type": "AMC",
+    "url": "https://www.wellington.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Legg Mason",
+    "type": "AMC",
+    "url": "https://www.leggmason.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "AXA Investment Managers",
+    "type": "AMC",
+    "url": "https://www.axa-im.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Aberdeen Standard Investments",
+    "type": "AMC",
+    "url": "https://www.aberdeenstandard.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "amc"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bridgewater Associates",
+    "type": "Hedge Fund",
+    "url": "https://www.bridgewater.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Renaissance Technologies",
+    "type": "Hedge Fund",
+    "url": "https://www.rentec.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "AQR Capital Management",
+    "type": "Hedge Fund",
+    "url": "https://www.aqr.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Citadel",
+    "type": "Hedge Fund",
+    "url": "https://www.citadel.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Two Sigma",
+    "type": "Hedge Fund",
+    "url": "https://www.twosigma.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Millennium Management",
+    "type": "Hedge Fund",
+    "url": "https://www.mlp.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Man Group",
+    "type": "Hedge Fund",
+    "url": "https://www.man.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "DE Shaw & Co",
+    "type": "Hedge Fund",
+    "url": "https://www.deshaw.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Point72 Asset Management",
+    "type": "Hedge Fund",
+    "url": "https://www.point72.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Elliott Management",
+    "type": "Hedge Fund",
+    "url": "https://www.elliottmgmt.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Blackstone Alternative Asset Management",
+    "type": "Hedge Fund",
+    "url": "https://www.blackstone.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Davidson Kempner",
+    "type": "Hedge Fund",
+    "url": "https://www.davidsonkempner.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BlueMountain Capital",
+    "type": "Hedge Fund",
+    "url": "https://www.bluemountaincapital.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Pershing Square Capital",
+    "type": "Hedge Fund",
+    "url": "https://www.pershingsquareholdings.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Baupost Group",
+    "type": "Hedge Fund",
+    "url": "https://www.baupost.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "York Capital Management",
+    "type": "Hedge Fund",
+    "url": "https://www.yorkcapital.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Third Point LLC",
+    "type": "Hedge Fund",
+    "url": "https://thirdpoint.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Lone Pine Capital",
+    "type": "Hedge Fund",
+    "url": "https://www.lonepinecapital.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Viking Global Investors",
+    "type": "Hedge Fund",
+    "url": "https://www.vikingglobal.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Och-Ziff Capital",
+    "type": "Hedge Fund",
+    "url": "https://ozm.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Goldman Sachs",
+    "type": "Investment Bank",
+    "url": "https://www.goldmansachs.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Morgan Stanley",
+    "type": "Investment Bank",
+    "url": "https://www.morganstanley.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "JPMorgan Chase",
+    "type": "Investment Bank",
+    "url": "https://www.jpmorganchase.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bank of America Merrill Lynch",
+    "type": "Investment Bank",
+    "url": "https://www.bofaml.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Citigroup",
+    "type": "Investment Bank",
+    "url": "https://www.citigroup.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Barclays Capital",
+    "type": "Investment Bank",
+    "url": "https://www.barclays.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Credit Suisse",
+    "type": "Investment Bank",
+    "url": "https://www.credit-suisse.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Deutsche Bank",
+    "type": "Investment Bank",
+    "url": "https://www.db.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "UBS",
+    "type": "Investment Bank",
+    "url": "https://www.ubs.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HSBC Global Banking",
+    "type": "Investment Bank",
+    "url": "https://www.hsbc.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CME Group",
+    "type": "Exchange",
+    "url": "https://www.cmegroup.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ICE (Intercontinental Exchange)",
+    "type": "Exchange",
+    "url": "https://www.theice.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Eurex",
+    "type": "Exchange",
+    "url": "https://www.eurex.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CBOE",
+    "type": "Exchange",
+    "url": "https://www.cboe.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "LME (London Metal Exchange)",
+    "type": "Exchange",
+    "url": "https://www.lme.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "TMX Group",
+    "type": "Exchange",
+    "url": "https://www.tmx.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ASX",
+    "type": "Exchange",
+    "url": "https://www.asx.com.au",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Johannesburg Stock Exchange",
+    "type": "Exchange",
+    "url": "https://www.jse.co.za",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Borsa Italiana",
+    "type": "Exchange",
+    "url": "https://www.borsaitaliana.it",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bolsa Mexicana de Valores",
+    "type": "Exchange",
+    "url": "https://www.bmv.com.mx",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "exchange"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bloomberg Terminal",
+    "type": "Analytics",
+    "url": "https://www.bloomberg.com/professional",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Refinitiv Eikon",
+    "type": "Analytics",
+    "url": "https://www.refinitiv.com/en/products/eikon-trading-software",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "FactSet",
+    "type": "Analytics",
+    "url": "https://www.factset.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "S&P Global Market Intelligence",
+    "type": "Analytics",
+    "url": "https://www.spglobal.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Morningstar Direct",
+    "type": "Analytics",
+    "url": "https://www.morningstar.com/products/direct",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Capital IQ",
+    "type": "Analytics",
+    "url": "https://www.capitaliq.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "AlphaSense",
+    "type": "Research",
+    "url": "https://www.alpha-sense.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "exchange",
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PitchBook",
+    "type": "Private Markets",
+    "url": "https://pitchbook.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CB Insights",
+    "type": "Analytics",
+    "url": "https://www.cbinsights.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PrivCo",
+    "type": "Analytics",
+    "url": "https://www.privco.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Blackstone",
+    "type": "Private Equity",
+    "url": "https://www.blackstone.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "KKR",
+    "type": "Private Equity",
+    "url": "https://www.kkr.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Carlyle Group",
+    "type": "Private Equity",
+    "url": "https://www.carlyle.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Apollo Global Management",
+    "type": "Private Equity",
+    "url": "https://www.apollo.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "TPG Capital",
+    "type": "Private Equity",
+    "url": "https://www.tpg.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bain Capital",
+    "type": "Private Equity",
+    "url": "https://www.baincapital.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Warburg Pincus",
+    "type": "Private Equity",
+    "url": "https://www.warburgpincus.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Hellman & Friedman",
+    "type": "Private Equity",
+    "url": "https://www.hf.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "EQT Partners",
+    "type": "Private Equity",
+    "url": "https://www.eqtgroup.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Permira",
+    "type": "Private Equity",
+    "url": "https://www.permira.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "institutional"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CFP Board",
+    "type": "Certification",
+    "url": "https://www.cfp.net",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "FINRA",
+    "type": "Education",
+    "url": "https://www.finra.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "edX Finance",
+    "type": "MOOC",
+    "url": "https://www.edx.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Khan Academy Finance",
+    "type": "MOOC",
+    "url": "https://www.khanacademy.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NISM India",
+    "type": "Certification",
+    "url": "https://www.nism.ac.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Value Research Online",
+    "type": "Blog",
+    "url": "https://www.valueresearchonline.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Moneylife",
+    "type": "Blog",
+    "url": "https://www.moneylife.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BasuNivesh",
+    "type": "Blog",
+    "url": "https://www.basunivesh.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "JagoInvestor",
+    "type": "Blog",
+    "url": "https://www.jagoinvestor.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Freefincal",
+    "type": "Blog",
+    "url": "https://www.freefincal.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Capitalmind",
+    "type": "Blog",
+    "url": "https://www.capitalmind.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Safal Niveshak",
+    "type": "Blog",
+    "url": "https://www.safalniveshak.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Subramoney",
+    "type": "Blog",
+    "url": "https://www.subramoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stable Investor",
+    "type": "Blog",
+    "url": "https://www.stableinvestor.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "blog"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Life Insurance Corporation of India (LIC)",
+    "type": "Insurance",
+    "url": "https://www.licindia.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HDFC Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.hdfclife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ICICI Prudential Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.iciciprulife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "SBI Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.sbilife.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Max Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.maxlifeinsurance.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Aditya Birla Sun Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.adityabirlasunlifeinsurance.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bajaj Allianz Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.bajajallianzlife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kotak Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.kotaklife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Tata AIA Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.tataaia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PNB MetLife",
+    "type": "Insurance",
+    "url": "https://www.pnbmetlife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Reliance Nippon Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.reliancenipponlife.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Exide Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.exidelife.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Edelweiss Tokio Life Insurance",
+    "type": "Insurance",
+    "url": "https://www.edelweisstokio.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Star Health Insurance",
+    "type": "Health Insurance",
+    "url": "https://www.starhealth.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "HDFC ERGO",
+    "type": "General Insurance",
+    "url": "https://www.hdfcergo.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ICICI Lombard",
+    "type": "General Insurance",
+    "url": "https://www.icicilombard.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Bajaj Allianz General Insurance",
+    "type": "General Insurance",
+    "url": "https://www.bajajallianz.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "New India Assurance",
+    "type": "General Insurance",
+    "url": "https://www.newindia.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Oriental Insurance",
+    "type": "General Insurance",
+    "url": "https://orientalinsurance.org.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "United India Insurance",
+    "type": "General Insurance",
+    "url": "https://uiic.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "National Insurance",
+    "type": "General Insurance",
+    "url": "https://nationalinsurance.nic.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "IFFCO Tokio",
+    "type": "General Insurance",
+    "url": "https://www.iffcotokio.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Go Digit General Insurance",
+    "type": "General Insurance",
+    "url": "https://www.godigit.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ACKO General Insurance",
+    "type": "General Insurance",
+    "url": "https://www.acko.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "insurance"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Policybazaar",
+    "type": "Fintech",
+    "url": "https://www.policybazaar.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Paytm",
+    "type": "Fintech",
+    "url": "https://www.paytm.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PhonePe",
+    "type": "Fintech",
+    "url": "https://www.phonepe.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Google Pay India",
+    "type": "Fintech",
+    "url": "https://pay.google.com/intl/en_in/about/",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Razorpay",
+    "type": "Fintech",
+    "url": "https://razorpay.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Pine Labs",
+    "type": "Fintech",
+    "url": "https://www.pinelabs.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MobiKwik",
+    "type": "Fintech",
+    "url": "https://www.mobikwik.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CRED",
+    "type": "Fintech",
+    "url": "https://www.cred.club",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BharatPe",
+    "type": "Fintech",
+    "url": "https://bharatpe.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Freecharge",
+    "type": "Fintech",
+    "url": "https://www.freecharge.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Groww",
+    "type": "Fintech",
+    "url": "https://groww.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Zerodha",
+    "type": "Fintech",
+    "url": "https://zerodha.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Upstox",
+    "type": "Fintech",
+    "url": "https://upstox.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ET Money",
+    "type": "Fintech",
+    "url": "https://www.etmoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "INDmoney",
+    "type": "Fintech",
+    "url": "https://indmoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Niyo",
+    "type": "Fintech",
+    "url": "https://www.goniyo.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Fi Money",
+    "type": "Neobank",
+    "url": "https://fi.money",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Jupiter",
+    "type": "Neobank",
+    "url": "https://jupiter.money",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Open",
+    "type": "Neobank",
+    "url": "https://www.open.money",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "InstantPay",
+    "type": "Neobank",
+    "url": "https://www.instantpay.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kotak 811",
+    "type": "Neobank",
+    "url": "https://www.kotak.com/811",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Payzapp",
+    "type": "Fintech",
+    "url": "https://www.payzapp.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Slice",
+    "type": "Fintech",
+    "url": "https://www.sliceit.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ola Money",
+    "type": "Fintech",
+    "url": "https://www.olamoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Flexiloans",
+    "type": "Fintech",
+    "url": "https://www.flexiloans.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Lendingkart",
+    "type": "Fintech",
+    "url": "https://www.lendingkart.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "KreditBee",
+    "type": "Fintech",
+    "url": "https://www.kreditbee.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MoneyTap",
+    "type": "Fintech",
+    "url": "https://www.moneytap.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CASHe",
+    "type": "Fintech",
+    "url": "https://www.cashe.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Faircent",
+    "type": "Fintech",
+    "url": "https://www.faircent.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Rupeek",
+    "type": "Fintech",
+    "url": "https://www.rupeek.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ZestMoney",
+    "type": "Fintech",
+    "url": "https://www.zestmoney.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Money View",
+    "type": "Fintech",
+    "url": "https://moneyview.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Kissht",
+    "type": "Fintech",
+    "url": "https://www.kissht.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "EarlySalary",
+    "type": "Fintech",
+    "url": "https://www.earlysalary.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Stashfin",
+    "type": "Fintech",
+    "url": "https://www.stashfin.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PaySense",
+    "type": "Fintech",
+    "url": "https://www.gopaysense.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "exchange",
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mobikwik Xtra",
+    "type": "Fintech",
+    "url": "https://xtra.mobikwik.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Creditas",
+    "type": "Fintech",
+    "url": "https://creditas.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Yubi",
+    "type": "Fintech",
+    "url": "https://www.go-yubi.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "SMEcorner",
+    "type": "Fintech",
+    "url": "https://www.smecorner.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Capital Float",
+    "type": "Fintech",
+    "url": "https://www.capitalfloat.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "RupeeRedee",
+    "type": "Fintech",
+    "url": "https://www.rupeeredee.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MoneyOnClick",
+    "type": "Fintech",
+    "url": "https://www.moneyonclick.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "LoanTap",
+    "type": "Fintech",
+    "url": "https://www.loantap.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CashBean",
+    "type": "Fintech",
+    "url": "https://www.cashbean.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Paysense Partners",
+    "type": "Fintech",
+    "url": "https://partners.gopaysense.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "exchange",
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Home Credit India",
+    "type": "Fintech",
+    "url": "https://www.homecredit.co.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Indiabulls Dhani",
+    "type": "Fintech",
+    "url": "https://www.dhani.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MoneyTap Partners",
+    "type": "Fintech",
+    "url": "https://partners.moneytap.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Navi",
+    "type": "Fintech",
+    "url": "https://navi.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Karvy",
+    "type": "RTA",
+    "url": "https://www.karvymfs.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "rta"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Moneycontrol Mutual Funds",
+    "type": "Analytics",
+    "url": "https://www.moneycontrol.com/mutualfunds",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Value Research Mutual Funds",
+    "type": "Analytics",
+    "url": "https://www.valueresearchonline.com/mutual-funds",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Morningstar India Mutual Funds",
+    "type": "Analytics",
+    "url": "https://www.morningstar.in/mutualfunds",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Screener.in",
+    "type": "Analytics",
+    "url": "https://www.screener.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MarketsMojo",
+    "type": "Analytics",
+    "url": "https://www.marketsmojo.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Freefincal",
+    "type": "Education",
+    "url": "https://freefincal.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Finology Learn",
+    "type": "Education",
+    "url": "https://www.finology.in/academy",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Investing.com India Mutual Funds",
+    "type": "Analytics",
+    "url": "https://in.investing.com/mutual-funds/",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BSE Star MF Investor Education",
+    "type": "Education",
+    "url": "https://www.bsestarmf.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "exchange",
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CAClubIndia Mutual Fund Learning",
+    "type": "Education",
+    "url": "https://www.caclubindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NSE NCFM Modules",
+    "type": "Certification",
+    "url": "https://www.nseindia.com/education/ncfm",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "exchange",
+      "education"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Ministry of Finance",
+    "type": "Government",
+    "url": "https://financialservices.gov.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "government"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Income Tax India",
+    "type": "Government",
+    "url": "https://www.incometax.gov.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "government"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PFRDA",
+    "type": "Regulatory",
+    "url": "https://www.pfrda.org.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "regulatory"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "IRDAI",
+    "type": "Regulatory",
+    "url": "https://www.irdai.gov.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "regulatory"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "SIDBI",
+    "type": "Government",
+    "url": "https://www.sidbi.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "government"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "NABARD",
+    "type": "Government",
+    "url": "https://www.nabard.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "government"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "FICCI",
+    "type": "Industry Association",
+    "url": "https://ficci.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "CII",
+    "type": "Industry Association",
+    "url": "https://www.cii.in",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ASSOCHAM",
+    "type": "Industry Association",
+    "url": "https://www.assocham.org",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "India FinTech Forum",
+    "type": "Industry Association",
+    "url": "https://www.indiafintech.com",
+    "api_endpoint": "",
+    "crawl_frequency": "weekly",
+    "tags": [
+      "other"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "WealthTrust",
+    "type": "WealthTech",
+    "url": "https://www.wealthtrust.in",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Scripbox",
+    "type": "Robo-Advisory",
+    "url": "https://scripbox.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "FundsIndia",
+    "type": "Robo-Advisory",
+    "url": "https://www.fundsindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Orowealth",
+    "type": "Robo-Advisory",
+    "url": "https://www.orowealth.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ClearTax Invest",
+    "type": "Robo-Advisory",
+    "url": "https://cleartax.in/invest",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Cube Wealth",
+    "type": "WealthTech",
+    "url": "https://www.cubewealth.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ET Prime",
+    "type": "Research",
+    "url": "https://prime.economictimes.indiatimes.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Economic Times Markets",
+    "type": "News",
+    "url": "https://economictimes.indiatimes.com/markets",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MintGenie",
+    "type": "WealthTech",
+    "url": "https://www.mintgenie.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MyCAMS",
+    "type": "WealthTech",
+    "url": "https://www.mycams.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "platform"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Paisabazaar",
+    "type": "Aggregator",
+    "url": "https://www.paisabazaar.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "BankBazaar",
+    "type": "Aggregator",
+    "url": "https://www.bankbazaar.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "PolicyX",
+    "type": "Aggregator",
+    "url": "https://www.policyx.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Coverfox",
+    "type": "Aggregator",
+    "url": "https://www.coverfox.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "InsuranceDekho",
+    "type": "Aggregator",
+    "url": "https://www.insurancedekho.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "RenewBuy",
+    "type": "Aggregator",
+    "url": "https://www.renewbuy.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ComparePolicy",
+    "type": "Aggregator",
+    "url": "https://www.comparepolicy.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "EasyPolicy",
+    "type": "Aggregator",
+    "url": "https://www.easypolicy.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "aggregator"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "ET Wealth",
+    "type": "News",
+    "url": "https://economictimes.indiatimes.com/wealth",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "GoodReturns",
+    "type": "News",
+    "url": "https://www.goodreturns.in",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Money Today",
+    "type": "News",
+    "url": "https://www.businesstoday.in/money",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Money9",
+    "type": "News",
+    "url": "https://www.money9.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "DNA Money",
+    "type": "News",
+    "url": "https://www.dnaindia.com/business",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Zee Business",
+    "type": "News",
+    "url": "https://www.zeebiz.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Mint",
+    "type": "News",
+    "url": "https://www.livemint.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Financial Chronicle",
+    "type": "News",
+    "url": "https://www.mydigitalfc.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Business Line",
+    "type": "News",
+    "url": "https://www.thehindubusinessline.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Outlook Money",
+    "type": "News",
+    "url": "https://www.outlookmoney.com",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "MoneyWorks4me",
+    "type": "Analytics",
+    "url": "https://www.moneyworks4me.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Equitymaster",
+    "type": "Analytics",
+    "url": "https://www.equitymaster.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Research & Ranking",
+    "type": "Analytics",
+    "url": "https://www.researchandranking.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Marketsmith India",
+    "type": "Analytics",
+    "url": "https://marketsmithindia.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "Dalal Street Investment Journal",
+    "type": "News",
+    "url": "https://www.dsij.in",
+    "api_endpoint": "",
+    "crawl_frequency": "hourly",
+    "tags": [
+      "news"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "StockEdge",
+    "type": "Analytics",
+    "url": "https://www.stockedge.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  },
+  {
+    "name": "TradingView India",
+    "type": "Analytics",
+    "url": "https://in.tradingview.com",
+    "api_endpoint": "",
+    "crawl_frequency": "daily",
+    "tags": [
+      "analytics"
+    ],
+    "auth": {
+      "required": false,
+      "type": "",
+      "notes": ""
+    }
+  }
+]

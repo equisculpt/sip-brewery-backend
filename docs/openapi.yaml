@@ -1,0 +1,660 @@
+openapi: 3.0.3
+info:
+  title: SIP Brewery - Universe-Class Financial ASI Platform
+  description: |
+    🚀 **World's Most Advanced Financial ASI Platform**
+    
+    Comprehensive Indian financial data platform with full NSE/BSE integration, 
+    real-time corporate actions monitoring, and Google-like search engine experience.
+    
+    ## Features
+    - **Universal ASI Engine**: Single point for all AI/AGI/ASI requests
+    - **Real-time Corporate Actions**: Live monitoring of AGM, results, dividends
+    - **Universal Search**: Google-level performance for financial instruments
+    - **Portfolio Optimization**: Quantum-inspired algorithms
+    - **Behavioral Finance**: Indian market-specific analysis
+    - **Enterprise Security**: Military-grade authentication and authorization
+    
+    ## Authentication
+    All endpoints require JWT authentication via Bearer token in Authorization header.
+    
+  version: 1.0.0
+  contact:
+    name: SIP Brewery Engineering Team
+    email: engineering@sipbrewery.com
+  license:
+    name: Proprietary
+    
+servers:
+  - url: http://localhost:3000
+    description: Development server
+  - url: https://api.sipbrewery.com
+    description: Production server
+
+security:
+  - bearerAuth: []
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      
+  schemas:
+    Error:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: "Error message"
+        error:
+          type: string
+          example: "Detailed error information"
+      required:
+        - success
+        - message
+        
+    Success:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+        message:
+          type: string
+          example: "Operation completed successfully"
+      required:
+        - success
+        
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: "507f1f77bcf86cd799439011"
+        email:
+          type: string
+          format: email
+          example: "user@example.com"
+        role:
+          type: string
+          enum: [user, premium, admin, super_admin]
+          example: "premium"
+        subscription:
+          type: string
+          enum: [basic, premium, enterprise]
+          example: "premium"
+        kycStatus:
+          type: string
+          enum: [pending, verified, rejected]
+          example: "verified"
+      required:
+        - _id
+        - email
+        - role
+        
+    Fund:
+      type: object
+      properties:
+        code:
+          type: string
+          example: "120503"
+        name:
+          type: string
+          example: "SBI Blue Chip Fund"
+        nav:
+          type: number
+          format: float
+          example: 85.67
+        category:
+          type: string
+          example: "Equity"
+        aum:
+          type: number
+          format: float
+          example: 15000000000
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+          example: 4
+      required:
+        - code
+        - name
+        - nav
+        
+    ASIRequest:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [fund_analysis, portfolio_optimization, market_prediction, behavioral_analysis, chatbot]
+          example: "fund_analysis"
+        data:
+          type: object
+          description: "Request-specific data"
+        parameters:
+          type: object
+          description: "Optional parameters"
+        precision:
+          type: string
+          enum: [normal, high, critical]
+          example: "high"
+        urgency:
+          type: string
+          enum: [normal, high, immediate]
+          example: "normal"
+      required:
+        - type
+        - data
+        
+    ASIResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        requestId:
+          type: string
+          example: "req_1234567890_abc123"
+        capability:
+          type: string
+          enum: [basic, general, super, quantum]
+          example: "general"
+        complexity:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          example: 0.65
+        result:
+          type: object
+          description: "ASI processing result"
+        processingTime:
+          type: number
+          format: integer
+          example: 1250
+      required:
+        - success
+        - requestId
+        - result
+
+paths:
+  /health:
+    get:
+      tags:
+        - System
+      summary: Health check
+      description: Check system health and status
+      security: []
+      responses:
+        '200':
+          description: System is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "healthy"
+                  timestamp:
+                    type: string
+                    format: date-time
+                  uptime:
+                    type: number
+                  version:
+                    type: string
+                    example: "1.0.0"
+                    
+  /status:
+    get:
+      tags:
+        - System
+      summary: System status
+      description: Get detailed system status and metrics
+      security: []
+      responses:
+        '200':
+          description: System status information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "operational"
+                  services:
+                    type: object
+                  metrics:
+                    type: object
+
+  /api/auth/check:
+    get:
+      tags:
+        - Authentication
+      summary: Check authentication status
+      description: Verify if the current token is valid and get user info
+      responses:
+        '200':
+          description: Authentication status
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Success'
+                  - type: object
+                    properties:
+                      data:
+                        $ref: '#/components/schemas/User'
+        '401':
+          description: Authentication failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+                
+  /api/auth/kyc/status:
+    get:
+      tags:
+        - Authentication
+      summary: Get KYC status
+      description: Retrieve KYC verification status for the authenticated user
+      responses:
+        '200':
+          description: KYC status retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Success'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          kycStatus:
+                            type: string
+                            enum: [pending, verified, rejected]
+                          verificationDate:
+                            type: string
+                            format: date-time
+                          documents:
+                            type: array
+                            items:
+                              type: string
+        '401':
+          description: Authentication required
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/asi/process:
+    post:
+      tags:
+        - ASI Engine
+      summary: Process ASI request
+      description: |
+        Universal ASI processing endpoint. Automatically determines optimal 
+        capability level and routes to appropriate AI/AGI/ASI engine.
+        
+        **Capability Levels:**
+        - **Basic**: Simple ML tasks (fund analysis, market data)
+        - **General**: Cross-domain reasoning (behavioral analysis, risk assessment)
+        - **Super**: Advanced optimization (portfolio optimization, deep forecasting)
+        - **Quantum**: Maximum capability (quantum optimization, explainability)
+        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ASIRequest'
+            examples:
+              fund_analysis:
+                summary: Fund Analysis Request
+                value:
+                  type: "fund_analysis"
+                  data:
+                    fundCode: "120503"
+                  parameters:
+                    includeRecommendation: true
+                  precision: "high"
+              portfolio_optimization:
+                summary: Portfolio Optimization Request
+                value:
+                  type: "portfolio_optimization"
+                  data:
+                    holdings:
+                      - fundCode: "120503"
+                        allocation: 0.4
+                      - fundCode: "118989"
+                        allocation: 0.6
+                    riskTolerance: "moderate"
+                  precision: "critical"
+                  urgency: "high"
+      responses:
+        '200':
+          description: ASI request processed successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ASIResponse'
+              examples:
+                fund_analysis_response:
+                  summary: Fund Analysis Response
+                  value:
+                    success: true
+                    requestId: "req_1234567890_abc123"
+                    capability: "general"
+                    complexity: 0.65
+                    result:
+                      fund:
+                        code: "120503"
+                        name: "SBI Blue Chip Fund"
+                        nav: 85.67
+                        rating: 4
+                      analysis:
+                        recommendation: "BUY"
+                        confidence: 0.87
+                        reasoning: "Strong fundamentals and consistent performance"
+                    processingTime: 1250
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Authentication required
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '429':
+          description: Rate limit exceeded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/asi/fund/{code}/analyze:
+    get:
+      tags:
+        - ASI Engine
+      summary: Analyze specific fund
+      description: Get comprehensive AI-powered analysis for a specific mutual fund
+      parameters:
+        - name: code
+          in: path
+          required: true
+          description: Fund code (AMFI code)
+          schema:
+            type: string
+            example: "120503"
+        - name: includeRecommendation
+          in: query
+          description: Include buy/sell recommendation
+          schema:
+            type: boolean
+            default: true
+        - name: timeframe
+          in: query
+          description: Analysis timeframe
+          schema:
+            type: string
+            enum: [1M, 3M, 6M, 1Y, 3Y, 5Y]
+            default: "1Y"
+      responses:
+        '200':
+          description: Fund analysis completed
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Success'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          fund:
+                            $ref: '#/components/schemas/Fund'
+                          analysis:
+                            type: object
+                            properties:
+                              recommendation:
+                                type: string
+                                enum: [BUY, HOLD, SELL]
+                              confidence:
+                                type: number
+                                format: float
+                                minimum: 0
+                                maximum: 1
+                              reasoning:
+                                type: string
+                              metrics:
+                                type: object
+        '404':
+          description: Fund not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/search/universal:
+    get:
+      tags:
+        - Search
+      summary: Universal financial search
+      description: |
+        Google-like search engine for Indian financial instruments.
+        Supports fuzzy matching, autocomplete, and intelligent suggestions.
+        
+        **Searchable Instruments:**
+        - Stocks (NSE Main, SME, Emerge)
+        - Mutual Funds (All categories)
+        - ETFs and Index Funds
+        - Market Indices
+        - Sectors and Industries
+        
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Search query
+          schema:
+            type: string
+            example: "sbi blue chip"
+        - name: type
+          in: query
+          description: Filter by instrument type
+          schema:
+            type: string
+            enum: [all, stocks, mutual_funds, etfs, indices, sectors]
+            default: "all"
+        - name: limit
+          in: query
+          description: Maximum number of results
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 10
+        - name: autocomplete
+          in: query
+          description: Enable autocomplete mode
+          schema:
+            type: boolean
+            default: false
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Success'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          results:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                type:
+                                  type: string
+                                  example: "mutual_fund"
+                                code:
+                                  type: string
+                                  example: "120503"
+                                name:
+                                  type: string
+                                  example: "SBI Blue Chip Fund"
+                                confidence:
+                                  type: number
+                                  format: float
+                                  example: 0.95
+                          totalResults:
+                            type: integer
+                            example: 25
+                          responseTime:
+                            type: number
+                            format: float
+                            example: 0.002
+                          suggestions:
+                            type: array
+                            items:
+                              type: string
+
+  /api/corporate-actions/live:
+    get:
+      tags:
+        - Corporate Actions
+      summary: Live corporate actions
+      description: |
+        Get real-time corporate actions including AGM announcements, 
+        quarterly results, dividend declarations, and board meetings.
+        
+        **Action Types:**
+        - AGM (Annual General Meetings)
+        - Results (Quarterly/Annual)
+        - Dividends (Interim/Final)
+        - Board Meetings
+        - Bonus Issues
+        - Stock Splits
+        - Rights Issues
+        - Buybacks
+        
+      parameters:
+        - name: type
+          in: query
+          description: Filter by action type
+          schema:
+            type: string
+            enum: [all, agm, result, dividend, board_meeting, bonus, split, rights, buyback]
+            default: "all"
+        - name: priority
+          in: query
+          description: Filter by priority level
+          schema:
+            type: string
+            enum: [all, critical, high, medium, low]
+            default: "all"
+        - name: exchange
+          in: query
+          description: Filter by exchange
+          schema:
+            type: string
+            enum: [all, nse, bse]
+            default: "all"
+        - name: limit
+          in: query
+          description: Maximum number of results
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+      responses:
+        '200':
+          description: Live corporate actions retrieved
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Success'
+                  - type: object
+                    properties:
+                      data:
+                        type: object
+                        properties:
+                          actions:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                id:
+                                  type: string
+                                  example: "ca_1234567890"
+                                type:
+                                  type: string
+                                  example: "DIVIDEND"
+                                company:
+                                  type: string
+                                  example: "Reliance Industries Ltd"
+                                symbol:
+                                  type: string
+                                  example: "RELIANCE"
+                                exchange:
+                                  type: string
+                                  example: "NSE"
+                                priority:
+                                  type: string
+                                  example: "HIGH"
+                                announcement:
+                                  type: string
+                                  example: "Interim dividend of Rs 8 per share"
+                                date:
+                                  type: string
+                                  format: date-time
+                                recordDate:
+                                  type: string
+                                  format: date
+                                exDate:
+                                  type: string
+                                  format: date
+                          summary:
+                            type: object
+                            properties:
+                              total:
+                                type: integer
+                              today:
+                                type: integer
+                              urgent:
+                                type: integer
+                              byExchange:
+                                type: object
+
+tags:
+  - name: System
+    description: System health and status endpoints
+  - name: Authentication
+    description: User authentication and authorization
+  - name: ASI Engine
+    description: Universal ASI processing endpoints
+  - name: Search
+    description: Universal financial search engine
+  - name: Corporate Actions
+    description: Real-time corporate actions monitoring
