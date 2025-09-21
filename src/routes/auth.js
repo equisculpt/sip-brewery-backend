@@ -88,7 +88,7 @@ const validateRegistration = [
 ];
 
 // Apply strict rate limiting to critical auth endpoints
-router.post('/register', authRateLimiter, validateRegistration, handleValidationErrors, authController.register);
+router.post('/register', authRateLimiter, validateRegistration, authController.register);
 router.get('/verify-email', apiRateLimiter, authController.verifyEmail); // New: Email verification
 router.post('/forgot-password', authRateLimiter, authController.forgotPassword); // New: Forgot password
 router.post('/reset-password', authController.resetPassword);

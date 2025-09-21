@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const { logger } = require('./logger');
+const logger = require('./logger');
 const crypto = require('crypto');
 
 // Security configuration (fail-fast, no fallbacks)
