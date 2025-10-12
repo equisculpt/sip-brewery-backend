@@ -68,6 +68,40 @@ class AuthController {
     }
   }
 
+  /**
+   * Update KYC status (for testing/demo)
+   */
+  async updateKYCStatus(req, res) {
+    try {
+      if (!req.user) {
+        return errorResponse(res, 'Authentication required', null, 401);
+      }
+
+      const { status } = req.body;
+      const validStatuses = ['PENDING', 'IN_PROGRESS', 'VERIFIED', 'REJECTED'];
+      
+      if (!validStatuses.includes(status)) {
+        return errorResponse(res, 'Invalid KYC status', null, 400);
+      }
+
+      // Update user KYC status (assuming User model exists)
+      const user = await User.findById(req.user._id);
+      if (!user) {
+        return errorResponse(res, 'User not found', null, 404);
+      }
+
+      user.kycStatus = status;
+      await user.save();
+
+      return successResponse(res, 'KYC status updated successfully', {
+        kycStatus: user.kycStatus
+      }, 200);
+    } catch (error) {
+      logger.error('Error updating KYC status:', error);
+      return errorResponse(res, 'Failed to update KYC status', error, 500);
+    }
+  }
+
   // ... (other authentication methods can be restored as needed)
 }
 
