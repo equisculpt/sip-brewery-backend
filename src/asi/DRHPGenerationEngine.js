@@ -10,16 +10,35 @@
 
 const fs = require('fs').promises;
 const path = require('path');
-const pdf = require('pdf-parse');
-const mammoth = require('mammoth');
 const cheerio = require('cheerio');
 const axios = require('axios');
-const sharp = require('sharp');
-const tesseract = require('tesseract.js');
-const { createWorker } = require('tesseract.js');
 const { ASIMasterEngine } = require('./ASIMasterEngine');
 const { PythonASIBridge } = require('./PythonASIBridge');
 const logger = require('../utils/logger');
+
+// Optional dependencies for document processing
+let pdf, mammoth, sharp, tesseract, createWorker;
+try {
+    pdf = require('pdf-parse');
+} catch (e) {
+    logger.warn('⚠️ pdf-parse not installed. PDF processing will not work.');
+}
+try {
+    mammoth = require('mammoth');
+} catch (e) {
+    logger.warn('⚠️ mammoth not installed. Word document processing will not work.');
+}
+try {
+    sharp = require('sharp');
+} catch (e) {
+    logger.warn('⚠️ sharp not installed. Image processing will not work.');
+}
+try {
+    tesseract = require('tesseract.js');
+    createWorker = tesseract.createWorker;
+} catch (e) {
+    logger.warn('⚠️ tesseract.js not installed. OCR functionality will not work.');
+}
 
 class DRHPGenerationEngine {
     constructor() {
