@@ -1,7 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const path = require('path');
+const fs = require('fs');
 const ComprehensiveReportService = require('../services/ComprehensiveReportService');
-const authMiddleware = require('../middleware/authMiddleware');
+const { authenticateToken } = require('../middleware/authMiddleware');
 const rateLimit = require('express-rate-limit');
 
 // Rate limiting for report generation
@@ -15,7 +17,7 @@ const reportService = new ComprehensiveReportService();
 
 // Apply rate limiting and authentication to all routes
 router.use(reportRateLimit);
-router.use(authMiddleware);
+router.use(authenticateToken);
 
 /**
  * @swagger
