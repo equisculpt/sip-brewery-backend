@@ -7,12 +7,7 @@ const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 if (!supabaseUrl || !supabaseServiceKey) {
-  if (process.env.NODE_ENV === 'test') {
-    logger.warn('Missing Supabase environment variables in test mode, using dummy values');
-  } else {
-    logger.error('Missing Supabase environment variables');
-    process.exit(1);
-  }
+  logger.warn(' Supabase not configured. Using mock authentication mode. Configure SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY for production.');
 }
 
 const supabase = (supabaseUrl && supabaseServiceKey)
