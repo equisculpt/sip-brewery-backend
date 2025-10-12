@@ -3,7 +3,20 @@
  * Deep learning sequence models (LSTM/Transformer) for NAV/price prediction.
  */
 const tf = require('@tensorflow/tfjs-node-gpu');
-const { fetchHistoricalData } = require('../../ai/LiveDataService');
+const logger = require('../../utils/logger');
+
+// Mock historical data fetching (can be replaced with actual implementation)
+const fetchHistoricalData = async (symbol, startDate, endDate) => {
+  logger.warn('⚠️ LiveDataService not implemented. Using mock historical data.');
+  return {
+    symbol,
+    data: Array(30).fill(0).map((_, i) => ({
+      date: new Date(Date.now() - i * 86400000).toISOString(),
+      price: 100 + Math.random() * 20,
+      volume: Math.floor(Math.random() * 1000000)
+    }))
+  };
+};
 
 class DeepForecastingModel {
   constructor() {
