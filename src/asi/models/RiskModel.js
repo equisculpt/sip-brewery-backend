@@ -2,7 +2,19 @@
  * RiskModel.js
  * Multi-factor risk analytics, tail risk, and stress testing for portfolios.
  */
-const { fetchPortfolioData } = require('../../ai/LiveDataService');
+const logger = require('../../utils/logger');
+
+// Mock portfolio data fetching (can be replaced with actual implementation)
+const fetchPortfolioData = async (portfolio, date) => {
+  logger.warn('⚠️ LiveDataService not implemented. Using mock portfolio data.');
+  return { 
+    portfolio, 
+    date, 
+    pnlHistory: [100, -50, 200, -30, 150],
+    holdings: [],
+    totalValue: 0 
+  };
+};
 
 class RiskModel {
   constructor() {}
