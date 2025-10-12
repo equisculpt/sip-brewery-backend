@@ -10,7 +10,7 @@
 
 const { v4: uuidv4 } = require('uuid');
 const logger = require('../../utils/logger');
-const { EnterpriseEventBus } = require('../eventBus');
+const { EnterpriseEventBus } = require('../../infrastructure/eventBus');
 
 class CommandBus {
   constructor(eventBus) {
