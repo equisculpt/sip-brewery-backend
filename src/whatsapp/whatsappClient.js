@@ -7,18 +7,18 @@ class WhatsAppClient {
     this.authToken = process.env.TWILIO_AUTH_TOKEN;
     this.phoneNumber = process.env.TWILIO_PHONE_NUMBER;
     
-    // Initialize Twilio client if credentials are available
+    // Initialize Twilio client only if credentials are valid
     this.twilioClient = null;
-    if (this.accountSid && this.authToken) {
+    if (this.accountSid && this.authToken && this.accountSid.startsWith('AC') && process.env.NODE_ENV !== 'test') {
       try {
         const twilio = require('twilio');
         this.twilioClient = twilio(this.accountSid, this.authToken);
-        logger.info('Twilio WhatsApp client initialized');
+        logger.info(' Twilio WhatsApp client initialized successfully');
       } catch (error) {
-        logger.error('Failed to initialize Twilio client:', error);
+        logger.warn(' Failed to initialize Twilio client, using mock mode:', error.message);
       }
     } else {
-      logger.warn('Twilio credentials not found. WhatsApp features will be simulated.');
+      logger.info(' Twilio not configured or in test mode. WhatsApp messages will be simulated.');
     }
   }
 
@@ -221,19 +221,5 @@ class WhatsAppClient {
   }
 }
 
-// Only initialize Twilio if not in test mode
-let client = null;
-if (process.env.NODE_ENV !== 'test') {
-  const twilio = require('twilio');
-  client = new twilio(
-    process.env.TWILIO_ACCOUNT_SID,
-    process.env.TWILIO_AUTH_TOKEN
-  );
-} else {
-  // In test mode, provide a mock client
-  client = {
-    sendMessage: async () => ({ success: true, message: 'Simulated WhatsApp send in test mode' })
-  };
-}
-
-module.exports = client; 
+// Export singleton instance
+module.exports = new WhatsAppClient();
