@@ -28,7 +28,6 @@ const { BehavioralFinanceEngine } = require('./BehavioralFinanceEngine');
 const { ReinforcementLearningEngine } = require('./ReinforcementLearningEngine');
 const { QuantumInspiredOptimizer } = require('./QuantumInspiredOptimizer');
 const { ExplainabilityEngine } = require('./ExplainabilityEngine');
-const { WebResearchAgent } = require('./WebResearchAgent');
 
 // New Advanced Prediction Components
 const { AdvancedMutualFundPredictor } = require('./AdvancedMutualFundPredictor');
