@@ -145,38 +145,17 @@ router.post('/recommend/sip',
 );
 
 // ===== MARKET ANALYSIS ENDPOINTS =====
-
-// GET /api/ai/market/sentiment - Get current market sentiment
-router.get('/market/sentiment', aiController.getMarketSentiment);
-
-// GET /api/ai/market/timing - Get market timing analysis
-router.get('/market/timing', aiController.getMarketTiming);
-
-// GET /api/ai/market/insights - Get AI-generated market insights
-router.get('/market/insights', aiController.getMarketInsights);
-
-// GET /api/ai/market/trends - Get market trend analysis
-router.get('/market/trends', aiController.getMarketTrends);
+// TODO: Implement these controller methods
+// router.get('/market/sentiment', aiController.getMarketSentiment);
+// router.get('/market/timing', aiController.getMarketTiming);
+// router.get('/market/insights', aiController.getMarketInsights);
+// router.get('/market/trends', aiController.getMarketTrends);
 
 // ===== LEARNING & MONITORING ENDPOINTS =====
-
-// GET /api/ai/learning/status - Get continuous learning status
-router.get('/learning/status', aiController.getLearningStatus);
-
-// GET /api/ai/learning/metrics - Get learning performance metrics
-router.get('/learning/metrics', aiController.getLearningMetrics);
-
-// POST /api/ai/learning/feedback - Provide feedback for learning
-router.post('/learning/feedback',
-  validateRequest({
-    body: {
-      predictionId: { type: 'string', required: true },
-      actualOutcome: { type: 'object', required: true },
-      feedback: { type: 'string', enum: ['accurate', 'inaccurate', 'partially_accurate'] }
-    }
-  }),
-  aiController.provideLearningFeedback
-);
+// TODO: Implement these controller methods
+// router.get('/learning/status', aiController.getLearningStatus);
+// router.get('/learning/metrics', aiController.getLearningMetrics);
+// router.post('/learning/feedback', aiController.provideLearningFeedback);
 
 // ===== SYSTEM ENDPOINTS =====
 
@@ -208,69 +187,18 @@ router.post('/test/prediction',
 // GET /api/ai/test/models - Test AI model performance
 router.get('/test/models', aiController.testModels);
 
-// Backtesting Routes
-router.post('/backtest/run', 
-  authenticate,
-  aiRateLimit,
-  aiController.runBacktest
-);
-
-router.get('/backtest/results/:strategyName',
-  authenticate,
-  aiRateLimit,
-  aiController.getBacktestResults
-);
-
-// Performance Dashboard Routes
-router.get('/performance/dashboard',
-  authenticate,
-  aiRateLimit,
-  aiController.getPerformanceDashboard
-);
-
-router.get('/performance/models/compare',
-  authenticate,
-  aiRateLimit,
-  aiController.compareModels
-);
-
-router.get('/performance/alerts',
-  authenticate,
-  aiRateLimit,
-  aiController.getPerformanceAlerts
-);
-
-// Historical Data Routes
-router.get('/data/historical/:symbol',
-  authenticate,
-  aiRateLimit,
-  aiController.getHistoricalData
-);
-
-router.get('/data/realtime/market',
-  authenticate,
-  aiRateLimit,
-  aiController.getRealTimeMarketData
-);
-
-// Model Management Routes
-router.post('/models/register',
-  authenticate,
-  aiRateLimit,
-  aiController.registerModel
-);
-
-router.get('/models/performance/:modelName',
-  authenticate,
-  aiRateLimit,
-  aiController.getModelPerformance
-);
-
-// Testing and Development Routes
-router.get('/test/health', aiController.testHealth);
-router.post('/test/prediction', aiController.testPrediction);
-router.get('/test/models', aiController.testModels);
-router.post('/test/backtest', aiController.testBacktest);
-router.get('/test/performance', aiController.testPerformance);
+// TODO: Implement these controller methods
+// router.post('/backtest/run', authenticateToken, aiRateLimit, aiController.runBacktest);
+// router.get('/backtest/results/:strategyName', authenticateToken, aiRateLimit, aiController.getBacktestResults);
+// router.get('/performance/dashboard', authenticateToken, aiRateLimit, aiController.getPerformanceDashboard);
+// router.get('/performance/models/compare', authenticateToken, aiRateLimit, aiController.compareModels);
+// router.get('/performance/alerts', authenticateToken, aiRateLimit, aiController.getPerformanceAlerts);
+// router.get('/data/historical/:symbol', authenticateToken, aiRateLimit, aiController.getHistoricalData);
+// router.get('/data/realtime/market', authenticateToken, aiRateLimit, aiController.getRealTimeMarketData);
+// router.post('/models/register', authenticateToken, aiRateLimit, aiController.registerModel);
+// router.get('/models/performance/:modelName', authenticateToken, aiRateLimit, aiController.getModelPerformance);
+// router.get('/test/health', aiController.testHealth);
+// router.post('/test/backtest', aiController.testBacktest);
+// router.get('/test/performance', aiController.testPerformance);
 
 module.exports = router;
