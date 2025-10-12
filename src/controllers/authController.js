@@ -6,7 +6,7 @@ const logger = require('../utils/logger');
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secure-key';
 const { sendOtpEmail } = require('../utils/email');
 const crypto = require('crypto');
-const emailService = require('../services/emailService');
+const emailService = require('../services/EmailService');
 
 // Helper: Generate OTP
 function generateOtp() {
