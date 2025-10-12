@@ -9,7 +9,6 @@
  */
 
 const express = require('express');
-const multer = require('multer');
 const rateLimit = require('express-rate-limit');
 const { body, param, query, validationResult } = require('express-validator');
 const DRHPController = require('../controllers/drhpController');
@@ -18,16 +17,20 @@ const logger = require('../utils/logger');
 
 const router = express.Router();
 
-// Configure multer for document uploads
-const storage = multer.memoryStorage();
-const upload = multer({
-    storage: storage,
-    limits: {
-        fileSize: 50 * 1024 * 1024, // 50MB per file
-        files: 20 // Maximum 20 files
-    },
-    fileFilter: (req, file, cb) => {
-        // Allow specific document and image types
+// Try to load multer for file uploads (optional dependency)
+let multer;
+let upload;
+try {
+    multer = require('multer');
+    const storage = multer.memoryStorage();
+    upload = multer({
+        storage: storage,
+        limits: {
+            fileSize: 50 * 1024 * 1024, // 50MB per file
+            files: 20 // Maximum 20 files
+        },
+        fileFilter: (req, file, cb) => {
+            // Allow specific document and image types
         const allowedTypes = [
             // Document types
             'application/pdf',
@@ -53,7 +56,17 @@ const upload = multer({
             cb(new Error(`Unsupported file type: ${file.mimetype}`), false);
         }
     }
-});
+    });
+    logger.info('✅ Multer file upload middleware initialized');
+} catch (error) {
+    logger.warn('⚠️ Multer not installed. File upload endpoints will not work. Install with: npm install multer');
+    // Mock upload middleware that returns error
+    upload = {
+        single: () => (req, res, next) => next(),
+        array: () => (req, res, next) => next(),
+        fields: () => (req, res, next) => next()
+    };
+}
 
 // Rate limiting for DRHP generation
 const drhpGenerationLimit = rateLimit({
