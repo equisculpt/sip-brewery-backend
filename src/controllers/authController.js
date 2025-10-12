@@ -69,6 +69,37 @@ class AuthController {
   }
 
   /**
+   * Get user profile
+   */
+  async getUserProfile(req, res) {
+    try {
+      if (!req.user) {
+        return errorResponse(res, 'Authentication required', null, 401);
+      }
+
+      const user = await User.findById(req.user._id).select('-password');
+      if (!user) {
+        return errorResponse(res, 'User not found', null, 404);
+      }
+
+      return successResponse(res, 'Profile retrieved successfully', {
+        user: {
+          id: user._id,
+          name: user.name,
+          email: user.email,
+          phone: user.phone,
+          kycStatus: user.kycStatus,
+          isActive: user.isActive,
+          createdAt: user.createdAt
+        }
+      }, 200);
+    } catch (error) {
+      logger.error('Error getting user profile:', error);
+      return errorResponse(res, 'Failed to get profile', error, 500);
+    }
+  }
+
+  /**
    * Update KYC status (for testing/demo)
    */
   async updateKYCStatus(req, res) {
@@ -99,6 +130,177 @@ class AuthController {
     } catch (error) {
       logger.error('Error updating KYC status:', error);
       return errorResponse(res, 'Failed to update KYC status', error, 500);
+    }
+  }
+
+  /**
+   * Update user profile
+   */
+  async updateUserProfile(req, res) {
+    try {
+      if (!req.user) {
+        return errorResponse(res, 'Authentication required', null, 401);
+      }
+
+      const { name, email, phone, pan } = req.body;
+      const user = await User.findById(req.user._id);
+      
+      if (!user) {
+        return errorResponse(res, 'User not found', null, 404);
+      }
+
+      if (name) user.name = name;
+      if (email) user.email = email;
+      if (phone) user.phone = phone;
+      if (pan) user.pan = pan;
+
+      await user.save();
+
+      return successResponse(res, 'Profile updated successfully', {
+        user: {
+          id: user._id,
+          name: user.name,
+          email: user.email,
+          phone: user.phone
+        }
+      }, 200);
+    } catch (error) {
+      logger.error('Error updating profile:', error);
+      return errorResponse(res, 'Failed to update profile', error, 500);
+    }
+  }
+
+  /**
+   * Register new user
+   */
+  async register(req, res) {
+    try {
+      const { email, password, name, pan } = req.body;
+
+      // Check if user exists
+      const existingUser = await User.findOne({ email });
+      if (existingUser) {
+        return errorResponse(res, 'User already exists', null, 400);
+      }
+
+      // Hash password
+      const hashedPassword = await bcrypt.hash(password, 10);
+
+      // Create user
+      const user = new User({
+        email,
+        password: hashedPassword,
+        name,
+        pan,
+        kycStatus: 'PENDING',
+        isActive: true
+      });
+
+      await user.save();
+
+      // Generate verification token
+      const verificationToken = crypto.randomBytes(32).toString('hex');
+      user.emailVerificationToken = verificationToken;
+      await user.save();
+
+      // Send verification email
+      await emailService.sendVerificationEmail(email, name, verificationToken);
+
+      return successResponse(res, 'Registration successful. Please verify your email.', {
+        userId: user._id
+      }, 201);
+    } catch (error) {
+      logger.error('Error registering user:', error);
+      return errorResponse(res, 'Registration failed', error, 500);
+    }
+  }
+
+  /**
+   * Verify email
+   */
+  async verifyEmail(req, res) {
+    try {
+      const { token } = req.query;
+
+      if (!token) {
+        return errorResponse(res, 'Verification token required', null, 400);
+      }
+
+      const user = await User.findOne({ emailVerificationToken: token });
+      if (!user) {
+        return errorResponse(res, 'Invalid or expired token', null, 400);
+      }
+
+      user.isEmailVerified = true;
+      user.emailVerificationToken = undefined;
+      await user.save();
+
+      return successResponse(res, 'Email verified successfully', null, 200);
+    } catch (error) {
+      logger.error('Error verifying email:', error);
+      return errorResponse(res, 'Email verification failed', error, 500);
+    }
+  }
+
+  /**
+   * Forgot password
+   */
+  async forgotPassword(req, res) {
+    try {
+      const { email } = req.body;
+
+      const user = await User.findOne({ email });
+      if (!user) {
+        // Don't reveal if user exists
+        return successResponse(res, 'If the email exists, a reset link has been sent', null, 200);
+      }
+
+      // Generate reset token
+      const resetToken = crypto.randomBytes(32).toString('hex');
+      user.passwordResetToken = resetToken;
+      user.passwordResetExpires = Date.now() + 3600000; // 1 hour
+      await user.save();
+
+      // Send reset email
+      await emailService.sendPasswordResetEmail(email, user.name, resetToken);
+
+      return successResponse(res, 'Password reset link sent to your email', null, 200);
+    } catch (error) {
+      logger.error('Error in forgot password:', error);
+      return errorResponse(res, 'Failed to process request', error, 500);
+    }
+  }
+
+  /**
+   * Reset password
+   */
+  async resetPassword(req, res) {
+    try {
+      const { token, password } = req.body;
+
+      if (!token || !password) {
+        return errorResponse(res, 'Token and password required', null, 400);
+      }
+
+      const user = await User.findOne({
+        passwordResetToken: token,
+        passwordResetExpires: { $gt: Date.now() }
+      });
+
+      if (!user) {
+        return errorResponse(res, 'Invalid or expired reset token', null, 400);
+      }
+
+      // Hash new password
+      user.password = await bcrypt.hash(password, 10);
+      user.passwordResetToken = undefined;
+      user.passwordResetExpires = undefined;
+      await user.save();
+
+      return successResponse(res, 'Password reset successfully', null, 200);
+    } catch (error) {
+      logger.error('Error resetting password:', error);
+      return errorResponse(res, 'Password reset failed', error, 500);
     }
   }
 
