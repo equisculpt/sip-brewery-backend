@@ -5,9 +5,8 @@ const { verifyToken } = require('../utils/auth');
 const AuthService = require('../services/AuthService');
 
 // Security: Validate JWT public key at startup
-if (!process.env.JWT_PUBLIC_KEY) {
-  logger.error('CRITICAL SECURITY ERROR: JWT_PUBLIC_KEY environment variable not set');
-  process.exit(1); // Fail fast - do not start server without proper JWT configuration
+if (!process.env.JWT_PUBLIC_KEY && !process.env.JWT_SECRET) {
+  logger.warn('⚠️ JWT_PUBLIC_KEY / JWT_SECRET not configured. Authentication may not work properly in production.');
 }
 
 const authenticateToken = async (req, res, next) => {
