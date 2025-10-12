@@ -27,7 +27,7 @@ const { QuantumPortfolioOptimizer } = require('./models/QuantumPortfolioOptimize
 const { BehavioralFinanceEngine } = require('./BehavioralFinanceEngine');
 const { ReinforcementLearningEngine } = require('./ReinforcementLearningEngine');
 const { QuantumInspiredOptimizer } = require('./QuantumInspiredOptimizer');
-const { ExplainabilityEngine } = require('./ExplainabilityEngine');
+const { ExplainableAISystem } = require('./ExplainableAISystem');
 
 // New Advanced Prediction Components
 const { AdvancedMutualFundPredictor } = require('./AdvancedMutualFundPredictor');
@@ -36,7 +36,7 @@ const { RealTimeAdaptiveLearner } = require('./RealTimeAdaptiveLearner');
 const { EnhancedPortfolioAnalyzer } = require('./EnhancedPortfolioAnalyzer');
 
 // Automated Data Pipeline Components
-const { AutomatedDataCrawler } = require('./data/AutomatedDataCrawler');
+const { AutomatedDataCrawler } = require('./AutomatedDataCrawler');
 const { IntegratedDataManager } = require('./data/IntegratedDataManager');
 const { DocumentIntelligenceAnalyzer } = require('./DocumentIntelligenceAnalyzer');
 const { IntelligentDataIntegrator } = require('./IntelligentDataIntegrator');

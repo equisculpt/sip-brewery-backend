@@ -3,17 +3,7 @@
  * Multi-factor and machine learning alpha/signal generation for funds and equities.
  */
 const tf = require('@tensorflow/tfjs-node-gpu');
-const logger = require('../../utils/logger');
-
-// Mock live data service (can be replaced with actual implementation)
-const fetchLiveMarketData = async () => {
-  logger.warn('⚠️ LiveDataService not implemented. Using mock data.');
-  return { data: [], timestamp: new Date() };
-};
-const fetchAlternativeData = async () => {
-  logger.warn('⚠️ Alternative data fetching not implemented. Using mock data.');
-  return { data: [], timestamp: new Date() };
-};
+const { fetchLiveMarketData, fetchAlternativeData } = require('../../ai/LiveDataService');
 
 class AlphaModel {
   constructor() {
