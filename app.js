@@ -102,8 +102,8 @@ app.post('/api/asi/analyze', (req, res) => {
 // Import and use new route modules
 const authRoutes = require('./src/routes/auth');
 const investmentRoutes = require('./src/routes/investment');
-const portfolioRoutes = require('./src/routes/portfolio');
-const reportRoutes = require('./src/routes/reports');
+const portfolioRoutes = require('./src/routes/asiPortfolioRoutes');
+const reportRoutes = require('./src/routes/reportRoutes');
 const whatsappRoutes = require('./src/routes/whatsapp');
 const aiRoutes = require('./src/routes/ai');
 const drhpRoutes = require('./src/routes/drhp');
