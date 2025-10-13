@@ -10,8 +10,36 @@
  */
 
 const tf = require('@tensorflow/tfjs-node-gpu');
-const natural = require('natural');
 const logger = require('../utils/logger');
+
+// Try to load natural NLP library (optional)
+let natural;
+try {
+  natural = require('natural');
+  logger.info('✅ Natural NLP library loaded');
+} catch (error) {
+  logger.warn('⚠️ Natural NLP library not installed. Using basic text processing. Install with: npm install natural');
+  // Mock natural library with basic implementations
+  natural = {
+    PorterStemmer: {
+      stem: (word) => word.toLowerCase()
+    },
+    WordTokenizer: class {
+      tokenize(text) {
+        return text.split(/\s+/);
+      }
+    },
+    SentenceTokenizer: class {
+      tokenize(text) {
+        return text.split(/[.!?]+/);
+      }
+    },
+    TfIdf: class {
+      addDocument() {}
+      listTerms() { return []; }
+    }
+  };
+}
 
 class DocumentIntelligenceAnalyzer {
   constructor(options = {}) {

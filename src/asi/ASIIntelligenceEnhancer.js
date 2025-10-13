@@ -9,8 +9,53 @@
  */
 
 const tf = require('@tensorflow/tfjs-node-gpu');
-const natural = require('natural');
 const logger = require('../utils/logger');
+
+// Try to load natural NLP library (optional)
+let natural;
+let naturalAvailable = false;
+try {
+  natural = require('natural');
+  naturalAvailable = true;
+  logger.info('✅ Natural NLP library loaded for Intelligence Enhancer');
+} catch (error) {
+  logger.warn('⚠️ Natural NLP not installed. Using basic NLP fallbacks. Install with: npm install natural');
+  // Mock natural library with basic implementations
+  natural = {
+    WordTokenizer: class {
+      tokenize(text) {
+        return text.toLowerCase().split(/\s+/);
+      }
+    },
+    PorterStemmer: {
+      stem: (word) => word.toLowerCase()
+    },
+    SentimentAnalyzer: class {
+      constructor() {}
+      getSentiment() {
+        return 0; // Neutral sentiment
+      }
+    },
+    BayesClassifier: class {
+      constructor() {}
+      addDocument() {}
+      train() {}
+      classify() { return 'general'; }
+      getClassifications() { return [{ label: 'general', value: 1.0 }]; }
+    },
+    LogisticRegressionClassifier: class {
+      constructor() {}
+      addDocument() {}
+      train() {}
+      classify() { return 'query'; }
+      getClassifications() { return [{ label: 'query', value: 1.0 }]; }
+    },
+    TfIdf: class {
+      addDocument() {}
+      listTerms() { return []; }
+    }
+  };
+}
 
 class ASIIntelligenceEnhancer {
     constructor() {
