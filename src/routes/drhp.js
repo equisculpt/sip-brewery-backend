@@ -12,7 +12,7 @@ const express = require('express');
 const rateLimit = require('express-rate-limit');
 const { body, param, query, validationResult } = require('express-validator');
 const DRHPController = require('../controllers/drhpController');
-const auth = require('../middleware/auth');
+const { authenticateToken, authorizeRoles } = require('../middleware/auth');
 const logger = require('../utils/logger');
 
 const router = express.Router();
@@ -98,8 +98,8 @@ router.use(generalLimit);
  * @access  Private (Merchant Banker)
  */
 router.get('/workflows',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     DRHPController.getWorkflows
 );
 
@@ -109,8 +109,8 @@ router.get('/workflows',
  * @access  Private (Merchant Banker)
  */
 router.post('/generate',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     drhpGenerationLimit,
     upload.array('documents', 20),
     [
@@ -166,8 +166,8 @@ router.post('/generate',
  * @access  Private (Merchant Banker)
  */
 router.get('/session/:sessionId/status',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         param('sessionId')
             .isUUID()
@@ -182,8 +182,8 @@ router.get('/session/:sessionId/status',
  * @access  Private (Merchant Banker)
  */
 router.get('/sessions',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         query('status')
             .optional()
@@ -209,8 +209,8 @@ router.get('/sessions',
  * @access  Private (Merchant Banker)
  */
 router.get('/download/:sessionId',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         param('sessionId')
             .isUUID()
@@ -230,8 +230,8 @@ router.get('/download/:sessionId',
  * @access  Private (Merchant Banker)
  */
 router.post('/validate-company',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         body('companyName')
             .notEmpty()
@@ -254,8 +254,8 @@ router.post('/validate-company',
  * @access  Private (Merchant Banker)
  */
 router.post('/session/:sessionId/cancel',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         param('sessionId')
             .isUUID()
@@ -270,8 +270,8 @@ router.post('/session/:sessionId/cancel',
  * @access  Private (Merchant Banker)
  */
 router.get('/templates',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     DRHPController.getTemplates
 );
 
@@ -281,8 +281,8 @@ router.get('/templates',
  * @access  Private (Merchant Banker)
  */
 router.post('/feedback',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         body('sessionId')
             .isUUID()
@@ -311,8 +311,8 @@ router.post('/feedback',
  * @access  Private (Merchant Banker)
  */
 router.get('/analytics',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         query('period')
             .optional()
@@ -333,8 +333,8 @@ router.get('/analytics',
  * @access  Private (Merchant Banker)
  */
 router.get('/compliance-check/:sessionId',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     [
         param('sessionId')
             .isUUID()
@@ -349,8 +349,8 @@ router.get('/compliance-check/:sessionId',
  * @access  Private (Merchant Banker)
  */
 router.post('/research-supplement',
-    auth.requireAuth,
-    auth.requireRole(['merchant_banker', 'admin']),
+    authenticateToken,
+    authorizeRoles(['merchant_banker', 'admin']),
     upload.array('supplementaryDocuments', 10),
     [
         body('sessionId')
