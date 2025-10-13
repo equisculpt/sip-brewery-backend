@@ -8,7 +8,7 @@
  * @version 2.0.0 - Production-Ready Adaptive System
  */
 
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../utils/tensorflowLoader');
 const logger = require('../utils/logger');
 
 class RealTimeAdaptiveLearner {

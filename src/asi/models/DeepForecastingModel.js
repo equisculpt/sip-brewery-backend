@@ -2,7 +2,7 @@
  * DeepForecastingModel.js
  * Deep learning sequence models (LSTM/Transformer) for NAV/price prediction.
  */
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../../utils/tensorflowLoader');
 const { fetchHistoricalData } = require('../../ai/LiveDataService');
 
 class DeepForecastingModel {

@@ -2,7 +2,7 @@
  * AlphaModel.js
  * Multi-factor and machine learning alpha/signal generation for funds and equities.
  */
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../../utils/tensorflowLoader');
 const { fetchLiveMarketData, fetchAlternativeData } = require('../../ai/LiveDataService');
 
 class AlphaModel {

@@ -9,7 +9,7 @@
  * @version 1.0.0 - Production Backtesting Framework
  */
 
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../utils/tensorflowLoader');
 const logger = require('../utils/logger');
 
 class BacktestingFramework {

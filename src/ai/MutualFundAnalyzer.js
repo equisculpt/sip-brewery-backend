@@ -8,7 +8,7 @@
  * @version 1.0.0 - Financial ASI
  */
 
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../utils/tensorflowLoader');
 const { ContinuousLearningEngine } = require('./ContinuousLearningEngine');
 const { LiveDataService } = require('../services/LiveDataService');
 const logger = require('../utils/logger');

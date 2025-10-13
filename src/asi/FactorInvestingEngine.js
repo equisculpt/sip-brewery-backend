@@ -9,7 +9,7 @@
  * @version 1.0.0 - Universe-Class Financial ASI
  */
 
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../utils/tensorflowLoader');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const logger = require('../utils/logger');

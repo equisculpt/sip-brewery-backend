@@ -8,7 +8,7 @@
  * @version 1.0.0 - Public Intelligence Enhancement
  */
 
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../utils/tensorflowLoader');
 const logger = require('../utils/logger');
 
 // Try to load natural NLP library (optional)

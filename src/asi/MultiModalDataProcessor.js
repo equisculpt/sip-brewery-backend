@@ -8,7 +8,7 @@
  * @version 2.0.0 - Production-Ready Multi-Modal System
  */
 
-const tf = require('@tensorflow/tfjs-node-gpu');
+const tf = require('../utils/tensorflowLoader');
 const axios = require('axios');
 const logger = require('../utils/logger');
 
