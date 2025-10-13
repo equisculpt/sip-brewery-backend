@@ -151,12 +151,18 @@ class DRHPGenerationEngine {
     
     async initializeOCRWorker() {
         try {
+            // Check if tesseract is available
+            if (!createWorker || typeof createWorker !== 'function') {
+                logger.warn('⚠️ Tesseract OCR not available, skipping OCR worker initialization');
+                return;
+            }
+            
             this.ocrWorker = await createWorker('eng');
             await this.ocrWorker.loadLanguage('eng+hin');
             await this.ocrWorker.initialize('eng+hin');
             logger.info('✅ OCR worker initialized with multilingual support');
         } catch (error) {
-            logger.error('❌ OCR worker initialization failed:', error);
+            logger.warn('⚠️ OCR worker initialization failed, continuing without OCR:', error.message);
         }
     }
     
