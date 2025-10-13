@@ -13,8 +13,17 @@ const { ASIMasterEngine } = require('../asi/ASIMasterEngine');
 const logger = require('../utils/logger');
 const fs = require('fs').promises;
 const path = require('path');
-const multer = require('multer');
 const { v4: uuidv4 } = require('uuid');
+
+// Try to load multer (optional)
+let multer;
+try {
+  multer = require('multer');
+  logger.info('✅ Multer loaded for DRHP file processing');
+} catch (error) {
+  logger.warn('⚠️ Multer not installed. File upload features limited. Install with: npm install multer');
+  multer = null;
+}
 
 class DRHPService {
     constructor() {
