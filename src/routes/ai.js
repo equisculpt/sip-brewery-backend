@@ -183,6 +183,9 @@ router.post('/learning/feedback',
 // GET /api/ai/health - Get comprehensive AI service health
 router.get('/health', aiController.getAIHealth);
 
+// GET /api/ai/python/health - Python ML service health
+router.get('/python/health', aiController.getPythonServiceHealth);
+
 // GET /api/ai/metrics - Get AI service metrics
 router.get('/metrics', aiController.getAIMetrics);
 

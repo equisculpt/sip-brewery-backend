@@ -69,6 +69,7 @@ const authenticateToken = async (req, res, next) => {
     }
 
     req.user = user;
+    req.userId = user.id;
     req.tokenClaims = decoded; // expose claims for downstream middleware (e.g., JTI replay guard)
     req.session = {
       id: session.id,

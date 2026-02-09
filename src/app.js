@@ -55,15 +55,16 @@ const webhookRoutes = require('./routes/webhooks');
 const mutualFundRoutes = require('../routes/mutualFundRoutes');
 const realTimeMarketRoutes = require('../routes/realTimeMarketRoutes');
 const institutionalRoutes = require('../routes/institutionalRoutes');
+const partnerRoutes = require('./routes/partners');
 const addictiveCommunityRoutes = require('../routes/addictiveCommunityRoutes');
 const quantumTimelineRoutes = require('../routes/quantumTimelineRoutes');
 const AddictiveCommunityEngine = require('../services/AddictiveCommunityEngine');
 const RealTimeCommunityWebSocket = require('../services/RealTimeCommunityWebSocket');
 const premiumBlogRoutes = require('../routes/premiumBlogRoutes');
+const mlRoutes = require('./routes/ml');
 
 // Mutual Fund Premium Analysis Job API
 const mutualFundAnalysisJobs = require('./api/mutualFundAnalysisJobs');
-
 
 // Import middleware
 const authMiddleware = require('./middleware/auth');
@@ -321,12 +322,14 @@ app.use(rbac('user'));
     this.app.use('/api/mutual-funds', mutualFundRoutes);
     this.app.use('/api/real-time-market', realTimeMarketRoutes);
     this.app.use('/api/institutional', institutionalRoutes);
+    this.app.use('/api/partners', partnerRoutes);
     this.app.use('/api/community', addictiveCommunityRoutes);
     this.app.use('/api/quantum', quantumTimelineRoutes);
     this.app.use('/api/blog', premiumBlogRoutes);
     this.app.use('/api/benchmark', benchmarkRoutes);
     this.app.use('/api/pdf', pdfStatementRoutes);
     this.app.use('/api/ollama', ollamaRoutes);
+    this.app.use('/api/ml', mlRoutes);
 
     // Premium Mutual Fund Analysis Job API
     this.app.use('/api/analyze', mutualFundAnalysisJobs);

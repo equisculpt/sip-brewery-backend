@@ -17,6 +17,10 @@ const AGIInsight = require('./AGIInsight');
 const UserBehavior = require('./UserBehavior');
 const MarketData = require('./MarketData');
 const EconomicIndicator = require('./EconomicIndicator');
+const Partner = require('./Partner');
+const PartnerClientMap = require('./PartnerClientMap');
+const Consent = require('./Consent');
+const MfOrder = require('./MfOrder');
 
 if (process.env.NODE_ENV === 'test') {
   module.exports = {
@@ -38,7 +42,11 @@ if (process.env.NODE_ENV === 'test') {
     AGIInsight: require('./AGIInsight.mock'),
     UserBehavior: require('./UserBehavior.mock'),
     MarketData: require('./MarketData.mock'),
-    EconomicIndicator: require('./EconomicIndicator.mock')
+    EconomicIndicator: require('./EconomicIndicator.mock'),
+    Partner: require('./Partner.mock'),
+    PartnerClientMap: require('./PartnerClientMap.mock'),
+    Consent: require('./Consent.mock'),
+    MfOrder: require('./MfOrder.mock')
   };
 } else {
   module.exports = {
@@ -60,6 +68,10 @@ if (process.env.NODE_ENV === 'test') {
     AGIInsight,
     UserBehavior,
     MarketData,
-    EconomicIndicator
+    EconomicIndicator,
+    Partner,
+    PartnerClientMap,
+    Consent,
+    MfOrder
   };
 }

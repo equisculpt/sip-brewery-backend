@@ -40,6 +40,22 @@ const userSchema = new mongoose.Schema({
     type: String,
     default: 'user'
   },
+  partnerId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Partner',
+    default: null,
+    index: true
+  },
+  partnerRole: {
+    type: String,
+    enum: ['OWNER', 'ADMIN', 'ADVISOR', 'OPERATIONS', 'ANALYST'],
+    default: null
+  },
+  partnerStatus: {
+    type: String,
+    enum: ['INVITED', 'ACTIVE', 'SUSPENDED'],
+    default: null
+  },
   kycStatus: {
     type: String,
     enum: ['PENDING', 'VERIFIED', 'REJECTED'],
@@ -131,6 +147,7 @@ userSchema.pre('save', function(next) {
 // Only declare indexes that don't duplicate inline index: true
 userSchema.index({ referredBy: 1 });
 userSchema.index({ phone: 1 }, { unique: true });
+userSchema.index({ partnerId: 1 });
 
 if (process.env.NODE_ENV === 'test') {
   // Return a jest mock model for User

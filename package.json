@@ -2,7 +2,7 @@
   "name": "sip-brewery-backend",
   "version": "3.0.0",
   "description": "Enterprise-grade SIP investment platform with event-driven architecture, CQRS, and advanced security",
-  "main": "src/app-enterprise.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",

@@ -39,6 +39,8 @@ const errorResponse = (res, message = 'Error', data = null, statusCode = 500) =>
 };
 
 module.exports = {
+  success: successResponse,
+  error: errorResponse,
   successResponse,
   errorResponse
-}; 
+};

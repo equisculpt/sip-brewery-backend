@@ -3,6 +3,7 @@ const router = express.Router();
 const bseStarMFController = require('../controllers/bseStarMFController');
 const auth = require('../middleware/auth');
 const { validateRequest } = require('../middleware/validation');
+const bseValidationSchemas = require('../middleware/validationSchemas');
 
 /**
  * @swagger
@@ -294,7 +295,7 @@ const { validateRequest } = require('../middleware/validation');
  *       500:
  *         description: Internal server error
  */
-router.post('/client', auth, validateRequest, bseStarMFController.createClient);
+router.post('/client', auth, bseValidationSchemas.createClient, validateRequest, bseStarMFController.createClient);
 
 /**
  * @swagger
@@ -334,7 +335,7 @@ router.post('/client', auth, validateRequest, bseStarMFController.createClient);
  *       500:
  *         description: Internal server error
  */
-router.put('/client/:clientId', auth, validateRequest, bseStarMFController.modifyClient);
+router.put('/client/:clientId', auth, bseValidationSchemas.modifyClient, validateRequest, bseStarMFController.modifyClient);
 
 /**
  * @swagger
@@ -380,7 +381,7 @@ router.put('/client/:clientId', auth, validateRequest, bseStarMFController.modif
  *       500:
  *         description: Internal server error
  */
-router.get('/schemes', auth, bseStarMFController.getSchemeMasterData);
+router.get('/schemes', auth, bseValidationSchemas.getSchemeMasterData, validateRequest, bseStarMFController.getSchemeMasterData);
 
 /**
  * @swagger
@@ -407,7 +408,7 @@ router.get('/schemes', auth, bseStarMFController.getSchemeMasterData);
  *       500:
  *         description: Internal server error
  */
-router.get('/schemes/:schemeCode', auth, bseStarMFController.getSchemeDetails);
+router.get('/schemes/:schemeCode', auth, bseValidationSchemas.getSchemeDetails, validateRequest, bseStarMFController.getSchemeDetails);
 
 /**
  * @swagger
@@ -438,7 +439,7 @@ router.get('/schemes/:schemeCode', auth, bseStarMFController.getSchemeDetails);
  *       500:
  *         description: Internal server error
  */
-router.post('/order/lumpsum', auth, validateRequest, bseStarMFController.placeLumpsumOrder);
+router.post('/order/lumpsum', auth, bseValidationSchemas.placeLumpsumOrder, validateRequest, bseStarMFController.placeLumpsumOrder);
 
 /**
  * @swagger
@@ -465,7 +466,7 @@ router.post('/order/lumpsum', auth, validateRequest, bseStarMFController.placeLu
  *       500:
  *         description: Internal server error
  */
-router.get('/order/status/:orderId', auth, bseStarMFController.getOrderStatus);
+router.get('/order/status/:orderId', auth, bseValidationSchemas.getOrderStatus, validateRequest, bseStarMFController.getOrderStatus);
 
 /**
  * @swagger
@@ -496,7 +497,7 @@ router.get('/order/status/:orderId', auth, bseStarMFController.getOrderStatus);
  *       500:
  *         description: Internal server error
  */
-router.post('/order/redemption', auth, validateRequest, bseStarMFController.placeRedemptionOrder);
+router.post('/order/redemption', auth, bseValidationSchemas.placeRedemptionOrder, validateRequest, bseStarMFController.placeRedemptionOrder);
 
 /**
  * @swagger
@@ -559,7 +560,7 @@ router.post('/order/redemption', auth, validateRequest, bseStarMFController.plac
  *       500:
  *         description: Internal server error
  */
-router.get('/report/transactions', auth, bseStarMFController.getTransactionReport);
+router.get('/report/transactions', auth, bseValidationSchemas.getTransactionReport, validateRequest, bseStarMFController.getTransactionReport);
 
 /**
  * @swagger
@@ -599,7 +600,7 @@ router.get('/report/transactions', auth, bseStarMFController.getTransactionRepor
  *       500:
  *         description: Internal server error
  */
-router.get('/report/holdings', auth, bseStarMFController.getNAVAndHoldingReport);
+router.get('/report/holdings', auth, bseValidationSchemas.getNAVAndHoldingReport, validateRequest, bseStarMFController.getNAVAndHoldingReport);
 
 /**
  * @swagger
@@ -633,7 +634,7 @@ router.get('/report/holdings', auth, bseStarMFController.getNAVAndHoldingReport)
  *       500:
  *         description: Internal server error
  */
-router.post('/nav/current', auth, validateRequest, bseStarMFController.getCurrentNAV);
+router.post('/nav/current', auth, bseValidationSchemas.getCurrentNAV, validateRequest, bseStarMFController.getCurrentNAV);
 
 /**
  * @swagger
@@ -664,7 +665,7 @@ router.post('/nav/current', auth, validateRequest, bseStarMFController.getCurren
  *       500:
  *         description: Internal server error
  */
-router.post('/emandate/setup', auth, validateRequest, bseStarMFController.setupEMandate);
+router.post('/emandate/setup', auth, bseValidationSchemas.setupEMandate, validateRequest, bseStarMFController.setupEMandate);
 
 /**
  * @swagger
@@ -691,7 +692,7 @@ router.post('/emandate/setup', auth, validateRequest, bseStarMFController.setupE
  *       500:
  *         description: Internal server error
  */
-router.get('/emandate/status/:mandateId', auth, bseStarMFController.getEMandateStatus);
+router.get('/emandate/status/:mandateId', auth, bseValidationSchemas.getEMandateStatus, validateRequest, bseStarMFController.getEMandateStatus);
 
 /**
  * @swagger
@@ -731,7 +732,7 @@ router.get('/emandate/status/:mandateId', auth, bseStarMFController.getEMandateS
  *       500:
  *         description: Internal server error
  */
-router.post('/emandate/cancel/:mandateId', auth, validateRequest, bseStarMFController.cancelEMandate);
+router.post('/emandate/cancel/:mandateId', auth, bseValidationSchemas.cancelEMandate, validateRequest, bseStarMFController.cancelEMandate);
 
 /**
  * @swagger
@@ -758,7 +759,7 @@ router.post('/emandate/cancel/:mandateId', auth, validateRequest, bseStarMFContr
  *       500:
  *         description: Internal server error
  */
-router.get('/client/:clientId/folios', auth, bseStarMFController.getClientFolios);
+router.get('/client/:clientId/folios', auth, bseValidationSchemas.getClientFolios, validateRequest, bseStarMFController.getClientFolios);
 
 /**
  * @swagger
@@ -792,7 +793,7 @@ router.get('/client/:clientId/folios', auth, bseStarMFController.getClientFolios
  *       500:
  *         description: Internal server error
  */
-router.get('/schemes/:schemeCode/performance', auth, bseStarMFController.getSchemePerformance);
+router.get('/schemes/:schemeCode/performance', auth, bseValidationSchemas.getSchemePerformance, validateRequest, bseStarMFController.getSchemePerformance);
 
 /**
  * @swagger

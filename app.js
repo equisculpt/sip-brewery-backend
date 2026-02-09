@@ -11,6 +11,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 require('dotenv').config();
+const { EnterpriseObservability, tracingMiddleware } = require('./src/observability/DistributedTracing');
 
 console.log('🚀 SIP BREWERY - PRODUCTION BACKEND v3.0.0');
 console.log('💰 Finance ASI Platform - Production Ready');
@@ -19,6 +20,20 @@ console.log('━━━━━━━━━━━━━━━━━━━━━━�
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const observability = new EnterpriseObservability();
+let tracingInitialized = false;
+
+// Initialize observability
+observability.initialize()
+  .then(() => {
+    global.observability = observability;
+    tracingInitialized = true;
+    console.log('🔭 Observability initialized');
+  })
+  .catch((error) => {
+    console.error('❌ Observability failed to initialize', error);
+    process.exit(1);
+  });
 
 // Security middleware
 app.use(helmet());
@@ -26,6 +41,12 @@ app.use(cors({
     origin: process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:3000'],
     credentials: true
 }));
+app.use((req, res, next) => {
+    if (tracingInitialized) {
+        return tracingMiddleware(observability)(req, res, next);
+    }
+    next();
+});
 
 // Logging
 app.use(morgan('combined'));
@@ -109,6 +130,8 @@ const aiRoutes = require('./src/routes/ai');
 const drhpRoutes = require('./src/routes/drhp');
 const fundsRoutes = require('./src/routes/funds');
 const asiAnalysisRoutes = require('./src/routes/asi-analysis');
+const apiIndexRoutes = require('./src/routes');
+const partnerRoutes = require('./src/routes/partners');
 const sipCalculatorRoutes = require('./routes/sipCalculatorRoutes');
 
 // Mount new routes
@@ -122,6 +145,8 @@ app.use('/api/drhp', drhpRoutes);
 app.use('/api/funds', fundsRoutes);
 app.use('/api/asi', asiAnalysisRoutes);
 app.use('/api/sip-calculator', sipCalculatorRoutes);
+app.use('/api/partners', partnerRoutes);
+app.use('/api/internal', apiIndexRoutes);
 
 // Root endpoint
 app.get('/', (req, res) => {
@@ -165,12 +190,26 @@ app.use('*', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
     console.log(`🌟 SIP Brewery ASI WhatsApp Platform running on port ${PORT}`);
     console.log(`📱 WhatsApp webhook: http://localhost:${PORT}/api/asi-whatsapp/webhook`);
     console.log(`🔍 Health check: http://localhost:${PORT}/health`);
     console.log(`📊 Service status: http://localhost:${PORT}/api/asi-whatsapp/status`);
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 });
+
+const gracefulShutdown = async (signal) => {
+    console.log(`⚠️ Received ${signal}. Shutting down gracefully...`);
+    server.close(() => {
+        console.log('HTTP server closed');
+    });
+    if (tracingInitialized) {
+        await observability.shutdown();
+    }
+    process.exit(0);
+};
+
+process.on('SIGINT', gracefulShutdown);
+process.on('SIGTERM', gracefulShutdown);
 
 module.exports = app;

@@ -9,6 +9,7 @@
  */
 
 const aiService = require('../services/aiService');
+const pythonMlClient = require('../utils/pythonMlClient');
 const response = require('../utils/response');
 const logger = require('../utils/logger');
 
@@ -35,17 +36,26 @@ class AIController {
 
       logger.info(`🔍 Analyzing single fund: ${fundCode}`, { userId, analysisType });
 
-      // Use AI Integration Service if available, fallback to legacy service
-      let result;
-      if (this.aiIntegrationService) {
-        result = await this.aiIntegrationService.mutualFundAnalyzer.analyzeFund(fundCode, includeHistory);
-      } else {
-        result = await aiService.analyzeFundWithNAV([fundCode], `Analyze fund ${fundCode}`);
-      }
+      const runAnalysis = async () => {
+        if (this.aiIntegrationService) {
+          return this.aiIntegrationService.mutualFundAnalyzer.analyzeFund(fundCode, includeHistory);
+        }
+
+        return aiService.analyzeFundWithNAV([fundCode], `Analyze fund ${fundCode}`);
+      };
+
+      const observability = global.observability;
+      const analysis = observability?.traceFunction
+        ? await observability.traceFunction('ai.analyzeSingleFund', runAnalysis, {
+            operationType: 'ai',
+            userId,
+            attributes: { fundCode, analysisType }
+          })
+        : await runAnalysis();
 
       return response.success(res, 'Fund analysis completed', {
         fundCode,
-        analysis: result,
+        analysis,
         timestamp: new Date()
       });
 
@@ -411,6 +421,26 @@ class AIController {
     } catch (error) {
       logger.error('❌ AI health check failed:', error);
       return response.error(res, 'Failed to get AI health status', error.message);
+    }
+  }
+
+  /**
+   * Get Python ML service health
+   */
+  async getPythonServiceHealth(req, res) {
+    try {
+      const health = await pythonMlClient.health();
+      const serviceUrl = process.env.PYTHON_SERVICE_URL || 'http://localhost:5001';
+
+      return response.success(res, 'Python ML service health retrieved', {
+        status: health?.status || 'unknown',
+        serviceUrl,
+        health,
+        timestamp: new Date()
+      });
+    } catch (error) {
+      logger.error('❌ Python ML health check failed:', error);
+      return response.error(res, 'Python ML service health check failed', error.message, 503);
     }
   }
 

@@ -42,5 +42,13 @@ module.exports = {
     return res.data.shap_values;
   },
 
+  /**
+   * Check Python ML service health
+   */
+  async health() {
+    const res = await axios.get(`${PYTHON_SERVICE_URL}/health`);
+    return res.data;
+  },
+
   // Add more methods for other endpoints as needed
 };
